@@ -1,0 +1,16 @@
+<component type="msi" alias="py_readline_ia32">
+  <property name="UpgradeCode">HASH(0xb4ed8c0)</property>
+  <property name="ProductCode">{C15ABAF0-A81A-45C2-A7EE-97C1EEF2F5DE}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Python readline extension</property>
+  <property name="ProductVersion">2.0.1</property>
+  <property name="size">409892</property>
+
+
+  <files>
+    <key chksum="" sha256="98b73e2d63f594e1be7b4d0895df651abca6754337e376d3c64e336e85f561b4" size="221184">sys_dbg/062/py_readline_ia32/pyreadline-2.0.1.win32.msi</key>
+
+  </files>
+
+
+</component>

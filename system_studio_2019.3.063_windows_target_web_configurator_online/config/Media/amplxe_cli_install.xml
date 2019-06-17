@@ -1,0 +1,16 @@
+<component type="msi" alias="amplxe_cli_install">
+  <property name="UpgradeCode">{3198D525-5300-4E5A-BBA1-9262A27FD723}</property>
+  <property name="ProductCode">{0B1A8991-DF75-4B4D-9054-63A7C875AD56}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel VTune Amplifier 2019 Update 3 Command-line interface</property>
+  <property name="ProductVersion">19.3.0.590814</property>
+  <property name="PreUninstalls">{D447C751-DFA2-45DF-BA81-6BBC6EB868F8}</property>
+  <property name="RequireMPSSDlg">1</property>
+  <property name="size">647020740</property>
+  <files>
+    <key size="3670016" chksum="" sha256="b581ebfddeeed4de15561f86eea38db0d60ef87aba7e4f9160c28e7680bf1824">amplxe/amplxe_cli_install/amplxe_cli_install.msi</key>
+    <file size="92762126" chksum="" sha256="cab95e152a972451c0f1b4bae8984fe3f0b1a37f8d9835f9213c15310991dae4">amplxe/amplxe_cli_install/data1.cab</file>
+    <file size="43826562" chksum="" sha256="c31926c468f7ec4a9ede6a67a221e2bc91e6977abff43d0ba639d8b0292a10fa">amplxe/amplxe_cli_install/data2.cab</file>
+    <file size="53160834" chksum="" sha256="bcba411495a1f358600da4908d6dbec5d6e7937f93c4ac33a584d26fb10c915e">amplxe/amplxe_cli_install/data3.cab</file>
+  </files>
+</component>

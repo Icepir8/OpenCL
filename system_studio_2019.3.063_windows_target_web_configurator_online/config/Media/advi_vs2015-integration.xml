@@ -1,0 +1,16 @@
+<component type="msi" alias="advi_vs2015-integration">
+  <!-- <property name="UpgradeCode">{E40A5556-DB30-4383-B270-9DEC10096ADD}</property> -->
+  <property name="ProductCode">{237A34E2-FFD9-492A-806F-16D3E249731F}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Microsoft Visual Studio* 2015 software integration</property>
+  <property name="ProductVersion">19.3.0.591264</property>
+  <property name="size">35290</property>
+  <property name="Reinstall">1</property>
+  <property name="TCARVSProcessing">1</property>
+  <files>
+    <key size="1130496" chksum="" sha256="122c7af4db9361923e7db62ba96bcee0fa4194ca5efb3967a38c93e5d81d044b">advi/advi_vs2015-integration/advi_vs2015-integration.msi</key>
+  </files>
+  <vs_integration>
+    <vs_2015 selected="1">NEED_VS2015_INTEGRATION</vs_2015>
+  </vs_integration>
+</component>

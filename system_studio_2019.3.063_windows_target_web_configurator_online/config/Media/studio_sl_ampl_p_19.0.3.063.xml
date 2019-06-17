@@ -1,0 +1,16 @@
+<component type="msi" alias="STUDIO_SL_AMPL">
+  <property name="ProductCode">{8CE4C451-C029-46B1-B502-F46857DE6D15}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_studio_sl_ampl_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="99f84e2c75c27c457072bb416ea6dad5a0acceb2c05157e27e348b9c3592b67e" size="249856">issw/063/studio_sl_ampl_p_19.0.3.063/studio_sl_ampl_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="fb5f6eabb83d4318e9633162981854af87bea34d39895e75388b2c59dd397ef6" size="9508">issw/063/studio_sl_ampl_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

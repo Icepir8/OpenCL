@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='PreRequisites' locale="1033">
+    <msg name='composer_xe_2015_newer_installed_title'>A newer version of [ProductLineName] is already installed.</msg>
+    <msg name='composer_xe_2015_newer_installed_description'>If you continue with the installation, [ProductLineName] will be replaced with [ProductName].</msg>
+    
+    <msg name='psxe_older_installed_title'>An older version of [%s] is already installed.</msg>
+    <msg name='psxe_older_installed_description'>The currently installed [%s] will be automatically removed prior to installing [%s].</msg>
+
+  </catalog>
+</xmc>

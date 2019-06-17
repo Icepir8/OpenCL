@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_IPP_DOC">
+  <property name="ProductCode">{B0F97342-AB6A-4C01-A79B-AA67184D89D0}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_ipp_doc_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">371143</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_ipp_doc_p_19.0.3.203/ww_ipp_doc_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="ee87186055c7ac9fa75f2356dbd4c506468f7a1632a3225557783a7d767e84a2" size="311296">cmp_and_libs/203/ww_ipp_doc_p_19.0.3.203/ww_ipp_doc_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="1286391d6db2409797af232662d0ca063b5f9c8d1b59f32bcd430e2addc9b0fa" size="76535">cmp_and_libs/203/ww_ipp_doc_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="b3aecebd05de7a7b1a1b690bfb92d4c785e62f3ac0ade22dca12da66f0093b4e" size="20480">cmp_and_libs/203/ww_ipp_doc_p_19.0.3.203/ww_ipp_doc_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

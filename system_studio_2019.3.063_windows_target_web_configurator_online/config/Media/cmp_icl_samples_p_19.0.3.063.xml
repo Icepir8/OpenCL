@@ -1,0 +1,16 @@
+<component type="msi" alias="CMP_ICL_SAMPLES">
+  <property name="ProductCode">{2A78D21E-E9BA-406B-950D-7FF079C1ABD9}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_cmp_icl_samples_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">111661</property>
+
+
+
+  <files>
+    <key chksum="" sha256="4d7dfa9a9bdb8aea0c985949e60fbf517be04478ede8770e621389a76d7888c3" size="49152">issw/063/cmp_icl_samples_p_19.0.3.063/cmp_icl_samples_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="2d5e9dbc94322f05dc13bd3d10bfd5632ef09911c36f8d7385daa9e1c0d29767" size="29476">issw/063/cmp_icl_samples_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

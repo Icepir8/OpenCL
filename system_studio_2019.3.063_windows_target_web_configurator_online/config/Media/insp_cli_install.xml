@@ -1,0 +1,15 @@
+<component type="msi" alias="insp_cli_install">
+  <property name="UpgradeCode">{182A61B3-5A6D-40D6-848D-97154884725F}</property>
+  <property name="ProductCode">{E68B5BF6-BEC1-4FD9-B82B-1B92A4000AAD}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel Inspector 2019 Update 3 Command-line interface</property>
+  <property name="ProductVersion">19.3.0.590798</property>
+  <property name="PreUninstalls">{3B7D589C-5FC4-4EC5-B860-AFBB40D088A4}</property>
+  <property name="size">229587305</property>
+  <files>
+    <key size="2523136" chksum="" sha256="3f06c169cead4043a3c9734376b79e071976d9061017d7fbabac0a613fdd554b">insp/insp_cli_install/insp_cli_install.msi</key>
+    <file size="12434426" chksum="" sha256="c1773645a2b8dd4cd82e943ca59e239b5e37170fea59825ae1ea0c3a9a4742a7">insp/insp_cli_install/data1.cab</file>
+    <file size="21928156" chksum="" sha256="0f938eeea6a6c86def08ba76d2e01db850cbd5453aada5ede5f3e3909c013778">insp/insp_cli_install/data2.cab</file>
+    <file size="28576532" chksum="" sha256="05eba48bfe1f10e1eaa72b0580b31feffff8ea33a9bcd565dddf24cdb7ef1c82">insp/insp_cli_install/data3.cab</file>
+  </files>
+</component>

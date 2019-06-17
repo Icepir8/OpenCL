@@ -1,0 +1,18 @@
+<component type="msi" alias="CMP_LIB_COMMON">
+  <property name="ProductCode">{661B1FCA-A1A2-456E-8751-22C62C5C3D84}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_cmp_lib_common_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">165729</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/cmp_lib_common_p_19.0.3.203/cmp_lib_common_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="882363dc2c56f8af3e24da79dd50206dbd2756a551ee51e6541b55d59f20aa27" size="909312">cmp_and_libs/203/cmp_lib_common_p_19.0.3.203/cmp_lib_common_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="4f06cc1514566b91493f1ca8d2bb4ec886a31c04a71de8a7d35a6a915b07663b" size="164639">cmp_and_libs/203/cmp_lib_common_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="6129f5e52cf0dcd643a340f5ca069cba455f9bda4ded20a96c96c4023d299995" size="20480">cmp_and_libs/203/cmp_lib_common_p_19.0.3.203/cmp_lib_common_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

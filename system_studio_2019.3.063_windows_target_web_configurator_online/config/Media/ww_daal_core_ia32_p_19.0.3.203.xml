@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_DAAL_CORE_IA32">
+  <property name="ProductCode">{A6565570-F898-4395-9312-C6FE02057F7E}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_daal_core_ia32_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">789993940</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_daal_core_ia32_p_19.0.3.203/ww_daal_core_ia32_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="da28d4e99316d0d5cbe5a9487c60979fd4275b2c88b45542ae0cfa526c602216" size="315392">cmp_and_libs/203/ww_daal_core_ia32_p_19.0.3.203/ww_daal_core_ia32_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="b91f3dcc93f8001b9d6b9cb3be1c887bb270614646807fd0c3a71d4bffdfffdf" size="87774582">cmp_and_libs/203/ww_daal_core_ia32_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="32dd6100907fd503b4af7afe9d38758d40a116ab2fbb0a4878f21e2ea662b73d" size="20480">cmp_and_libs/203/ww_daal_core_ia32_p_19.0.3.203/ww_daal_core_ia32_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

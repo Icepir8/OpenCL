@@ -1,0 +1,19 @@
+<component type="msi" alias="OpenIPC">
+  <property name="ProductCode">{2764EDC9-5B9F-4021-A551-F8D9F983AC19}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">OpenIPC</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">177703762</property>
+<property name="postinstall_script">scripts/install_openipc.bat</property>
+<property name="preuninstall_script">scripts/remove_openipc.bat</property>
+<property name="script_order">5</property>
+<property name="internal_version">system_debugger_2019</property>
+
+
+  <files>
+    <key chksum="" sha256="353c86ed504418f8b6da8d6d3a0e7b51df845086f153ce588b3a7fe457b26fe8" size="167936">sys_dbg/062/w_OpenIPC_2019.0.0.062/w_OpenIPC_2019.0.0.062.msi</key>
+    <file chksum="" sha256="fe2d28fedeee2d874df986f94b68e04169b5d15783a2c3f363840a50e10e84ae" size="31447735">sys_dbg/062/w_OpenIPC_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

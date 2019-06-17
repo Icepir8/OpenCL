@@ -1,0 +1,16 @@
+<component type="msi" alias="CMP_SHORTCUTS_BUILD_ENV_IA32">
+  <property name="ProductCode">{E0CE9191-3652-4003-96D3-AAD7A7DB11FD}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_cmp_shortcuts_build_env_ia32_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="7efbfbfef7bb741bfebca18030dc26f48c3f12ccd579d65b5e207e3ea71b685d" size="524288">issw/063/cmp_shortcuts_build_env_ia32_p_19.0.3.063/cmp_shortcuts_build_env_ia32_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="21ae54015332180c74fbeb8af26244dcd5eec6d075992b7c1f4bf78e6fcc282a" size="9508">issw/063/cmp_shortcuts_build_env_ia32_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

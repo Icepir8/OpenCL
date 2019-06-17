@@ -1,0 +1,16 @@
+<component type="msi" alias="CMP_ICL_SHORTCUTS_DOCS">
+  <property name="ProductCode">{E87CE567-24E9-498A-BBA2-435E61D818D9}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_cmp_icl_shortcuts_docs_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+
+  <files>
+    <key chksum="" sha256="5d0c2e8e5ebc5857c073dc7eab083182215db32396b8c0aee0990c50d652a059" size="151552">issw/063/cmp_icl_shortcuts_docs_p_19.0.3.063/cmp_icl_shortcuts_docs_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="06d63dcf17a4f495882d4442e7452d9ecc93c69d7e9962b35255aa79dcaa2055" size="9508">issw/063/cmp_icl_shortcuts_docs_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,27 @@
+<component type="msi" alias="IDE_UTILITIES_VS2017">
+  <property name="ProductCode">{D7270557-21F9-412E-969A-BD95749E39A4}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ide_utilities_vs2017_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">107256</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ide_utilities_vs2017_p_19.0.3.203/ide_utilities_vs2017_p_19.0.3.203_1041.mst</property>
+
+
+  <vs_integration>
+    <vs_2017 selected="1" skip_restart="yes">NEED_VS2017_INTEGRATION</vs_2017>
+  </vs_integration>
+
+  <block_processes>
+    <custom>vs_2017</custom>
+  </block_processes>
+
+  
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="2191f43f57f603f63dd08312beaeca25bcfac8dacc6a54a54539994c73fda4bb" size="573440">cmp_and_libs/203/ide_utilities_vs2017_p_19.0.3.203/ide_utilities_vs2017_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="51430222f2e2a8ee1eac7f1aa6321374e801420dac8efd4b57cf488b41e5fed5" size="55895">cmp_and_libs/203/ide_utilities_vs2017_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="e487932cf3fc5405d75414f9455a1b6afb608e7748796c832ef0aa52ad3cc985" size="20480">cmp_and_libs/203/ide_utilities_vs2017_p_19.0.3.203/ide_utilities_vs2017_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

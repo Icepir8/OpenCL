@@ -1,0 +1,18 @@
+<component type="msi" alias="win_dbg">
+  <property name="ProductCode">{90077A78-361A-43B9-A9C3-7EFDE3012BC8}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) Debug Extensions for WinDbg* 2019</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">37721682</property>
+<property name="postinstall_script">scripts/register_exdi.bat</property>
+<property name="preuninstall_script">scripts/unregister_exdi.bat</property>
+<property name="script_order">16</property>
+
+
+  <files>
+    <key chksum="" sha256="d76963aefc1c73221af2c8c928b50cdb3089a0aa03d678a10e7134f8964100ff" size="368640">sys_dbg/062/w_win_dbg_19.0.0.062/w_win_dbg_19.0.0.062.msi</key>
+    <file chksum="" sha256="f2e4e8365356bb7059c5395f0bf8d7e208b509762c51469c61d706e0d995f66e" size="17067545">sys_dbg/062/w_win_dbg_19.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,15 @@
+<component type="msi" alias="win_dbg_doc">
+  <property name="ProductCode">{C0B633ED-7ABA-4385-9060-ACE1EE2899A1}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) Debug Extensions for WinDbg* 2019</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">234227</property>
+
+
+  <files>
+    <key chksum="" sha256="2d1108ba5d4aed403d3946f58430cfe2f35b8dc619d94f23bf57764f90bb7bf1" size="61440">sys_dbg/062/w_win_dbg_doc_2019.0.0.062/w_win_dbg_doc_2019.0.0.062.msi</key>
+    <file chksum="" sha256="0265ca29c453a0dfe44418188d5d2a8a50dce9ce181f45db7c3b6085934e86d0" size="188870">sys_dbg/062/w_win_dbg_doc_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

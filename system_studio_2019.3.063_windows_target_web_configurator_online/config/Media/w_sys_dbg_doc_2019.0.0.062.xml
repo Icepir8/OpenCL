@@ -1,0 +1,15 @@
+<component type="msi" alias="sys_dbg_doc">
+  <property name="ProductCode">{0800307D-EEEA-46A3-B8AF-B66635E88376}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) System Debugger</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">4499585</property>
+
+
+  <files>
+    <key chksum="" sha256="45314e552df13769be9223981f2d3cf9ade987a225ad97c87466a1498e6d310e" size="159744">sys_dbg/062/w_sys_dbg_doc_2019.0.0.062/w_sys_dbg_doc_2019.0.0.062.msi</key>
+    <file chksum="" sha256="f12051936ba15df8ef13e72724a897ea3bb98776f0939731bff8afbaf10df9db" size="2197816">sys_dbg/062/w_sys_dbg_doc_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

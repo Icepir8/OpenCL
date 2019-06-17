@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='controls' locale="1033">
+    <msg name='Next'>[WpfHotKey]Next</msg>
+    <msg name='Prev'>[WpfHotKey]Back</msg>
+    <msg name='Back'>[WpfHotKey]Back</msg>
+    <msg name='Cancel'>[WpfHotKey]Cancel</msg>
+    <msg name='CancelInstallation'>[WpfHotKey]Cancel Installation</msg>
+    <msg name='Customize'>C[WpfHotKey]ustomize</msg>
+    <msg name='Install'>[WpfHotKey]Install</msg>
+    <msg name='Download'>[WpfHotKey]Download</msg>
+    <msg name='Remove'>[WpfHotKey]Remove</msg>
+    <msg name='Finish'>[WpfHotKey]Finish</msg>
+    <msg name='Reboot'>[WpfHotKey]Reboot now</msg>
+    <msg name='Postpone'>Reboot [WpfHotKey]later</msg>
+    <msg name='Retry'>[WpfHotKey]Retry</msg>
+    <msg name='ReCheck'>[WpfHotKey]Re-Check</msg>
+    <msg name='Done'>[WpfHotKey]Done</msg>
+    <msg name='Ignore'>[WpfHotKey]Ignore</msg>
+    <msg name='Ok'>[WpfHotKey]OK</msg>
+    <msg name='Configure'>Con[WpfHotKey]figure</msg>
+    <msg name='Default'>[WpfHotKey]Default</msg>
+    <msg name='Options'>[WpfHotKey]Options</msg>
+    <msg name='Period'>.</msg>
+
+    <msg name='Continue'>[WpfHotKey]Continue</msg>
+    <msg name='Abort'>[WpfHotKey]Abort</msg>
+
+    <msg name='Modify'>[WpfHotKey]Modify</msg>
+    <msg name='Repair'>R[WpfHotKey]epair</msg>
+    <msg name='Remove'>[WpfHotKey]Remove</msg>
+
+    <msg name='Repair_key'>Re[WpfHotKey]pair</msg>
+    <msg name='Remove_key'>Remo[WpfHotKey]ve</msg>
+
+    <msg name='Save'>[WpfHotKey]Save</msg>
+    <msg name='Print'>P[WpfHotKey]rint</msg>
+
+    <msg name='Accept'>I [WpfHotKey]accept the terms of the license</msg>
+    <msg name='Reject'>I [WpfHotKey]do not accept the terms of the license</msg>
+
+    <msg name='AcceptAll'>I [WpfHotKey]accept All of these licenses</msg>
+    <msg name='RejectAll'>I [WpfHotKey]do NOT accept all of these licenses</msg>
+
+    <msg name='menu_item_install'>Install</msg>
+    <msg name='menu_item_do_not_install'>Do not install</msg>
+    <msg name='menu_item_remove'>Remove</msg>
+    <msg name='menu_item_do_not_remove'>Do not remove</msg>
+    <msg name='menu_item_download'>Download</msg>
+    <msg name='menu_item_do_not_download'>Do not download</msg>
+
+    <msg name='license_type'>License Type:</msg>
+    <msg name='covered_packages'>Covered Packages:</msg>
+    <msg name='license_agreement'>License Agreement:</msg>
+
+    <msg name="destination_button_browse">B[WpfHotKey]rowse</msg>
+    <msg name="destination_button_3dots">...</msg>
+    <msg name="destination_folder">Destination folder:</msg>
+    <msg name='destination_selected_folder'>Product files will be installed here: [%s]</msg>
+
+    <msg name='ModifyDscr'>\fs17 [modify_prod]</msg>
+    <msg name='RepairDscr'>\fs17 [repair_prod]</msg>
+    <msg name='RemoveDscr'>\fs17 [remove_prod]</msg>
+
+    <msg name='modify_prod'>Change installed features or feature settings</msg>
+    <msg name='repair_prod'>Fix missing or corrupt files, shortcuts or registry entries</msg>
+    <msg name='remove_prod'>Remove product from system registries and directory structure</msg>
+    <msg name='download_prod'>Download for later installation on this or another computer</msg>
+
+    <msg name='download_complete'>Download complete</msg>
+
+    <msg name='DefaultInstall'>[WpfHotKey]Full installation (recommended)</msg>
+    <msg name='CustomInstall'>C[WpfHotKey]ustom installation (for advanced users)</msg>
+    <msg name='DefaultInstallDscr'>Install with default settings and minimal user intervention. Recommended for first-time users</msg>
+    <msg name='CustomInstallDscr'>Install with configurable settings</msg>
+
+    <msg name='Information'>Information</msg>
+    <msg name='Warning'>Warning</msg>
+    <msg name='Error'>Error</msg>
+    <msg name='Help'>Help</msg>
+    <msg name='Yes'>[WpfHotKey]Yes</msg>
+    <msg name='No'>[WpfHotKey]No</msg>
+
+    <msg name='subtitle_welcome'>Welcome to [title] Installer</msg>
+    <msg name='subtitle_getting_started'>Please choose</msg>
+    <msg name='subtitle_prereq'>Pre-requisite Issues Summary</msg>
+    <msg name='subtitle_prerequisites'>Missing requirements</msg>
+    <msg name='subtitle_postchk'>Pre-requisite Issues Summary</msg>
+    <msg name='subtitle_internet_check_connection'>Package requires Internet connection</msg>
+    <msg name='subtitle_eula'>End User License Agreement</msg>
+    <msg name='subtitle_memlimit'>Memory limit</msg>
+    <msg name='subtitle_preinstall'>Installation Summary</msg>
+    <msg name='subtitle_predownload'>Download Summary</msg>
+    <msg name='subtitle_vsintegration'>Choose Integration Target</msg>
+    <msg name='subtitle_eclipse_integration'>Eclipse* Integration</msg>
+    <!--msg name='subtitle_ndk_integration'>Android* NDK Integration</msg-->
+    <msg name='subtitle_install'>Installation</msg>
+    <msg name='subtitle_remove'>Removal</msg>
+    <msg name='subtitle_download'>Downloading</msg>
+    <msg name='subtitle_setuptype'>Choose Installation Type</msg>
+    <msg name='subtitle_destination'>Choose a Destination Folder</msg>
+    <msg name='subtitle_features'>Select Components to Install</msg>
+    <msg name='subtitle_features_modify'>Select Components to Modify</msg>
+    <msg name='subtitle_features_to_download_and_install'>Select Components to Download and Install</msg>
+    <msg name='subtitle_features_to_download_and_modify'>Select Components to Download and Modify</msg>
+    <msg name='subtitle_features_to_download'>Select Components to Download</msg>
+    <msg name='subtitle_files_in_use'>Files in use</msg>
+
+    <msg name='subtitle_complete'>Complete</msg>
+    <msg name='reboot_recommended'>Rebooting now is recommended; all other components installed successfully.</msg>
+    <msg name='subtitle_complete_reboot_header'>A reboot is required:</msg>
+    <msg name='subtutle_complete_reboot_now_installed'>[title] is now installed.</msg>
+    <msg name='subtitle_complete_reboot_footer'>You may choose to reboot later; however, some features of [title] may not be enabled until after your system is rebooted.</msg>
+    
+    
+    <msg name='subtitle_complete_download'>Download is complete!</msg>
+    <msg name='subtitle_cancel'>Intel® Software Setup Assistant was interrupted</msg>
+    <msg name='subtitle_error'>Intel® Software Setup Assistant ended prematurely</msg>
+    <msg name='subtitle_open_source_msg'>Installation of Open Source Components</msg>
+    <msg name='subtitle_remove_configs'>Remove configuration files</msg>
+    <msg name='architecture_selection'>Architecture selection</msg>
+
+    <msg name='finish_template'>[installed_template]</msg>
+    <msg name='finish_reboot_template'>[installed_reboot_template]</msg>
+
+    <file name='eclipse_incorrect_path_file'>..\templates\eclipse_incorrect_path.rtf</file>
+    <msg name='eclipse_incorrect_path'>Path is incorrect: [%s]</msg>
+
+    <file name='space_access_denied_file'>..\templates\space_access_denied.rtf</file>
+    <file name='space_failed_file'>..\templates\space_failed.rtf</file>
+    <file name='space_gs_failed_file'>..\templates\space_gs_failed.rtf</file>
+    <file name='space_incorrect_path_file'>..\templates\space_incorrect.rtf</file>
+    <file name='space_required_file'>..\templates\space_required.rtf</file>
+    <file name='space_unknown_file'>..\templates\space_unknown.rtf</file>
+
+    <msg name='space_required'>Required: [%xsize]</msg>
+    <msg name='space_required_gs'>Required: [%xsize]</msg>
+    <msg name='space_available'>Available: [%xsize]</msg>
+    <msg name='space_required_available'>Required: [%xsize], Available: [%xsize]</msg>
+    <msg name='space_access_denied'>Access denied</msg>
+    <msg name='space_incorrect_path'>Incorrect path</msg>
+    <msg name='space_unknown'>Available: [unknown]</msg>
+    <msg name='choose_destination'>Please choose destination folder</msg>
+    <msg name='products'>Products</msg>
+    <msg name='options_list'>Options</msg>
+    <msg name='description'>Description</msg>
+    <msg name='version'>Version</msg>
+
+    <!-- EULA dialog-->
+    <msg name='eula_disclaimer'>As noted in the Intel® Software Development Product End User License Agreement (EULA), the Intel® Software Development Product you install will send Intel the product's serial number and other system information to help Intel improve the product and validate license compliance. No personal information will be transmitted. </msg>
+
+    <!-- Upgrade/SXS dialog-->
+    <msg name='subtitle_upgrade'>Choose Product Update Mode</msg>
+    <msg name='UpgradeInstall'>Apply this [WpfHotKey]update to the existing version</msg>
+    <msg name='SXSInstall'>[WpfHotKey]Install this update separate from the existing version</msg>
+    <msg name='UpgradeInstallDscr'>This option replaces the original version with the updated version.</msg>
+    <msg name='SXSInstallDscr'>This option installs a new version in a different location, leaving the existing version unchanged.</msg>
+    <!-- Upgrade/SXS dialog end-->
+
+    <!-- NDK dialog
+    <file name='ndk_incorrect_path_file'>..\templates\ndk_incorrect_path.rtf</file>
+    <file name='ndk_location_not_valid_file'>..\templates\ndk_location_not_valid.rtf</file>
+    <file name='ndk_not_supported_version_file'>..\templates\ndk_not_supported_version.rtf</file>
+    <msg name='ndk_incorrect_path'>Path is incorrect: [%s]</msg>
+    <msg name='ndk_location_invalid'>Android* NDK installation location is not valid, please enter proper location of Android* NDK.</msg>
+    <file name='ndk_header_file'>..\templates\ndk_header.rtf</file>
+    <msg name='ndk_header_message'>Please provide the Android* NDK location for integration of the Intel® C++ Compiler. Android NDK integration is required to use the compiler for Android targets. If you do not have an Android NDK installed or do not intend to developing for Android, you can skip this step.</msg>
+
+    <msg name='ndk_footer_message'></msg>
+    <msg name='ndk_label'>Android* NDK location:</msg>
+    <msg name='ndk_check_box_label'>Integrate into Android* NDK</msg>
+
+    <msg name='ndk_header'>Please state Android* NDK installation location to proceed with installation</msg>
+    <msg name='ndk_location_invalid_title'>Invalid Android* NDK location</msg>
+    <msg name='ndk_location_with_spaces_title'>Invalid Android* NDK location</msg>
+    <msg name='ndk_location_with_spaces_msg'>Android* NDK installation location is not valid, please remove spaces in Android* NDK location.</msg>
+    <msg name='ndk_not_supported_version_title'>Android* NDK version is not supported</msg>
+    <msg name='ndk_not_supported_version_msg'>Android* NDK version in the specified folder is not supported. Android* NDK r9 is required. Installation can continue but compiler may not be integrated into Android* NDK. Do you want to continue the installation?</msg>
+    NDK dialog end-->
+
+    <msg name='download_folder_in_use'>Download folder in use</msg>
+
+    <!-- Optional removal dialog-->
+    <msg name='optional_removal_title'>Previous versions detected</msg>
+    <msg name='previous_version_uninstall_description'>Another version of the following software is currently installed. Although multiple versions can co-exist:\par\tab• Only one at a time can be integrated into Microsoft Visual Studio.\par\tab• The newer version will be integrated into Microsoft* Visual Studio as part of this installation.\par\tab Otherwise, refer to the product Knowledge Base for instructions to switch between integrations.\par\par You can also choose to remove older product versions prior to installing [title].\par\par Uninstall the following older versions:</msg>
+    <msg name='optional_removal_vs_note'>Note: If you have multiple versions of Microsoft Visual Studio, you can determine which version to integrate with by selecting a Custom installation path during the Options part of this installation.</msg>
+    <msg name='optional_removal_msg'>Unless you customize, another version of the following software won't be uninstalled.</msg>
+    <msg name='optional_removal_customize'>Customize</msg>
+    <!-- Optional removal dialog end-->
+
+    <!-- Internet Check Connection dialog -->
+    <msg name='internet_check_connection_could_not_connect_to_irc'>Could not connect to Intel® Software Development Products Registration Center</msg>
+    <msg name='system_proxy_settings'>system proxy settings</msg>
+    <msg name='internet_check_connection_please_check'>Please check</msg>
+    <msg name='internet_check_connection_try_again'>and try again.</msg>
+    <!-- Internet Check Connection dialog end -->
+
+    <file name='welcome_template'>..\templates\welcome.rtf</file>
+    <file name='prereq_template'>..\templates\prereq_template.rtf</file>
+    <file name='postchk_template'>..\templates\postchk_template.rtf</file>
+    <file name='preinstall_template'>..\templates\preinstall_template.rtf</file>
+    <file name='cancel_template'>..\templates\cancel.rtf</file>
+    <file name='error_template'>..\templates\error.rtf</file>
+    <file name='installed_template'>..\templates\installed.rtf</file>
+    <file name='installed_reboot_template'>..\templates\installed_reboot.rtf</file>
+    <file name='downloaded_template'>..\templates\download_complete.rtf</file>
+    <file name='removed_template'>..\templates\removed.rtf</file>
+    <file name='files_in_use_template'>..\templates\files_in_use.rtf</file>
+    <file name='suspend_installation_template'>..\templates\suspend_installation.rtf</file>
+    <file name='download_folder_in_use_template'>..\templates\download_folder_in_use.rtf</file>
+    <file name='description_format'>..\templates\description.rtf</file>
+    <file name='open_source_msg_template'>..\templates\open_source_msg.rtf</file>
+    <file name='destination_info_template'>..\templates\destination_info.rtf</file>
+    <file name='internet_check_connection_template'>..\templates\internet_check_connection.rtf</file>
+    <file name='download_error_handler_template'>..\templates\download_error_handler.rtf</file>
+    <file name='tll_warning_template'>..\templates\tll_warn_about_expire.rtf</file>
+    <file name='tll_warning_expired'>..\templates\tll_warn_expired.rtf</file>
+
+    <file name='arch_header_template'>..\templates\arch_header.rtf</file>
+    <file name='arch_footer32_template'>..\templates\arch_footer32.rtf</file>
+    <file name='arch_footer64_template'>..\templates\arch_footer64.rtf</file>
+    <file name='feature_choose_arch_template'>..\templates\feature_choose_arch.rtf</file>
+    
+    <file name='python_on_complete'>..\templates\phyton_on_complete.rtf</file> 
+    <file name='tll_on_complete'>..\templates\tll_on_complete.rtf</file> 
+    <file name='tll_warn_on_complete'>..\templates\tll_warn_on_complete.rtf</file> 
+    
+    <file name='blue_rtf'>..\templates\blue.rtf</file>
+    <file name='red_rtf'>..\templates\red.rtf</file>
+
+    <msg name='remove_configuration_files'>Remove configuration files</msg>
+    <msg name='prerequisites_fatal'>Fatal installation blocking issues are detected. You can either "Cancel Installation" or proceed with the "Download for later install" option on the next screen.</msg>
+    <msg name='prerequisites_fatal_offline'>Fatal installation blocking issues are detected.</msg>
+    <msg name='prerequisites_blocking'>There are some critical issues detected. Please resolve them and click "Re-check" to continue installation.</msg>
+    <msg name='prerequisites_blocking_resolved'>All the critical issues are resolved. You can continue installation. Click "Next" to proceed.</msg>
+    <msg name='prerequisites_warning'>In addition, there are some warnings detected. However, these warnings will not block the installation.</msg>
+    <msg name='prerequisites_resolve_warnings'>If you also want to resolve warnings, resolve them and click "Re-check". Otherwise click "Next" to proceed.</msg>
+    <msg name='prerequisites_only_warning'>Warnings are detected. However they will not block the installation. You can continue with the installation. Click "Next" to proceed.</msg>
+    <msg name='prerequisites_only_warning_resolved'>All the warnings are resolved. Click "Next" to proceed.</msg>
+    <msg name='prerequisites_all_resolved'>All the critical issues and warnings are resolved. Click "Next" to proceed.</msg>
+
+    <msg name='filter_by'>Filter by keyword...</msg>
+
+    <msg name='pending_reboot'>The installation is blocked due to a pending reboot. Please reboot and retry this installation.</msg>
+
+    <msg name='download_error_header'>Download failed</msg>
+    <msg name='download_error_description'>Failed to download installation files, possibly due to a network connection problem. Retry or cancel installation</msg>
+    <msg name='HotKey'></msg>
+    <msg name='WpfHotKey'></msg>
+    <msg name='version_label'>Version: [%s]</msg>
+
+    <msg name='failed_header'>[title] Intel® Software Setup Assistant ended prematurely due to error(s).</msg>
+    <msg name='failed_footer'>To install this program at a later time, run Intel® Software Setup Assistant again. Click the Finish button to exit the Intel® Software Setup Assistant.</msg>
+    <msg name='launch_after_install'>Launch the installed program after I click Finish.</msg>
+    <msg name='launch_after_install_desc'>The Getting Started page will be opened after completing reboot with “Reboot Now” or upon clicking “Reboot Later”. Uncheck the box if you don’t wish to view this page.</msg>
+    <msg name='launch_after_reboot'>Open the Getting Started page.</msg>
+    <msg name='launch_after_download'>Open the above directory after I click Finish.</msg>
+    <msg name='launch_welcome_page'>Open the Getting Started page after I click Finish.</msg>
+    
+  </catalog>
+</xmc>

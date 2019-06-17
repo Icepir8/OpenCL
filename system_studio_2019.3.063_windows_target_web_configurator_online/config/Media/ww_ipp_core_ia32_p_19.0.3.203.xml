@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_IPP_CORE_IA32">
+  <property name="ProductCode">{F8471DDA-BDFC-41AD-ADAD-20D1B8C22A72}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_ipp_core_ia32_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">3739432</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_ipp_core_ia32_p_19.0.3.203/ww_ipp_core_ia32_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="4e4c8391de858949d428c0bb848c1b1e43eda2da14283c93e79035eeea850556" size="929792">cmp_and_libs/203/ww_ipp_core_ia32_p_19.0.3.203/ww_ipp_core_ia32_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="03620cd6e89e6444f8d1a0ad991ef9f3204bc14bab23388677e17c56441a4959" size="416366">cmp_and_libs/203/ww_ipp_core_ia32_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="f1583ed8e55eadd04e78a9ef8e37913d3706e20b18516e248cfe33ef0d18f81d" size="20480">cmp_and_libs/203/ww_ipp_core_ia32_p_19.0.3.203/ww_ipp_core_ia32_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

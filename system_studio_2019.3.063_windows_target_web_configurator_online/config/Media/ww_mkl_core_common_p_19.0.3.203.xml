@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_MKL_CORE_COMMON">
+  <property name="ProductCode">{79150D54-87C1-453E-A92C-F9326AD03B84}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_mkl_core_common_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">29414</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_mkl_core_common_p_19.0.3.203/ww_mkl_core_common_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="343c35cb03293bcb3e48c84975c5ddb8da95e6ab63caa2499a7bb31c4325bddc" size="311296">cmp_and_libs/203/ww_mkl_core_common_p_19.0.3.203/ww_mkl_core_common_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="04b5ca6224a8ae42632cd88d17d2eba55c46d1cc0627df3a394da88f5477c032" size="171809">cmp_and_libs/203/ww_mkl_core_common_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="d9a8358a6a0caac6d257a71481ec704d934769202c1e24b87bb54e5d0abb3c63" size="20480">cmp_and_libs/203/ww_mkl_core_common_p_19.0.3.203/ww_mkl_core_common_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

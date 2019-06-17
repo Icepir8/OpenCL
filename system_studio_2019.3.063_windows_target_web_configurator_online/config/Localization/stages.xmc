@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='stages' locale="1033">
+    <msg name="left_welcome">Welcome</msg>
+    <msg name="left_getting_started">Getting Started</msg>
+    <msg name="left_license">License</msg>
+    <msg name="left_license_agreement">License agreement</msg>
+    <msg name="left_activation">Activation</msg>
+    <msg name="left_license_activation">License activation</msg>
+    <msg name="left_options">Options</msg>
+    <msg name="left_destination">Destination</msg>
+    <msg name="left_ready">Ready</msg>
+    <msg name="left_installation">Installation</msg>
+    <msg name="left_downloading">Downloading</msg>
+    <msg name="left_complete">Complete</msg>
+    <msg name="left_failed">Failed</msg>
+    <msg name="left_canceled">Canceled</msg>
+    <msg name="left_improvements">Improvements</msg>
+    <msg name="bottom_gradient_png">../../Banners/blue_gradient.png</msg>
+    <msg name="fatal_png">../../Banners/fatal16.png</msg>
+    <msg name="warning_png">../../Banners/warning16.png</msg>
+    <msg name="tll_warning_png">../../Banners/tll_warning.png</msg>
+    <msg name="logo_png">../../Banners/logo.png</msg>
+    <msg name='clear_font'>../../fonts/#Intel Clear</msg>
+    <msg name='clear_pro_font'>../../fonts/#Intel Clear Pro</msg>
+    <msg name='clear_light_font'>../../fonts/#Intel Clear Light</msg>
+  </catalog>
+</xmc>

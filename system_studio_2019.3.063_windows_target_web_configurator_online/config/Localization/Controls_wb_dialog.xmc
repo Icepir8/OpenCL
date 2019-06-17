@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='controls' locale="1033">
+    <msg name='subtitle_wb_integration'>Wind River* Linux Build Environment Integration</msg>
+
+    <!-- WB dialog-->
+    <file name='wb_incorrect_path_file'>..\templates\wb_incorrect_path.rtf</file>
+    <file name='wb_location_not_valid_file'>..\templates\wb_location_not_valid.rtf</file>
+    <file name='wb_not_supported_version_file'>..\templates\wb_not_supported_version.rtf</file>
+    <msg name='wb_incorrect_path'>Path is incorrect: [%s]</msg>
+    <msg name='wb_location_invalid'>Wind River* Workbench installation location is not valid, please enter proper location of Wind River* Workbench.</msg>
+
+
+    <!--msg name='wb_header_message'>The installation has detected that Intel® C++ Compiler for Android* is selected for install.\par Please state Android* WB installation location to proceed with installation:</msg-->
+    <file name='wb_header_file'>..\templates\wb_header.rtf</file>
+    <msg name='wb_header_message'>Please provide the Wind River* Linux home location for integration of the Intel(R) System Studio. The option provides easy out-of-box integration of Intel(R) System Studio and Wind River* Workbench. If you do not have a Wind River* Linux installed or do not intend to develop for Wind River*, you can skip this step.</msg>
+
+    <!--msg name='wb_footer_message'>Do not install the Intel® C++ Compiler for Android*</msg-->
+    <msg name='wb_footer_message'></msg>
+    <msg name='wb_label'>Wind River* Linux Home Location:</msg>
+    <msg name='wb_check_box_label'>Integrate to Wind River* Linux and Wind River* Workbench</msg>
+
+    <!--msg name='wb_header'>\ql\b{Please state Android* WB installation location \par to proceed with installation}</msg-->
+    <!--msg name='wb_header'>Please state Wind River* Workbench installation location to proceed with installation</msg-->
+    <!--msg name='wb_location_invalid_title'>Invalid Wind River* Workbench location</msg-->
+    <!--msg name='wb_location_with_spaces_title'>Invalid Android* WB location</msg-->
+    <!--msg name='wb_location_with_spaces_msg'>Wind River* Workbench installation location is not valid or not writable, please enter proper location of Wind River* Workbench.</msg-->
+    <!--msg name='wb_not_supported_version_title'>Android* WB version is not supported</msg-->
+    <msg name='wb_not_supported_version_msg'>Wind River* Linux version in the specified folder is not supported. The supported versions are 5.x,6.x.</msg>
+
+    <msg name='integration_with_wb'>Integration with Wind River* Workbench software ([%s]).</msg>
+    <msg name='deintegration_with_wb'>Deintegration with Wind River* Workbench software ([%s]).</msg>
+
+    <msg name='wb_integration_progress_message'>Integrating plug-ins into Wind River* Linux Build Environment...</msg>
+    <msg name='wb_deintegration_progress_message'>Removing plug-ins from Wind River* Linux Build Environment...</msg>
+
+    <msg name='wb_integration_is_running_title'>Wind River* Workbench is running</msg>
+    <msg name='wb_integration_is_running_message'>Installation cannot continue while Wind River* Workbench is running. Please exit Wind River* Workbench to apply the requested changes to the Wind River* Linux* build environment.</msg>
+
+  </catalog>
+</xmc>

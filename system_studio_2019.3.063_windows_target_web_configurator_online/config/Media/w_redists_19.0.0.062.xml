@@ -1,0 +1,17 @@
+<component type="msi" alias="redists">
+  <property name="ProductCode">{982A3930-AEBC-45F0-AE92-E2C7C8D07C76}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">w_sys_dbg_19_0_0_062_redists_name</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">90260604</property>
+<property name="postinstall_script">scripts/install_redist.bat</property>
+<property name="script_order">1</property>
+
+
+  <files>
+    <key chksum="" sha256="943790fa6b1c1126a9c10668ceeffe2dab041f6c0c2bfb550e981fde4593410a" size="61440">sys_dbg/062/w_redists_19.0.0.062/w_redists_19.0.0.062.msi</key>
+    <file chksum="" sha256="63caf888069ed1db9535d34e2ecd50d62ceef7aa1efb5e118166744e0d20379f" size="43598075">sys_dbg/062/w_redists_19.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

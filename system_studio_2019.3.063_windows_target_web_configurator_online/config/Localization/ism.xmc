@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='ISM dialog' locale="1033">
+    <msg name='ism_agree'>&amp;Yes, I am willing to participate and improve Intel software. (Recommended)</msg>
+    <msg name='ism_degree'>N&amp;o, I do not want to participate in the Intel Software Improvement Program at this time.</msg>
+    <msg name='subtitle_ismoptin'>Intel® Software Improvement Program</msg>
+    <msg name='learn_more'>Learn more</msg>
+    <file name='ism_dialog_text'>../Templates/ism.rtf</file>
+  </catalog>
+</xmc>

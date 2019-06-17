@@ -1,0 +1,145 @@
+<?xml version="1.0" ?>
+<ActivationSpecificationRecord xmlns="FLEXnetPublisher_01EFFF13-92D7-469e-B7CC-35E13C2E8D4A">
+<Header>
+<VersionNumber>6</VersionNumber>
+<Id>1</Id>
+<PublisherId>2167552</PublisherId>
+</Header>
+<ConfigData>
+<ClientConfig>
+<Id>1</Id>
+<Revision>NumberOne</Revision>
+<RevisionType>ASR</RevisionType>
+<Data>FF0405870DBD1948DE2E901975A4F32DEB8B369624027086F30933DA8977B9439BB1FEC67717258DEA730FBFE63A846FDB3A6F90D82F3C0703F9CBA260E2C8C998CA56E711C73D80E5AA5C86E012E4663C55CBD299D3C75E0D244D1EDD6C0DA0E38BADAE8F9DF76C7BE3C2F069605A524DB497348333E8F95B74CD2EB8C461C2D8FB2CC6A29CF267CCBA14AD0B4FFCB732F52DC3847E000E1707CF1E754EB961C36B7CA4FC21BDADEA6F7D3DB69EFB6A00A654942B7571195F0D36B7C1D90EF0BBB4073F7CB2A53ED112919FBD5C550C9ECC75DE0501EF147DC6428C66C09EBAE51401A9727821A049DCE6DA1CD037CE15456E33657D9C9E4E24BF2F3648087D</Data>
+</ClientConfig>
+</ConfigData>
+<DataDictionary>
+<Entries>
+<Entry>
+<Key>PUBLISHER_DEFINED_CRITERION</Key>
+<Value>LOCAL_ALWAYS</Value>
+</Entry>
+<Entry>
+<Key>PUBLISHER_DEFINED_DURATION</Key>
+<Value>2592000</Value>
+</Entry>
+<Entry>
+<Key>PUBLISHER_TRIAL_ID</Key>
+<Value>1</Value>
+</Entry>
+</Entries>
+</DataDictionary>
+<FulfillmentRecord>
+<FulfillmentRecordHeader>
+<VersionNumber>1</VersionNumber>
+</FulfillmentRecordHeader>
+<FulfillmentRecordData>
+<FulfillmentId>FID-1477357429</FulfillmentId>
+<FulfillmentDictionary>
+<Entries>
+<Entry>
+<Key>fulfillmentType</Key>
+<Value>1</Value>
+</Entry>
+<Entry>
+<Key>expiry</Key>
+<Value>31-dec-2016</Value>
+</Entry>
+<Entry>
+<Key>origExpiry</Key>
+<Value>31-dec-2016</Value>
+</Entry>
+<Entry>
+<Key>serverHostID</Key>
+<Value>FLEXID=6-a6300155</Value>
+</Entry>
+<Entry>
+<Key>servOrLocal</Key>
+<Value>2</Value>
+</Entry>
+<Entry>
+<Key>fulfillmentIdChain</Key>
+<Value>456:123</Value>
+</Entry>
+<Entry>
+<Key>ProductId</Key>
+<Value>Intel(R) System Studio Ultimate Edition 2017 for Windows* (All Tools)</Value>
+</Entry>
+<Entry>
+<Key>EntitlementId</Key>
+<Value>ENTL_INTEL_SOFTWARE_TRIAL</Value>
+</Entry>
+<Entry>
+<Key>availAct</Key>
+<Value>1</Value>
+</Entry>
+<Entry>
+<Key>features</Key>
+<Value>INCREMENT Comp-PointerChecker INTEL 2020.1231 31-dec-2020 1 \
+	038FE5095927 VENDOR_STRING="MEDIAID=P67 TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=138 SN=INT20150630 TS_OK \
+	SIGN=A2D52A32E734
+INCREMENT Comp-CW INTEL 2020.1231 31-dec-2020 1 9B963E9EDEF9 \
+	VENDOR_STRING="MEDIAID=P67 TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=149 SN=INT20150630 TS_OK \
+	SIGN=88F3C94458F4
+INCREMENT CCompW INTEL 2020.1231 31-dec-2020 1 4C268EA2EB58 \
+	VENDOR_STRING="TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=187 SN=INT20150630 TS_OK \
+	SIGN=5F38B860FD8A
+INCREMENT EmbCCompW INTEL 2020.1231 31-dec-2020 1 38C15968F5D1 \
+	VENDOR_STRING="TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=121 SN=INT20150630 TS_OK \
+	SIGN=7AFDD9704B20
+INCREMENT MKernW INTEL 2020.1231 31-dec-2020 1 0AD6933C108C \
+	VENDOR_STRING="TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=83 SN=INT20150630 TS_OK \
+	SIGN=6D27603260EC
+INCREMENT PerfAnlSys INTEL 2020.1231 31-dec-2020 1 4881C05F05AB \
+	VENDOR_STRING="TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=137 SN=INT20150630 TS_OK \
+	SIGN=ADAECF50F054
+INCREMENT PerfPrimW INTEL 2020.1231 31-dec-2020 1 ED8FB65BD404 \
+	VENDOR_STRING="TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=135 SN=INT20150630 TS_OK \
+	SIGN=7C839750FBD0
+INCREMENT StaticAnlW INTEL 2020.1231 31-dec-2020 1 B1F286C874A1 \
+	VENDOR_STRING="TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=145 SN=INT20150630 TS_OK \
+	SIGN=60CE9874042C
+INCREMENT ThreadAnlGui INTEL 2020.1231 31-dec-2020 1 2F71A85EAD16 \
+	VENDOR_STRING="TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=121 SN=INT20150630 TS_OK \
+	SIGN=A17D2362E0D8
+INCREMENT ThreadBB INTEL 2020.1231 31-dec-2020 1 DDEB024C65AB \
+	VENDOR_STRING="TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=180 SN=INT20150630 TS_OK \
+	SIGN=F3EF12C215B8
+INCREMENT DbgJTAGW INTEL 2020.1231 31-dec-2020 1 463D00A49F8D \
+	VENDOR_STRING="TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=145 SN=INT20150630 TS_OK \
+	SIGN=CD6E13F48534
+INCREMENT Comp-OpenMP INTEL 2020.1231 31-dec-2020 1 1BC122E99ED3 \
+	VENDOR_STRING="TGT=EMB SUPPORT=EVAL \
+	https://registrationcenter.intel.com" HOSTID=ANY \
+	PLATFORMS="i86_n ia64_n x64_n" ck=140 SN=INT20150630 TS_OK \
+	SIGN=8C75FB24B5DE
+</Value>
+</Entry>
+</Entries>
+</FulfillmentDictionary>
+</FulfillmentRecordData>
+</FulfillmentRecord>
+<Signature>173764242F11F91AC229FB1B3EAED60B66BA0FD883948F7DCF922DD7750103AF361BE1F636237DC316E5B9A99A2A04086E850EDDFB504C38E9B63E4F</Signature>
+</ActivationSpecificationRecord>

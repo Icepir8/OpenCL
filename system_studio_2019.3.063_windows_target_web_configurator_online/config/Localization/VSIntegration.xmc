@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='VSIntegration' locale="1033">
+
+    <msg name='vs_2008'>Microsoft Visual Studio* 2008 software</msg>
+    <msg name='vs_2008_description'>Integration into Microsoft Visual Studio* 2008 software</msg>
+    <msg name='vs_2008_description'>Integration into Microsoft Visual Studio* 2008 software</msg>
+    <msg name='vs_2008_label'>Integrate into Microsoft Visual Studio* 2008 software</msg>
+
+    <msg name='vs_2010'>Microsoft Visual Studio* 2010 software</msg>
+    <msg name='vs_2010_description'>Integration into Microsoft Visual Studio* 2010 software</msg>
+    <msg name='vs_2010_label'>Integrate into Microsoft Visual Studio* 2010 software</msg>
+    <msg name='vs_2010_shell_title'>Microsoft Visual Studio* 2010 Shell software</msg>
+    <msg name='vs_2010_shell_description'>Integration into Microsoft Visual Studio* 2010 Shell software</msg>
+    <msg name='vs_2010_shell_label'>Integrate into Microsoft Visual Studio* 2010 Shell software</msg>
+
+    <msg name='vs_2012'>Microsoft Visual Studio* 2012 software</msg>
+    <msg name='vs_2012_description'>Integration into Microsoft Visual Studio* 2012 software</msg>
+    <msg name='vs_2012_label'>Integrate into Microsoft Visual Studio* 2012 software</msg>
+    <msg name='vs_2012_shell_title'>Microsoft Visual Studio* 2012 Shell software</msg>
+    <msg name='vs_2012_shell_description'>Integration into Microsoft Visual Studio* 2012 Shell software</msg>
+    <msg name='vs_2012_shell_label'>Integrate into Microsoft Visual Studio* 2012 Shell software</msg>
+
+    <msg name='vs_2013'>Microsoft Visual Studio* 2013 software</msg>
+    <msg name='vs_2013_description'>Integration into Microsoft Visual Studio* 2013 software</msg>
+    <msg name='vs_2013_label'>Integrate into Microsoft Visual Studio* 2013 software</msg>
+    <msg name='vs_2013_shell_title'>Microsoft Visual Studio* 2013 Shell software</msg>
+    <msg name='vs_2013_shell_description'>Integration into Microsoft Visual Studio* 2013 Shell software</msg>
+    <msg name='vs_2013_shell_label'>Integrate into Microsoft Visual Studio* 2013 Shell software</msg>
+
+    <msg name='vs_2015'>Microsoft Visual Studio* 2015 software</msg>
+    <msg name='vs_2015_description'>Integration into Microsoft Visual Studio* 2015 software</msg>
+    <msg name='vs_2015_label'>Integrate into Microsoft Visual Studio* 2015 software</msg>
+    <msg name='vs_2015_shell_title'>Microsoft Visual Studio* 2015 Shell software</msg>
+    <msg name='vs_2015_shell_description'>Integration into Microsoft Visual Studio* 2015 Shell software</msg>
+    <msg name='vs_2015_shell_label'>Integrate into Microsoft Visual Studio* 2015 Shell software</msg>
+
+    <msg name='vs_2017'>Microsoft Visual Studio* 2017 software</msg>
+    <msg name='vs_2017_description'>Integration into Microsoft Visual Studio* 2017 software</msg>
+    <msg name='vs_2017_label'>Integrate into Microsoft Visual Studio* 2017 software</msg>
+    <msg name='vs_2017_shell_title'>Microsoft Visual Studio* 2017 Shell software</msg>
+    <msg name='vs_2017_shell_description'>Integration into Microsoft Visual Studio* 2017 Shell software</msg>
+    <msg name='vs_2017_shell_label'>Integrate into Microsoft Visual Studio* 2017 Shell software</msg>
+
+    <msg name='vs_restart_progress_message'>Configuring [%s]. This may take up to 5 minutes.</msg>
+    <msg name='vs_installing_extensions'>Configuring Microsoft Visual Studio* extensions</msg>
+    <msg name='vs_removing_extensions'>Removing Microsoft Visual Studio* extensions</msg>
+
+  </catalog>
+</xmc>

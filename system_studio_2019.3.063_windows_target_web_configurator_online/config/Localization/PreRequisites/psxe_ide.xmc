@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='PreRequisites' locale="1033">
+
+    <msg name='cannot_install_ide_title'>The Integration(s) in Microsoft Visual Studio* components cannot be installed.</msg>
+    <msg name='cannot_install_ide_description_install'>Installation can continue; however, Integration(s) in Microsoft Visual Studio* components will not be installed because they require that Microsoft Visual Studio* 2013, 2015 or 2017 be installed. Refer to the Release Notes for more details.</msg>
+    <msg name='cannot_install_ide_description_modify'>Modification can continue; however, Integration(s) in Microsoft Visual Studio* components will not be installed because they require that Microsoft Visual Studio* 2013, 2015 or 2017 be installed. Refer to the Release Notes for more details.</msg>
+
+    <msg name='ide_c_cmp101_installed_title'>Intel® C++ Compiler 10.1 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp101_installed_description'>If you proceed to install, the 10.1 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 10.1 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_f_cmp101_installed_title'>Intel® Visual Fortran Compiler 10.1 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp101_installed_description'>If you proceed to install, the 10.1 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 10.1 or older Intel Visual Fortran Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+
+    <msg name='ide_c_cmp110_installed_title'>Intel® C++ Compiler Professional 11.0 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp110_installed_description'>If you proceed to install, the 11.0 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 11.0 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_f_cmp110_installed_title'>Intel® Visual Fortran Compiler Professional 11.0 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp110_installed_description'>If you proceed to install, the 11.0 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 11.0 or older Intel Visual Fortran Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+
+    <msg name='ide_c_cmp111_installed_title'>Intel® C++ Compiler Professional 11.1 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp111_installed_description'>If you proceed to install, the 11.1 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 11.1 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_f_cmp111_installed_title'>Intel® Visual Fortran Compiler Professional 11.1 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp111_installed_description'>If you proceed to install, the 11.1 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 11.1 or older Intel Visual Fortran Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_c_cmp111_pc_installed_title'>Intel® Parallel Composer Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp111_pc_installed_description'>If you proceed to install, the Intel Parallel Composer IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select Intel Parallel Composer, 11.1 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+
+    <msg name='ide_c_cmp120_installed_title'>Intel® C++ Composer XE 2011 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp120_installed_description'>If you proceed to install, the Intel C++ Composer XE 2011 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 12.0 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_f_cmp120_installed_title'>Intel® Visual Fortran Composer XE 2011 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp120_installed_description'>If you proceed to install, the Intel Visual Fortran Composer XE 2011 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 12.0 or older Intel Visual Fortran Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_c_cmp120_pc_installed_title'>Intel® Parallel Composer 2011 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp120_pc_installed_description'>If you proceed to install, the Intel Parallel Composer 2011 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select Intel Parallel Composer 2011, 12.0 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+
+    <msg name='ide_c_cmp121_installed_title'>Intel® C++ Composer XE 2011 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp121_installed_description'>If you proceed to install, the Intel C++ Composer XE 2011 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 12.1 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_f_cmp121_installed_title'>Intel® Visual Fortran Composer XE 2011 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp121_installed_description'>If you proceed to install, the Intel Visual Fortran Composer XE 2011 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 12.1 or older Intel Visual Fortran Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_c_cmp121_pc_installed_title'>Intel® Parallel Composer 2011 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp121_pc_installed_description'>If you proceed to install, the Intel Parallel Composer 2011 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select Intel Parallel Composer 2011, 12.1 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+
+    <msg name='ide_c_cmp130_installed_title'>Intel® C++ Composer XE 2013 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp130_installed_description'>If you proceed to install, the Intel C++ Composer XE 2013 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 13.0 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_f_cmp130_installed_title'>Intel® Visual Fortran Composer XE 2013 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp130_installed_description'>If you proceed to install, the Intel Visual Fortran Composer XE 2013 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 13.0 or older Intel Visual Fortran Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+
+    <msg name='ide_c_cmp140_installed_title'>Intel® C++ Composer XE 2013 SP1 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp140_installed_description'>If you proceed to install, the Intel C++ Composer XE 2013 SP1 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 14.0 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_f_cmp140_installed_title'>Intel® Visual Fortran Composer XE 2013 SP1 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp140_installed_description'>If you proceed to install, the Intel Visual Fortran Composer XE 2013 SP1 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 14.0 or older Intel Visual Fortran Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+
+    <msg name='ide_c_cmp150_installed_title'>Intel® Parallel Studio XE 2015 Composer Edition for C++ Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp150_installed_description'>If you proceed to install, the Intel Parallel Studio XE 2015 Composer Edition for C++ IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 15.0 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_f_cmp150_installed_title'>Intel® Parallel Studio XE 2015 Composer Edition for Fortran Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp150_installed_description'>If you proceed to install, the Intel Parallel Studio XE 2015 Composer Edition for Fortran IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 15.0 or older Intel Visual Fortran Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_c_cmp150_inde_installed_title'>Intel® Integrated Native Developer Experience 2015 C++ Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp150_inde_installed_description'>If you proceed to install, the Intel Integrated Native Developer Experience 2015 C++ IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 15.0 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_c_cmp150_iss_installed_title'>Intel® System Studio 2015 Composer Edition C++ Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp150_iss_installed_description'>If you proceed to install, the Intel System Studio 2015 Composer Edition C++ IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 15.0 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+
+    <msg name='ide_c_cmp160_installed_title'>Intel® C++ Compiler 16.0 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp160_installed_description'>If you proceed to install, the Intel C++ Compiler 16.0 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 16.0 or older Intel C++ Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+    <msg name='ide_f_cmp160_installed_title'>Intel® Visual Fortran Compiler 16.0 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp160_installed_description'>If you proceed to install, the Intel Visual Fortran Compiler 16.0 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 16.0 or older Intel Visual Fortran Compilers from the Visual Studio IDE (if it is currently installed).</msg>
+
+    <msg name='ide_c_cmp170_installed_title'>Intel® C++ Compiler 17.0 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp170_installed_description'>If you proceed to install, the Intel C++ Compiler 17.0 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 16.0 or older Intel C++ Compilers from the Visual Studio IDE. You will still be able to select 17.0 or newer Intel C++ Compilers if they are installed.</msg>
+    <msg name='ide_f_cmp170_installed_title'>Intel® Visual Fortran Compiler 17.0 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp170_installed_description'>If you proceed to install, the Intel Visual Fortran Compiler 17.0 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 16.0 or older Intel Visual Fortran Compilers from the Visual Studio IDE. You will still be able to select 17.0 or newer Intel Visual Fortran Compilers if they are installed.</msg>
+
+    <msg name='ide_c_cmp180_installed_title'>Intel® C++ Compiler 18.0 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_c_cmp180_installed_description'>If you proceed to install, the Intel C++ Compiler 18.0 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 16.0 or older Intel C++ Compilers from the Visual Studio IDE. You will still be able to select 17.0 or newer Intel C++ Compilers if they are installed.</msg>
+    <msg name='ide_f_cmp180_installed_title'>Intel® Visual Fortran Compiler 18.0 Integration(s) in Microsoft Visual Studio* is already installed.</msg>
+    <msg name='ide_f_cmp180_installed_description'>If you proceed to install, the Intel Visual Fortran Compiler 18.0 IDE integration(s) will be uninstalled and the [%s] IDE integration will be installed. You will no longer be able to select 16.0 or older Intel Visual Fortran Compilers from the Visual Studio IDE. You will still be able to select 17.0 or newer Intel Visual Fortran Compilers if they are installed.</msg>
+
+  </catalog>
+</xmc>

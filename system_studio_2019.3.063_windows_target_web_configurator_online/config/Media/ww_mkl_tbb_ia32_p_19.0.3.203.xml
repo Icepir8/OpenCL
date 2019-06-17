@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_MKL_TBB_IA32">
+  <property name="ProductCode">{7CBB5006-25FD-4EFB-86BF-550C36B51829}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_mkl_tbb_ia32_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">25748824</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_mkl_tbb_ia32_p_19.0.3.203/ww_mkl_tbb_ia32_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="603026888ab76334ffb441b318063c225977eb44dcd3402e632505c96ba92796" size="311296">cmp_and_libs/203/ww_mkl_tbb_ia32_p_19.0.3.203/ww_mkl_tbb_ia32_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="65984924be2083b667a73930ef8d4d58793ef417fd1be0f6853606dc6fd450f1" size="3895422">cmp_and_libs/203/ww_mkl_tbb_ia32_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="502a0df42e548f97d3bf59fbce14156b5d8806f57877f02417c5b734bd242f0e" size="20480">cmp_and_libs/203/ww_mkl_tbb_ia32_p_19.0.3.203/ww_mkl_tbb_ia32_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

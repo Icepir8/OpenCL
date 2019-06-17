@@ -1,0 +1,15 @@
+<component type="msi" alias="ism">
+  <property name="ISMFNCREGISTERDATA">0</property>
+  <property name="Manufacturer">Intel Corporation</property>
+  <property name="ProductCode">{980F52C1-AFD0-4966-87F4-46D889478F20}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) Software Manager</property>
+  <property name="ProductVersion">2.3.007</property>
+  <property name="ARPSYSTEMCOMPONENT">HASH(0x5c664dc)</property>
+  <property name="INTEL_PRODUCT_NAME">Intel(R) Software Manager</property>
+  <property name="INTEL_PRODUCT_VERSION">2.3.007</property>
+  <property name="size">4607003</property>
+  <files>
+    <key sha256="76937e962cca2239c4dbbd8bab7ea33d0a31f8648acbc4ee5a10482f7cabdf9d" chksum="" size="1683456">issw/063/ism/ism.msi</key>
+  </files>
+</component>

@@ -1,0 +1,15 @@
+<component type="msi" alias="win_dbg_shortcuts">
+  <property name="ProductCode">{C8CB8B11-C946-4F8E-9B4A-1BACE0FC37F2}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) Debug Extensions for WinDbg* 2019</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">0</property>
+
+
+  <files>
+    <key chksum="" sha256="ee726d67f89239e09a309b0895d62c5df4ec099b41c1175c43aeb70918640603" size="163840">sys_dbg/062/w_win_dbg_shortcuts_2019.0.0.062/w_win_dbg_shortcuts_2019.0.0.062.msi</key>
+    <file chksum="" sha256="01624a3a0ffd6732879484b31d27056a4180fe386e08bfb20afb267008b764cd" size="8108">sys_dbg/062/w_win_dbg_shortcuts_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

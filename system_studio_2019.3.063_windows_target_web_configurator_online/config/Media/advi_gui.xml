@@ -1,0 +1,14 @@
+<component type="msi" alias="advi_gui">
+  <property name="UpgradeCode">{3AA1E378-75E1-4055-86C8-7174D83744E4}</property>
+  <property name="ProductCode">{4E857B25-B7F8-4145-B373-1B16C7F12186}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel Advisor 2019 Update 3 Graphical user interface</property>
+  <property name="ProductVersion">19.3.0.591264</property>
+  <property name="size">314577665</property>
+  <files>
+    <key size="180224" chksum="" sha256="801063d4fb7f95120afd07bc72fda47b76b09c79d7590da7b04f9c1e455b99b0">advi/advi_gui/advi_gui.msi</key>
+    <file size="102945517" chksum="" sha256="34f8cfcc853366cfcea020b9f692c54414d711989801c89cb0b04e6d9b59abd1">advi/advi_gui/data1.cab</file>
+  </files>
+  <vs_integration>
+  </vs_integration>
+</component>

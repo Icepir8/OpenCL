@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+    <catalog name='License' locale="1033">
+        <msg name='IDS_MSG_TITLE'>Licensing</msg>
+        <msg name='IDS_USING_OFFLINE_MODE'>Install program failed to establish Internet connection for activation. Please choose alternative activation option.</msg>
+        <msg name='IDS_ERROR_IRC_FETCH'>Error fetching license from Intel® Registration Center.</msg>
+        <msg name='IDS_INVALID_SN'>The serial number provided is invalid</msg>
+        <msg name='IDS_IRC_ACCESS_DENIED'>Install program was not allowed to activate this serial number. For your support options, go to www.intel.com/software/products/support/</msg>
+        <msg name='IDS_IRC_CANNOT_ADD_LIC_INFO'>Serial number could not be verified. Please make sure that the serial entered is correct.\n If you continue to run into this issue after verifying the serial number, go to www.intel.com/software/products/support/ for your support options.</msg>
+        <msg name='IDS_IRC_SN_DOESNOT_EXIST'>Serial number is not valid. Please make sure that the serial entered is correct. If you continue to run into this issue after verifying the serial number, go to www.intel.com/software/products/support/ for your support options.</msg>
+        <msg name='IDS_IRC_ANON_REG_NOT_ALLOWED'>This serial number is not registered. Please register the serial number at Intel® Software Development Products Registration Center ({\field{*\fldinst HYPERLINK \o "http://registrationcenter.intel.com/"}{\fldrslt http://registrationcenter.intel.com/}}) and follow the instructions received in the email.</msg>
+        <msg name='IDS_INVALID_LICENSE_FILE'>The license file provided is invalid.</msg>
+        <msg name='IDS_INVALID_HOST_PORT'>The host and port information provided is invalid.</msg>
+        <msg name='IDS_ERR_NOT_FILE_OR_DIRECTORY'>[%s] is not a valid license file or directory.</msg>
+        <msg name='IDS_ERR_FAILED_TO_OPEN'>Failed to open file. Verify that file exists and is readable.</msg>
+        <msg name='IDS_ERR_FAILED_TO_READ'>Failed to read file. Verify that file is readable.</msg>
+        <msg name='IDS_ERR_FAILED_TO_CREATE'>Failed to create file. Please verify that the folder ""[$CommonProgramFiles]\\Intel\\Licenses"" is writable.</msg>
+        <msg name='IDS_ERR_FAILED_TO_WRITE'>Failed to write to file. Please verify that the folder [$CommonProgramFiles\\Intel\\Licenses"" is writable.</msg>
+        <msg name='IDS_ERR_SN_ANON_REG_NO_LIC_FOR_PACKAGE'>This serial number does not have any license rights associated with it and cannot be used for activating the product. Please provide a product serial number for activating the product.</msg>
+        <msg name='IDS_INVALID_SN_FOR_PACKAGE'>Activation rights do not allow this software to be installed. This could be due to expired subscription, incompatible serial number, or outdated Intel® Software License Manager.</msg>
+        <msg name='ISSA_ERR_LICENSE_NOT_SUPPORTED'>Activation rights do not allow this software to be installed. This could be due to expired subscription, incompatible serial number, or outdated Intel® Software License Manager.</msg>
+        <msg name='IDS_INVALID_FLOATING_LICENSE'>Activation rights do not allow this software to be installed. This could be due to expired subscription or outdated Intel® Software License Manager.</msg>
+        <msg name='IDS_LICENSE_SERVER_IS_DOWN'>License cannot be verified: license server is down or not responding.</msg>
+        <msg name='IDS_LICENSE_SN_MAXIMUM_ACTIVATIONS_REACHED'>You are attempting to install this product on more systems than the license allows.  See {\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/faq/licensing"}{\fldrslt https://software.intel.com/en-us/faq/licensing}} for additional information about license issues.</msg>
+        <msg name='IDS_ERR_SN_IS_FOR_FLOATING_LICENSE'>The serial number for floating license is unregistered. Please contact your system administrator or refer to {\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/articles/intel-software-license-manager-getting-started-tutorial"}{\fldrslt https://software.intel.com/en-us/articles/intel-software-license-manager-getting-started-tutorial}} for more information.</msg>
+        <msg name='IDS_ERR_LICENSE_HAS_EXPIRED'>Your [title] license has expired. Please refer to {\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/faq/purchasing-renewing-upgrading#support-expiration"}{\fldrslt https://software.intel.com/en-us/faq/purchasing-renewing-upgrading#support-expiration}} for more information.</msg>
+        <msg name='IDS_ERR_TLL_LICENSE_HAS_EXPIRED'>The Community License has expired. You can purchase a license to take advantage of Priority Support or request a new Community License. For options: {\field{*\fldinst HYPERLINK \o "https://registrationcenter.intel.com/products/lookup"}{\fldrslt https://registrationcenter.intel.com/products/lookup}}.</msg>
+        <msg name='IDS_ERR_PRODUCT_SUPPORT_HAS_EXPIRED'>Product support for your [title] license has expired. Please refer to {\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/faq/purchasing-renewing-upgrading#support-expiration"}{\fldrslt https://software.intel.com/en-us/faq/purchasing-renewing-upgrading#support-expiration}} for more information.</msg>
+        <msg name='IDS_ERR_UNSUPPORTED_BUILD_DATE'>Your Community License is not compatible with this version of [title]. You must install the latest version of [title] from {\field{*\fldinst HYPERLINK \o "https://registrationcenter.intel.com"}{\fldrslt https://registrationcenter.intel.com}}. You can continue using your current version by purchasing Priority Support. Please refer to {\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/faq/licensing"}{\fldrslt https://software.intel.com/en-us/faq/licensing}} for more information regarding Community Licenses.</msg>
+        <msg name='IDS_ERR_LICENSE_COULD_NOT_BE_FOUND'>A license for [title] could not be found. Please refer to {\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/faq/licensing#invalid-license-error"}{\fldrslt https://software.intel.com/en-us/faq/licensing#invalid-license-error}} for more information.</msg>
+        <msg name='IDS_ERR_SERVER_OLDER'>Your current Intel® Software License Manager version is older than the product you are trying to install. Please upgrade to the latest Intel® Software License Manager from {\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/faq/downloading#islm-servers-download"}{\fldrslt https://software.intel.com/en-us/faq/downloading#islm-servers-download}} and try again.</msg>
+        <msg name='IDS_MODIFY_NOLICENSE'>Activation rights do not allow this software to be modified. This could be due to expired evaluation period. Suggestions: Please obtain a valid license to activate this product.</msg>
+        <msg name='IDS_REPAIR_NOLICENSE'>Activation rights do not allow this software to be repaired. This could be due to expired evaluation period. Suggestions: Please obtain a valid license to activate this product.</msg>
+
+        <msg name='IDS_EVAL_UNSUPPORTED'>Not supported by the media</msg>
+        <msg name='IDS_EVAL_NEW_TO_BE_INSTALLED'>([%i] days allowed)</msg>
+        <msg name='IDS_EVAL_DAYS_REMAINING'>([%i] day(s) remaining)</msg>
+        <msg name='IDS_EVAL_EXPIRED2'>The evaluation rights have expired.</msg>
+        <msg name='IDS_TLL_DAYS_REMAINING'>([%i] day(s) remaining)</msg>
+        <msg name='IDS_TLL_DAYS_REMAINING_LESS_N'>([%i] day(s) remaining)</msg>
+
+        <msg name='INVALID_SN'>Invalid serial number</msg>
+        <msg name='ACTIVATION_ERROR_TITLE'>Error</msg>
+
+        <!-- Diloags subheaders -->
+        <msg name='IDS_ACTIVATION_OPTIONS'>Activation</msg>
+        <msg name='IDS_ALTERNATIVE_ACTIVATION'>Activation - Choose Alternative Activation</msg>
+        <msg name='IDS_LICENSE_FILE_ACTIVATION'>Activation - Choose a License File</msg>
+        <msg name='IDS_LICENSE_SERVER_ACTIVATION'>Activation - Choose a License Server</msg>
+        <msg name='IDS_REMOTE_ACTIVATION'>Activation - Activate Remotely</msg>
+
+        <!-- Activation options dialog -->
+        <msg name='IDS_TOOLTIP_SN'>Copy and paste the serial number provided in activation email.</msg>
+        <msg name='IDS_TOOLTIP_ACTIVATE'>Activation is necessary for installation and use of the products.</msg>
+
+        <msg name='IDC_RADIO_ACTIVATE'>I have a [WpfHotKey]serial number and want to activate and install my product</msg>
+        <msg name='IDC_RADIO_EVALUATE'>[WpfHotKey]Evaluate this product  (no serial number required)</msg>
+        <msg name='IDC_RADIO_ADVANCED'>Choose [WpfHotKey]alternative activation</msg>
+
+        <msg name='IDC_LINK_HOWTOPURCHASE'>&lt;a&gt;How to buy&lt;/a&gt;</msg>
+        <msg name='IDC_LINK_HOWTOFIND'>&lt;a&gt;How to find my serial number&lt;/a&gt;</msg>
+
+        <msg name='IDC_STATIC_ACTIVATE'>Activation requires Internet connection.</msg>
+        <msg name='IDC_STATIC_EVALUATE'>Choose this option when you do not have a serial number or if you plan to provide a serial number at a later time.</msg>
+        <msg name='IDC_STATIC_ADVANCED'>Use a license file or a license manager, because this system may not be set for successful Internet connection.</msg>
+
+        <msg name='IDS_FAILURE_SUPPORT_URL'>http://software.intel.com/en-us/articles/intel-software-developer-support</msg>
+        <msg name='IDS_HOW_TO_FIND_SN_URL'>http://software.intel.com/en-us/articles/find-my-serial-number/</msg>
+        <msg name='IDS_HOW_TO_PURCHASE_URL'>http://software.intel.com/en-us/articles/buy-or-renew-intel-software-development-products/</msg>
+
+        <!-- Activation options dialog (existing license) -->
+        <msg name='IDC_RADIO_USE_EXIST'>Use [WpfHotKey]existing activation</msg>
+
+        <!-- Alternative activation options dialog -->
+        <msg name='IDC_RADIO_LICENSE_FILE'>Activate [WpfHotKey]offline</msg>
+        <msg name='IDC_RADIO_LICENSE_MANAGER'>Use a license [WpfHotKey]manager</msg>
+        <msg name='IDC_STATIC_LICENSE_FILE'>License file</msg>
+        <msg name='IDC_BUTTON_BROWSE'>B[WpfHotKey]rowse...</msg>
+
+        <msg name='IDC_RICHEDIT_LICENSE_FILE'>Your license file is available for download from https://registrationcenter.intel.com. Further instructions are available at http://software.intel.com/en-us/articles/offline-activation-of-intel-software-development-products.\par\line</msg>
+        <msg name='IDC_RICHEDIT_LICENSE_MANAGER'>The License Manager Guide explains how to download, install, configure, and troubleshoot the\par Intel® Software License Manager product. License Manager Guide is available at: http://software.intel.com/en-us/articles/license-manager-for-flexlm-users-guide/\par\line</msg>
+        <msg name='IDS_LICENSE_MANAGER_USER_GUIDE_URL'>http://software.intel.com/en-us/articles/license-manager-for-flexlm-users-guide/</msg>
+
+        <!-- License manager(server) dialog -->
+        <msg name='IDC_STATIC_LICENSE_SERVER_MESSAGE'>In order to activate a license server, enter the port and host information.</msg>
+        <msg name='IDC_STATIC_HOSTNAME'>[WpfHotKey]Host Name</msg>
+        <msg name='IDC_STATIC_PORT'>P[WpfHotKey]ort</msg>
+        <msg name='IDS_DEFAULT_LICENSE_SERVER_PORT'>28518</msg>
+
+        <!-- Remote activation dialog -->
+        <msg name='IDC_STEP1'>Step 1:</msg>
+        <msg name='IDC_STEP2'>Step 2:</msg>
+        <msg name='IDC_STEP3'>Step 3:</msg>
+        <msg name='IDC_STEP4'>Step 4:</msg>
+        <msg name='IDC_STEP5'>Step 5:</msg>
+        <msg name='IDC_REMOTE_ACTIVATION_CAUTION'>Caution: Do not close the Installer until all five steps are completed.</msg>
+        <msg name='IDC_STATIC_ENTER_SN'>Enter Serial Number</msg>
+        <msg name='IDC_STATIC_MESSAGE_STEP2'>Make sure you note this activation code. For example: copy it to your clipboard or write it down.</msg>
+        <msg name='IDC_STATIC_MESSAGE_STEP3'>Browse to the Remote Activation Page at the following URL from any system with Internet access.</msg>
+        <msg name='IDC_STATIC_MESSAGE_STEP4'>Enter activation code from step 2 on the Remote Activation Page and make sure you note the unlock code. For example: copy it to your clipboard or write it down.</msg>
+        <msg name='IDC_STATIC_MESSAGE_STEP5'>Enter the unlock code from step 4.</msg>
+        <msg name='IDS_REMOTE_ACTIVATION_URL'>https://registrationcenter.intel.com/regcenter/RemoteActivation.aspx</msg>
+
+        <!-- Localization for WPF UI -->
+        <!-- Activation options dialog -->
+        <msg name='IDC_LINK_HOWTOPURCHASE_WPF'>How to buy</msg>
+        <msg name='IDC_LINK_HOWTOFIND_WPF'>How to find my serial number</msg>
+        <!-- License manager(server) dialog -->
+        <msg name='activation_license_file_format'>License File Format (*.lic)|*.lic</msg>
+        <msg name='activation_your_lic_file'>Your license file is available for download from</msg>
+        <msg name='activation_irc'>Intel® Software Development Products Registration Center</msg>
+        <msg name='activation_further'>Further instructions are available at</msg>
+        <msg name='activation_offline_hyperlink'>Offline Activation of Intel® Software Development Products</msg>
+        <msg name='activation_lic_manager_guide'>The License Manager Guide explains how to download, install, configure, and troubleshoot the Intel® Software License Manager product. License Manager Guide is available at: </msg>
+        <msg name='activation_lic_manager_guide_link'>http://software.intel.com/en-us/articles/license-manager-for-flexlm-users-guide</msg>
+        <!-- Continue without a license -->
+        <msg name='continue_without_license_header'>Continue installation without a license file</msg>
+        <msg name='continue_without_license_description'>Most tools will work without a license file. All tools can be installed without a license file. A license file, if required, can be installed at a later date.</msg>
+        <msg name='silent_activate_without_license'>Installing the product without a license file. A license file, if required, can be installed at a later date.</msg>
+    </catalog>
+</xmc>

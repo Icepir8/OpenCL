@@ -1,0 +1,11 @@
+<component type="msi" alias="advi_shortcuts_iss_win">
+  <property name="UpgradeCode">{278C1EC1-C0B8-4EBA-BB6F-5ECDB6F75077}</property>
+  <property name="ProductCode">{B4E5669C-065D-46E8-834E-C02F8178C077}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel Advisor 2019 Update 3 Intel System Studio Shortcuts</property>
+  <property name="ProductVersion">19.3.0.591264</property>
+  <property name="size">0</property>
+  <files>
+    <key size="827392" chksum="" sha256="db1afbaf1f0e1aafa6fcb78cc341e29c08b6f18a4aefe99b3ace5bbd85b01320">advi/advi_shortcuts_iss_win/advi_shortcuts_iss_win.msi</key>
+  </files>
+</component>

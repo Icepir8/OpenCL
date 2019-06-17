@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_PSTL_DOC">
+  <property name="ProductCode">{0890F569-A76A-48AE-AD70-BE41A18B3AB4}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_pstl_doc_name]</property>
+  <property name="ProductVersion">19.0.4.203</property>
+  <property name="size">395514</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_pstl_doc_p_19.0.4.203/ww_pstl_doc_p_19.0.4.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="555ea629ecf82232136c1b9e50f54b031448b2a13bfbdf1a0d51663ba22db6a9" size="311296">cmp_and_libs/203/ww_pstl_doc_p_19.0.4.203/ww_pstl_doc_p_19.0.4.203.msi</key>
+    <file chksum="" sha256="50b165e77d80a6799291ab1b5db6d711fc9de9c07b9de8fa71dfb32c86e42e8b" size="75667">cmp_and_libs/203/ww_pstl_doc_p_19.0.4.203/data1.cab</file>
+    <file chksum="" sha256="b45c89666fcc7cf1b5d1efad8bec885b1e7df0a769c865c2d7f387b1691dcd33" size="20480">cmp_and_libs/203/ww_pstl_doc_p_19.0.4.203/ww_pstl_doc_p_19.0.4.203_1041.mst</file>
+
+
+  </files>
+</component>

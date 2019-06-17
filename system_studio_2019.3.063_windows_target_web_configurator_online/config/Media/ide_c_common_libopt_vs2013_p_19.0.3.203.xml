@@ -1,0 +1,22 @@
+<component type="msi" alias="IDE_C_COMMON_LIBOPT_VS2013">
+  <property name="ProductCode">{982F766D-3A66-4765-B9F7-EBE493EFA9D8}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ide_c_common_libopt_vs2013_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">86370</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ide_c_common_libopt_vs2013_p_19.0.3.203/ide_c_common_libopt_vs2013_p_19.0.3.203_1041.mst</property>
+
+
+  <vs_integration>
+    <vs_2013 selected="1">NEED_VS2013_INTEGRATION</vs_2013>
+  </vs_integration>
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="dee0a2428890ece6623a8f3226e5d4494b599c74b559b5252f991b2440ea74f3" size="471040">cmp_and_libs/203/ide_c_common_libopt_vs2013_p_19.0.3.203/ide_c_common_libopt_vs2013_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="848594f4dacb92b58a1e3f81eef39595055cfd34361afc99453b636dff849c8c" size="36627">cmp_and_libs/203/ide_c_common_libopt_vs2013_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="f9bde6e6451ec94a88188c8ba419098c407fddc564bb9f2f538e7dd6cf6bf436" size="20480">cmp_and_libs/203/ide_c_common_libopt_vs2013_p_19.0.3.203/ide_c_common_libopt_vs2013_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

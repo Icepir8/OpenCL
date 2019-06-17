@@ -1,0 +1,18 @@
+<component type="msi" alias="STUDIO_SOCWATCH_TARGET_CMP">
+  <property name="ProductCode">{EFE92F73-6B79-485B-BD83-9B75CB886A8B}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_studio_socwatch_target_cmp_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">5118584</property>
+
+<property name="target_msi">energy_profiler_and_socwatch/socwatch_for_target/socwatch_windows_v2.9.0.msi</property>
+<property name="target_upgrade_code">{CAC75A40-19DD-11E9-BD32-D89EF331AAC0}</property>
+
+
+  <files>
+    <key chksum="" sha256="f3d4e130c6e0f96557a3040caa3ae1af5253f81e4d9c33c14121a69a783756e9" size="311296">issw/063/studio_socwatch_target_cmp_p_19.0.3.063/studio_socwatch_target_cmp_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="1cb229daf980b0c5f14987a67ed3e4a4b0e92d228d4b6b9a9cd529e699894c07" size="4100498">issw/063/studio_socwatch_target_cmp_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

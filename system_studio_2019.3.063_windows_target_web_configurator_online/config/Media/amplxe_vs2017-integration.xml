@@ -1,0 +1,23 @@
+<component type="msi" alias="amplxe_vs2017-integration">
+  <!-- <property name="UpgradeCode">{69EDC647-1189-40E5-A7B9-C80228546470}</property> -->
+  <property name="ProductCode">{A77C55A6-91C7-40BD-A5F5-390E8EFF6EFF}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Microsoft Visual Studio* 2017 software integration</property>
+  <property name="ProductVersion">19.3.0.590814</property>
+  <property name="size">29388</property>
+  <property name="Reinstall">1</property>
+  <property name="TCARVSProcessing">1</property>
+  <block_processes>
+    <custom>vs_2017</custom>
+  </block_processes>
+  <vs_pre_install>
+    <vsix name="ISM::Intel.SoftwareManager.vsix" guid="fe3b8c7e-13bd-41ac-becd-58880ab0c756" vs_version="2017"></vsix>
+    <vsix name="amplxe_vs2017-integration.vsix" guid="99242fb8-7586-4bd6-8ef7-5612dc633861" vs_version="2017"></vsix>
+  </vs_pre_install>
+  <files>
+    <key size="569344" chksum="" sha256="5d8d80e201666d629eb007487afe78006c48905eaec8266a99b8f73aba18b50b">amplxe/amplxe_vs2017-integration/amplxe_vs2017-integration.msi</key>
+  </files>
+  <vs_integration>
+    <vs_2017 selected="1" skip_restart="yes">NEED_VS2017_INTEGRATION</vs_2017>
+  </vs_integration>
+</component>

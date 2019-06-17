@@ -1,0 +1,27 @@
+<component type="msi" alias="IDE_COMMON_VS2017">
+  <property name="ProductCode">{6F15938E-F50D-45CC-852B-83C4F86E70F5}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ide_common_vs2017_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">1806620</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ide_common_vs2017_p_19.0.3.203/ide_common_vs2017_p_19.0.3.203_1041.mst</property>
+
+
+  <vs_integration>
+    <vs_2017 selected="1" skip_restart="yes">NEED_VS2017_INTEGRATION</vs_2017>
+  </vs_integration>
+
+  <block_processes>
+    <custom>vs_2017</custom>
+  </block_processes>
+
+  <vs_pre_install><vsix name="Intel.CommonToolsPkg.vsix" guid="323dd7b4-e732-4b4a-89af-7a3ae9ca5f8a" vs_version="2017"></vsix><vsix name="Intel.SoftwareManagerPkg.vsix" guid="fe3b8c7e-13bd-41ac-becd-58880ab0c756" vs_version="2017"></vsix></vs_pre_install>
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="09b8f01e106d2966ba5500076ae1568a381b9f16d61e525e0a4de6e9016d246e" size="581632">cmp_and_libs/203/ide_common_vs2017_p_19.0.3.203/ide_common_vs2017_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="44777213aa2e5dea3f0c10ce144adb9148933ada8bb6318261406b8a3664961e" size="903232">cmp_and_libs/203/ide_common_vs2017_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="51e1dcdd0fa72466d30196a8238a5684388e3e1061e84f478b8ab4dbed9b81e1" size="20480">cmp_and_libs/203/ide_common_vs2017_p_19.0.3.203/ide_common_vs2017_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

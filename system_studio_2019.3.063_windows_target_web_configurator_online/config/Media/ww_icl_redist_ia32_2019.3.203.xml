@@ -1,0 +1,16 @@
+<component type="msi" alias="WW_ICL_IA32_REDIST_PKG">
+  <property name="ProductCode">{4F1E65B1-4636-42A9-9A18-2CD1852285B3}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_icl_ia32_redist_pkg_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">0</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_icl_redist_ia32_2019.3.203/ww_icl_redist_ia32_2019.3.203_1041.mst</property>
+
+
+  <files>
+    <key chksum="" sha256="09beeea17dfdbb25706ce7f5b01206847290d3f0d83919dedabf1d088822e514" size="10309632">cmp_and_libs/203/ww_icl_redist_ia32_2019.3.203/ww_icl_redist_ia32_2019.3.203.msi</key>
+    <file chksum="" sha256="d3dafaa94225c4ae465174a57b4fdc1098502719413f5df75c2d73c9ccec1f9e" size="20480">cmp_and_libs/203/ww_icl_redist_ia32_2019.3.203/ww_icl_redist_ia32_2019.3.203_1041.mst</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,47 @@
+{
+    "eclipse_based_ide": [
+        "Eclipse* IDE"
+    ],
+    "intel_cpp_compiler": [
+        "C++ Compiler"
+    ],
+    "intel_math_kernel_library": [
+        "Math Kernel Library"
+    ],
+    "intel_integrated_performance_primitives": [
+        "Integrated Performance Primitives"
+    ],
+    "intel_threading_building_blocks": [
+        "Threading Building Blocks"
+    ],
+    "intel_data_analytics_acceleration_library": [
+        "Data Analytics Acceleration Library"
+    ],
+    "gnu_project_debugger_gdb": [
+        "GNU* GDB"
+    ],
+    "linux_iot_application_development_using_containerized_toolchains": [
+        "Docker"
+    ],
+    "intel_vtune_amplifier": [
+        "Amplifier"
+    ],
+    "intel_code_builder_for_opencl_api": [
+        "OpenCL"
+    ],
+    "intel_energy_profiler": [
+        "Energy Analysis"
+    ],
+    "intel_inspector": [
+        "Inspector"
+    ],
+    "intel_advisor": [
+        "Advisor"
+    ],
+    "yocto_project_application_and_platform_development": [
+        "Yocto"
+    ],
+    "intel_system_debugger": [
+        "System Debugger"
+    ]
+}

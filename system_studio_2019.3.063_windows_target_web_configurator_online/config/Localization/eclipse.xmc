@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='eclips' locale="1033">
+
+    <file name='eclipse_header_file'>..\templates\eclipse_header.rtf</file>
+    <file name='eclipse_header_file_x86'>..\templates\eclipse_header_x86.rtf</file>
+    <file name='eclipse_embedded_desc_file'>..\templates\eclipse_embedded_desc.rtf</file>
+    <file name='eclipse_user_eclipse_desc_file'>..\templates\eclipse_user_eclipse_desc.rtf</file>
+    <file name='eclipse_do_not_integrate_desc_file'>..\templates\eclipse_do_not_integrate_desc.rtf</file>
+    <file name='eclipse_info_file'>..\templates\eclipse_info.rtf</file>
+    <msg name='eclipse_path_msg'>Eclipse path:</msg>
+    <msg name='eclipse_header_message'></msg>
+
+    <!-- !!!!! same links are used for refernce on Release Notes on OpenSRC dlg-->
+    <msg name='installation_guide_link_media'>file://[EXELOCATION]config\1033\Release_Notes.pdf</msg>
+
+    <msg name='installation_guide_link_cache'>file://[PRODUCTLOCATION]\documentation_2019\en\iss2019\w-all-release-install.pdf</msg>
+
+    <msg name='java_required_for_eclipse_integration'>This machine is missing JRE* Software. You have to install [%s] JRE [%s] or higher from: {\field{*\fldinst HYPERLINK \o "http://java.com/en/download/manual.jsp"}{\fldrslt http://java.com/en/download/manual.jsp}} to perform integration with Eclipse* software.</msg>
+  </catalog>
+</xmc>

@@ -1,0 +1,16 @@
+<component type="msi" alias="advi_vs2013-integration">
+  <!-- <property name="UpgradeCode">{599411BD-1085-4FDA-8BE1-7542719114DB}</property> -->
+  <property name="ProductCode">{93423A7F-8DBB-406A-9C1B-FDDD6FEE3348}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Microsoft Visual Studio* 2013 software integration</property>
+  <property name="ProductVersion">19.3.0.591264</property>
+  <property name="size">35802</property>
+  <property name="Reinstall">1</property>
+  <property name="TCARVSProcessing">1</property>
+  <files>
+    <key size="1130496" chksum="" sha256="e98dc530e4a509762a4c660c66460911712f059fbe133687da6c84ef45c6a593">advi/advi_vs2013-integration/advi_vs2013-integration.msi</key>
+  </files>
+  <vs_integration>
+    <vs_2013 selected="1">NEED_VS2013_INTEGRATION</vs_2013>
+  </vs_integration>
+</component>

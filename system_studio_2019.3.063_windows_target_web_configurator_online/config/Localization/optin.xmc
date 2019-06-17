@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='optin' locale="1033">
+    <msg name="optin_subheader">Intel® Software Improvement Program (Windows)</msg>
+    <msg name="optin_title">Help improve your experience with Intel® software.</msg>
+    <msg name="optin_learn_more">Learn more</msg>
+    <msg name="optin_learn_more_about">about the Intel Software Improvement Program</msg>
+    <msg name="optin_with_your_perm">With your permission, Intel may automatically receive anonymous information about how you use your current and future Intel® Software Development Products.</msg>
+    <msg name="optin_yes">I [WpfHotKey]consent to the collection of my Information</msg>
+    <msg name="optin_no">I do [WpfHotKey]NOT consent to the collection of my Information</msg>
+    <file name="optin_template">..\templates\optin_template.rtf</file>
+  </catalog>
+</xmc>
+
+

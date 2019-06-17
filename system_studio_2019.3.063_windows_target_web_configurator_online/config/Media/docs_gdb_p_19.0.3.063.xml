@@ -1,0 +1,16 @@
+<component type="msi" alias="DOCS_GDB">
+  <property name="ProductCode">{4C3E96E3-7A2F-4B35-8F49-6845D5951060}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_docs_gdb_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">243574</property>
+
+
+
+  <files>
+    <key chksum="" sha256="9dc416a2c8886d4fba769b11eba5fd1c12718ff1b6673f2459fdffe44484aa2e" size="49152">issw/063/docs_gdb_p_19.0.3.063/docs_gdb_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="1c4dcf074f38a1126c974f4d5d4c08d8210a2fc524415b00736422c06d2a9393" size="220015">issw/063/docs_gdb_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

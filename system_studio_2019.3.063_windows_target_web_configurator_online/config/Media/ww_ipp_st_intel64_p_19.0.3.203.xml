@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_IPP_ST_INTEL64">
+  <property name="ProductCode">{91C165D4-357D-42CB-9F75-7083ECA9E453}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_ipp_st_intel64_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">701543546</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_ipp_st_intel64_p_19.0.3.203/ww_ipp_st_intel64_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="330aada5b7490f26d3e041db1ccda34053342d78d6651de3250e79ea1f73a7fb" size="937984">cmp_and_libs/203/ww_ipp_st_intel64_p_19.0.3.203/ww_ipp_st_intel64_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="de82d0ab74070bd72e5712a81a77a1e3e6335b48cec45ae8af0ae2eb448ebf6c" size="138018164">cmp_and_libs/203/ww_ipp_st_intel64_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="9c0333962bdd05ac5a80477e47db13e0ca2223fc0e5906c133164c5d44375471" size="20480">cmp_and_libs/203/ww_ipp_st_intel64_p_19.0.3.203/ww_ipp_st_intel64_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

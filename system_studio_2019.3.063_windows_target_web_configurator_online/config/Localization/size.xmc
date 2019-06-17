@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='size' locale="1033">
+    <msg name='bytes'>B</msg>
+    <msg name='kb'>KB</msg>
+    <msg name='mb'>MB</msg>
+    <msg name='gb'>GB</msg>
+    <msg name='tb'>TB</msg>
+
+    <msg name='sec'>sec</msg>
+    <msg name='min'>min</msg>
+    <msg name='hour'>hour</msg>
+    <msg name='day'>day</msg>
+    <msg name='month'>month</msg>
+    <msg name='year'>year</msg>
+  </catalog>
+</xmc>

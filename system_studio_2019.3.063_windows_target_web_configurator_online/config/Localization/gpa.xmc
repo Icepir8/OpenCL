@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='gpa' locale="1033">
+
+    <msg name='gpa_newer_installed_title'>A newer version of Intel(R) Graphics Performance Analyzers is already installed.</msg>
+    <msg name='gpa_newer_installed_description'>If you continue with the installation, the currently installed Intel(R) Graphics Performance Analyzers will be replaced with the version in the current package.</msg>
+    
+    <msg name='gpa_older_installed_title'>An older versions of Intel(R) Graphics Performance Analyzers is already installed.</msg>
+    <msg name='gpa_older_installed_description'>The currently installed Intel(R) Graphics Performance Analyzers will be automatically removed prior to installing the versions in the current package.</msg>
+
+    <msg name='cannot_install_gpa_no_dotnet40_title'>The Intel(R) Graphics Performance Analyzers can not be installed.</msg>
+    <msg name='cannot_install_gpa_no_dotnet40_description'>Installation can continue; however, Intel(R) Graphics Performance Analyzers will not be installed because it requires that Microsoft .NET Framework* 4.0 is installed.</msg>
+
+    <msg name='cannot_install_fa_on_32_title'>Important changes have been made since the last version of Intel(R) Graphics Performance Analyzers.</msg>
+    <msg name='cannot_install_fa_on_32_description'>For 32-bit systems only System Analyzer, Platform Analyzer, System Analyzer Heads-Up Display and Graphics Monitor are supported. A 64-bit system is required to run Graphics Frame Analyzer. For more information, please visit: {\field{*\fldinst HYPERLINK \o "http://software.intel.com/en-us/articles/intel-gpa-limited-support-for-windows-os-32-bit-platforms"}{\fldrslt http://software.intel.com/en-us/articles/intel-gpa-limited-support-for-windows-os-32-bit-platforms}}</msg>
+
+  </catalog>
+</xmc>

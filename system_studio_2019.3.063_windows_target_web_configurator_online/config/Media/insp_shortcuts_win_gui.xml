@@ -1,0 +1,11 @@
+<component type="msi" alias="insp_shortcuts_win_gui">
+  <property name="UpgradeCode">{05902AC6-97CF-4915-9C64-52B1E90C0829}</property>
+  <property name="ProductCode">{342F4C26-9B43-45C7-A4C6-9370C757361A}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel Inspector 2019 Update 3 Intel System Studio Shortcuts</property>
+  <property name="ProductVersion">19.3.0.590798</property>
+  <property name="size">0</property>
+  <files>
+    <key size="90112" chksum="" sha256="cbd80558296680e5e8a16bfd6cf4f13e989f84d1a29c4c583ea28379ce55628b">insp/insp_shortcuts_win_gui/insp_shortcuts_win_gui.msi</key>
+  </files>
+</component>

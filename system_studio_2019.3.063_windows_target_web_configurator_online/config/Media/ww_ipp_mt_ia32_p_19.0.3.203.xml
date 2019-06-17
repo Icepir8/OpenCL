@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_IPP_MT_IA32">
+  <property name="ProductCode">{1182A35A-7FCA-407A-BC8B-4931EFD514A1}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_ipp_mt_ia32_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">438416494</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_ipp_mt_ia32_p_19.0.3.203/ww_ipp_mt_ia32_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="092f67e94d1cb478854d50498b38a6ead8406b5bfd326e09e09930a7349df909" size="696320">cmp_and_libs/203/ww_ipp_mt_ia32_p_19.0.3.203/ww_ipp_mt_ia32_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="1db5748148f1e3fae6fe3bd54ca5c8378726110a0090d9988e3649135cd0735a" size="85519110">cmp_and_libs/203/ww_ipp_mt_ia32_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="a9ac3b98c67799ce6e533cdbba7704e1422e54567f8ca4eb5d01359b82e14cf8" size="20480">cmp_and_libs/203/ww_ipp_mt_ia32_p_19.0.3.203/ww_ipp_mt_ia32_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

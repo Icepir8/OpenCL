@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_TBB_CORE_INTEL64">
+  <property name="ProductCode">{EBFDA10E-A577-4B11-BDCD-0B4A258D61A6}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_tbb_core_intel64_name]</property>
+  <property name="ProductVersion">19.0.4.203</property>
+  <property name="size">187197384</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_tbb_core_intel64_p_19.0.4.203/ww_tbb_core_intel64_p_19.0.4.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="8439c0b77b39271344a57d0005810799a48ff004afa5f926a0cbdf9395eb9dd3" size="348160">cmp_and_libs/203/ww_tbb_core_intel64_p_19.0.4.203/ww_tbb_core_intel64_p_19.0.4.203.msi</key>
+    <file chksum="" sha256="ad198a723e816375d29ec8134c65f5757ab9d5ee24998d99248e7584ff25ba79" size="29680504">cmp_and_libs/203/ww_tbb_core_intel64_p_19.0.4.203/data1.cab</file>
+    <file chksum="" sha256="6105c55b93534f39ad8e0103211bb793be4cd0a560c8f8c3c394c3c7367a8624" size="20480">cmp_and_libs/203/ww_tbb_core_intel64_p_19.0.4.203/ww_tbb_core_intel64_p_19.0.4.203_1041.mst</file>
+
+
+  </files>
+</component>

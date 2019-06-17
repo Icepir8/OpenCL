@@ -1,0 +1,16 @@
+<component type="msi" alias="STUDIO_SL_AMPL_SOCWATCH">
+  <property name="ProductCode">{99CE84E2-E0EC-4BD2-84F4-EE31AD4791FC}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_studio_sl_ampl_socwatch_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="a51930b202d0318dc25db84d1dd342835629a6ace06661df93799b7f558641d8" size="249856">issw/063/studio_sl_ampl_socwatch_p_19.0.3.063/studio_sl_ampl_socwatch_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="a42bd8b84798b6e954caf225e97f5501c2e50eea2caa56bea32fcaf62772b958" size="9507">issw/063/studio_sl_ampl_socwatch_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

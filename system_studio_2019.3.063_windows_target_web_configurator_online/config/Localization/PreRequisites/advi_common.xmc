@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='PreRequisites' locale="1033">
+    <msg name='advi_newer_installed_title'>A newer version of Intel(R) Advisor 2019 is already installed.</msg>
+    <msg name='advi_newer_installed_description'>If you continue with the installation, Intel(R) Advisor 2019 will be replaced with Intel(R) Advisor 2019 Update 3.</msg>
+
+    <msg name='advi_older_installed_title'>An older version of Intel(R) Advisor 2019 is already installed.</msg>
+    <msg name='advi_older_installed_description'>The currently installed Intel(R) Advisor 2019 will be automatically removed prior to installing Intel(R) Advisor 2019 Update 3.</msg>
+
+    <msg name='advi_app_running_title'>Intel(R) Advisor 2019 application is currently running.</msg>
+    <msg name='advi_app_running_description'>Installation cannot continue while the following applications are running:  \par\pard\par\pard [%s]  \par\pard\par\pard \b Suggestion: \b0 Please stop the applications above and click Retry below to continue this installation.</msg>
+    <msg name='advi_app_running_description_silent'>Installation cannot continue while the following applications are running:  \par\pard\par\pard \b Suggestion: \b0 Please stop the applications above and click Retry below to continue this installation.</msg>
+
+    <msg name='advi_older_integrated_into_vs_title'>Another version of Intel(R) Advisor is integrated with Microsoft Visual Studio.</msg>
+    <msg name='advi_older_integrated_into_vs_description'>If you proceed with full installation or enable integration with Microsoft Visual Studio during a custom install, Intel(R) Advisor 2019 Update 3 will be integrated. Refer to the Intel Parallel Studio XE Knowledge Base for instructions on how to change the version that is integrated into Microsoft Visual Studio. \par\pard\par\pard {\field{*\fldinst HYPERLINK \o "http://software.intel.com/en-us/articles/how-to-change-the-parallel-studio-xe-version-integrated-into-visual-studio"}{\fldrslt http://software.intel.com/en-us/articles/how-to-change-the-parallel-studio-xe-version-integrated-into-visual-studio}}</msg>
+    <msg name='advi_older_integrated_into_vs_description_silent'>If you proceed with full installation or enable integration with Microsoft Visual Studio software during a custom install, Intel(R) Advisor 2019 Update 3 will be integrated. Refer to the Intel Parallel Studio XE Knowledge Base for instructions on how to change the version that is integrated into Microsoft Visual Studio. {\field{*\fldinst HYPERLINK \o "http://software.intel.com/en-us/articles/how-to-change-the-parallel-studio-xe-version-integrated-into-visual-studio"}{\fldrslt http://software.intel.com/en-us/articles/how-to-change-the-parallel-studio-xe-version-integrated-into-visual-studio}}</msg>
+    <msg name='advi_older_integrated_into_vs_description_tcar_custom'>If you proceed with full installation or enable integration with Microsoft Visual Studio during a custom install, Intel(R) Advisor 2019 Update 3 will be integrated.</msg>
+    <msg name='advi_older_integrated_into_vs_description_silent_tcar_custom'>If you proceed with full installation or enable integration with Microsoft Visual Studio software during a custom install, Intel(R) Advisor 2019 Update 3 will be integrated.</msg>
+  </catalog>
+</xmc>

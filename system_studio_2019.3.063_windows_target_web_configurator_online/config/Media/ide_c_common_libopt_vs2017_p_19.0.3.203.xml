@@ -1,0 +1,27 @@
+<component type="msi" alias="IDE_C_COMMON_LIBOPT_VS2017">
+  <property name="ProductCode">{D58741C4-E9B8-4E51-9B79-13B10676C726}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ide_c_common_libopt_vs2017_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">45480</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ide_c_common_libopt_vs2017_p_19.0.3.203/ide_c_common_libopt_vs2017_p_19.0.3.203_1041.mst</property>
+
+
+  <vs_integration>
+    <vs_2017 selected="1" skip_restart="yes">NEED_VS2017_INTEGRATION</vs_2017>
+  </vs_integration>
+
+  <block_processes>
+    <custom>vs_2017</custom>
+  </block_processes>
+
+  <vs_pre_install><vsix name="PerfLibsPkgs.vsix" guid="fa0bfccd-9d84-48c3-99f4-3b3b26c2f91a" vs_version="2017"></vsix></vs_pre_install>
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="0b2390c027afd87e2337190688e89f6c24b7bef6bdc4b4836dcbee3586024c22" size="573440">cmp_and_libs/203/ide_c_common_libopt_vs2017_p_19.0.3.203/ide_c_common_libopt_vs2017_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="1b0b200a53239fd5e39bb88c76c69c52a8918e4c681064d24f3d4b6bf21503c8" size="53535">cmp_and_libs/203/ide_c_common_libopt_vs2017_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="ec9d276bdaab9eb53b5aa777034acf29e539d0d27295fcc2b041486585643a2f" size="20480">cmp_and_libs/203/ide_c_common_libopt_vs2017_p_19.0.3.203/ide_c_common_libopt_vs2017_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

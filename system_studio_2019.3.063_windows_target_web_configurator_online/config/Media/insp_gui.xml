@@ -1,0 +1,14 @@
+<component type="msi" alias="insp_gui">
+  <property name="UpgradeCode">{50601ADB-8D36-489D-9BAB-02052D3D439E}</property>
+  <property name="ProductCode">{3ABFCCE4-9BB1-488F-B728-336973629BE2}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel Inspector 2019 Update 3 Graphical user interface</property>
+  <property name="ProductVersion">19.3.0.590798</property>
+  <property name="size">114760378</property>
+  <files>
+    <key size="114688" chksum="" sha256="eec9fb7265735251b6ebb5d62b2f4fc3cfa78fb43a5a47dbcb99161a5bed3eda">insp/insp_gui/insp_gui.msi</key>
+    <file size="32563817" chksum="" sha256="37148b5c6ab2bd61c745c959c1d1c65547c53c85ebb16cf0b94b5b4d62eb3ecc">insp/insp_gui/data1.cab</file>
+  </files>
+  <vs_integration>
+  </vs_integration>
+</component>

@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_TBB_LIC">
+  <property name="ProductCode">{00ED74F0-B617-4608-85DD-555DE69C726C}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_tbb_lic_name]</property>
+  <property name="ProductVersion">19.0.4.203</property>
+  <property name="size">48762</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_tbb_lic_p_19.0.4.203/ww_tbb_lic_p_19.0.4.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="423af68b3f0829d3b189ff5676c8a7f03c15b5f690d18194ddbb9001195a1189" size="311296">cmp_and_libs/203/ww_tbb_lic_p_19.0.4.203/ww_tbb_lic_p_19.0.4.203.msi</key>
+    <file chksum="" sha256="d370081240e9d2aab91db88702049bf9748608efd1317d9f3cd0e6f87d0c2c83" size="20931">cmp_and_libs/203/ww_tbb_lic_p_19.0.4.203/data1.cab</file>
+    <file chksum="" sha256="3bf6426c9776929980b53df62b7c762810a31b0252ce5225e146c38d40c4124c" size="20480">cmp_and_libs/203/ww_tbb_lic_p_19.0.4.203/ww_tbb_lic_p_19.0.4.203_1041.mst</file>
+
+
+  </files>
+</component>

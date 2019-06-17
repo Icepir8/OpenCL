@@ -1,0 +1,962 @@
+<product
+    name="[w_cembdw_19_0_3_063_product_name]"
+    title="[w_cembdw_19_0_3_063_product_name_ru]"
+    family_name = "[w_cembdw_19_0_3_063_family_name]"
+    installdir_base="[$ProgramFiles]\IntelSWTools"
+    inherit_settings_from_group="system_studio_wt_2019_settings"
+    add_to_groups="system_studio_wt_2019_settings"
+
+    disallow_64bit_programfiles="true"
+    disable_optin_dlg="false"
+    offline_checkers="size"
+    internet_check_URL="https://registrationcenter.intel.com"
+    finish_link="https://signin.intel.com/"
+    show_activation_notice="true"
+    url="http://registrationcenter-download.intel.com/regcenter/getonlinepackagerooturl.aspx?id=w_cembdw_web_conf_p_2019.3.063&amp;file=installs/[%s]"
+
+    image="iss_wt_web_conf"
+    no_license_check="true"
+
+    billboards="[ConfigDir]/1033/BillBoards"
+    billboards_url="http://intel.ly/system-studio"
+
+    allow_activation_in_modify="false"
+    welcome_page="[INSTALLDIR]/documentation_2019/en/system_studio_2019/getting_started_iss_build.htm"
+
+    order="10"
+
+    expanded="true"
+    description="[image_info] [w_cembdw_19_0_3_063_product_name_full]"
+    required="false"
+    version="2019.0.3.063"
+    arp_name="[Intel System Studio 2019 Update 3 for Windows*]"
+    id="w_cembdw_web_conf_p_2019_0_3_063">
+  <arp>
+    <Publisher>Intel Corporation</Publisher>
+    <HelpLink>http://www.intel.com/software</HelpLink>
+    <URLInfoAbout>http://www.intel.com</URLInfoAbout>
+    <URLUpdateInfo>https://registrationcenter.intel.com</URLUpdateInfo>
+  </arp>
+
+  <attach>
+  </attach>
+
+  <common_location lock_install_dir="true">{4088E7E3-81B0-4EAD-845B-59D9F29E745C}</common_location>
+  <common_location lock_install_dir="true">{E369127F-0F54-4212-AFD6-DC397EFA8BA0}</common_location>
+
+  <activation>
+    <asr_file>[ConfigDir]/activation/asr.xml</asr_file>
+    <media_id>X6N</media_id>
+    <fulfillment_id>FID-1477357429</fulfillment_id>
+    <registration_center_url>https://ircws.intel.com/wsregcentertools/wsregcenter.asmx</registration_center_url>
+    <unused_flex_code_names></unused_flex_code_names>
+    <support_code>BETA</support_code>
+    <product_id>3184</product_id>
+    <feature_name>Comp-CW &amp; Comp-PointerChecker &amp; DbgJTAGW &amp; PerfAnlSys &amp; (ThreadAnlGui | ThreadAnlGuiSys) &amp; AdvXEw</feature_name>
+    <chklic>[ConfigDir]/activation/fli/chklic.exe</chklic>
+    <map_file_dir>[ConfigDir]/activation</map_file_dir>
+    <builddate>2019.3.5</builddate>
+    <offline_eval_url>https://registrationcenter.intel.com/en/forms/?productid=3184</offline_eval_url>
+  </activation>
+
+  <upgrade type="product_id" same_dir="false" name="Beta ultimate autouninstall">w_cembdw_b_2019_0_0_014</upgrade>
+  <upgrade type="product_id" same_dir="false" name="Beta professional autouninstall">w_cembdw_prof_b_2019_0_0_014</upgrade>
+  <upgrade type="product_id" same_dir="false" name="Beta composer autouninstall">w_cembdw_comp_b_2019_0_0_014</upgrade>
+
+     <feature name="Command-line interface" id="advi_cli" required="true" priority="10" order="10" parent="advi_toplevel" description="[image_info] Command-line interface">
+      <component alias="advi_cli_install"/>
+   </feature>
+   <feature name="Flow Graph Analyzer" id="advi_fga" required="false" priority="25" order="25" parent="advi_toplevel" description="[image_info] Flow Graph Analyzer">
+      <component alias="advi_fga"/>
+   </feature>
+   <feature name="Graphical user interface" id="advi_gui" required="false" priority="20" order="20" parent="advi_toplevel" description="[image_info] Graphical user interface">
+      <component alias="advi_gui"/>
+   </feature>
+   <feature name="Intel System Studio Windows Target" id="advi_iss_win_target" visible="false" required="false" priority="60" order="60" parent="advi_toplevel" description="[image_info] Intel System Studio Windows Target">
+      <component alias="advi_shortcuts_iss_win"/>
+      <component alias="advi_shortcuts_iss_win_fga"/>
+      <component alias="advi_shortcuts_iss_win_gui"/>
+   </feature>
+   <feature order="70"  priority="2070"    name="Intel Advisor 2019 Update 3" id="advi_toplevel"  required="false"   description="[image_info] Intel(R) Advisor 2019 Update 3" installdir_own="Advisor 2019" version="19.3.0.591264">
+      <common_location lock_install_dir="true">{62B6DB33-5A31-4B80-80DD-5ACA4531B615}</common_location>
+<!-- 1) Mandatory upgrade for one major version updates. Should be replaced with p3 if OptionalRemoval feature will be approved.-->
+      <upgrade type="msi_component_code" same_dir="false" name="Intel(R) Advisor 2019 Update 3">{B69DB00D-4B24-4F40-9EEE-71BC8CD39B20}</upgrade>
+      
+<!-- 2) OptionalRemoval feature should be disabled for Beta and enabled for GOLD releases.-->
+      <upgrade type="msi_component_code" same_dir="false" optional="true" name="Intel(R) Advisor 2018 for Windows*">{2BCA971E-5828-4b6e-B800-F75FDFAD3193}</upgrade>
+      
+<!-- 3) OptionalRemoval feature between updates - not approved yet.
+      <upgrade type="msi_component_code" same_dir="false" optional="true" name="Intel(R) Advisor 2019 Update 3">{B69DB00D-4B24-4F40-9EEE-71BC8CD39B20}</upgrade>
+-->
+
+
+      <activation>
+         <feature_name>Comp-CW &amp; Comp-PointerChecker &amp; PerfAnlSys &amp; (ThreadAnlGui | ThreadAnlGuiSys) &amp; AdvXEw</feature_name>
+      </activation>
+   </feature>
+   <feature name="Microsoft Visual Studio* software" id="advi_vs" visible="false" required="false" priority="30" order="30" parent="advi_toplevel" description="[image_info] Integration into Microsoft* Visual Studio* software">
+      <component alias="advi_vs2013-integration"/>
+      <component alias="advi_vs2015-integration"/>
+      <component alias="advi_vs2017-integration"/>
+   </feature>
+   <feature name="Command-line interface" id="amplxe_cli" required="true" priority="10" order="10" parent="amplxe_toplevel" description="[image_info] Command-line interface">
+      <component alias="amplxe_cli_install"/>
+   </feature>
+   <feature name="Graphical user interface" id="amplxe_gui" required="false" priority="20" order="20" parent="amplxe_toplevel" description="[image_info] Graphical user interface">
+      <component alias="amplxe_gui"/>
+   </feature>
+   <feature name="Event-based sampling driver" id="amplxe_sep"  required="false" priority="25" order="25" parent="amplxe_toplevel" description="[image_info] Event-based sampling driver">
+      <component alias="amplxe_sep"/>
+   </feature>
+   <feature name="Intel Amplifier standalone" id="amplxe_standalone" visible="false" required="false" priority="50" order="50" parent="amplxe_toplevel" description="[image_info] Intel Amplifier standalone">
+      <component alias="amplxe_target"/>
+   </feature>
+   <feature order="30"  priority="2030"    name="Intel VTune Amplifier 2019 Update 3" id="amplxe_toplevel"  required="false"   description="[image_info] Intel(R) VTune(TM) Amplifier 2019 Update 3" installdir_own="VTune Amplifier 2019" version="19.3.0.590814">
+      <common_location lock_install_dir="true">{920F128A-40C5-40BC-9F1D-50439E408F64}</common_location>
+      <upgrade type="msi_component_code" same_dir="false" name="Intel(R) VTune(TM) Amplifier 2019 Update 3">{3198D525-5300-4E5A-BBA1-9262A27FD723}</upgrade>
+<!-- 1) OptionalRemoval feature should be disabled for Beta and enabled for GOLD releases.
+     2) OptionalRemoval dialog should be shown if Amplifier 2017 for Systems detected or Amplifier XE 2017 detected, due to Amplifier 2018 is merged version of both of them; later major releases will contain one optional removal upgrade tag only (for one previous version of the product).
+ -->    
+      <upgrade type="msi_component_code" same_dir="false" optional="true" name="Intel(R) VTune(TM) Amplifier 2018 for Windows*">{8644727F-20FC-4B37-94E7-ECB97F78D72D}</upgrade>
+
+
+   </feature>
+   <feature name="Platform Profiler" id="amplxe_vpp" required="false" visible="true" priority="20" order="20" parent="amplxe_toplevel" description="[image_info] Platform Profiler">
+      <component alias="vpp_server"/>
+   </feature>
+   <feature name="Microsoft Visual Studio* software" id="amplxe_vs" visible="false" required="false" priority="30" order="30" parent="amplxe_toplevel" description="[image_info] Integration into Microsoft* Visual Studio* software">
+      <component alias="amplxe_vs2013-integration"/>
+      <component alias="amplxe_vs2015-integration"/>
+      <component alias="amplxe_vs2017-integration"/>
+   </feature>
+   <feature name="Intel System Studio Windows Target" id="amplxe_windows_target" visible="false" required="false" priority="50" order="50" parent="amplxe_toplevel" description="[image_info] Intel System Studio Windows Target">
+      <component alias="amplxe_shortcuts_win"/>
+      <component alias="amplxe_shortcuts_win_gui"/>
+   </feature>
+   <feature name="[w_cembdw_19_0_3_063_axlr_feature_name]" id="axlr"       visible="false"  required="false" priority="10" order="10"  description="[w_cembdw_19_0_3_063_axlr_feature_dscr]">
+      <component alias="STUDIO_DOCS"/>
+      <component alias="STUDIO_DOCS_PROF"/>
+      <component alias="DOCS_GDB"/>
+      <component alias="STUDIO_COMMON"/>
+      <component alias="STUDIO_COMMON_PROF"/>
+      <component alias="STUDIO_COMMON_ULT"/>
+      <component alias="STUDIO_COMMON_COMP"/>
+      <component alias="eclipse"/>
+      <component alias="COMMON_ECLIPSE_IDE"/>
+      <component alias="SYS_DBG_ECLIPSE_IDE"/>
+      <component alias="CERT_COMODO"/>
+      <component alias="CERT_INTEL"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_cmp_lib_feature_name]" id="cmp_lib"    hidden="true"  required="false" priority="20" order="20"  description="[w_comp_lib_19_0_3_203_cmp_lib_feature_dscr]">
+      <common_location lock_install_dir="true">{F350D9A4-483A-4A7E-B190-8174EDBF6485}</common_location>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_cmp_lib_axlr_feature_name]" id="cmp_lib_axlr"   visible="false"   required="false" priority="10" order="10" parent = "cmp_lib" description="[w_comp_lib_19_0_3_203_cmp_lib_axlr_feature_dscr]">
+      <component alias="CMP_LIB_COMMON"/>
+      <component alias="WW_TBB_LIBS_IA32"/>
+      <component alias="WW_TBB_LIBS_INTEL64"/>
+      <component alias="WW_TBB_LIBS_STANDALONE_IA32"/>
+      <component alias="WW_TBB_LIBS_STANDALONE_INTEL64"/>
+      <component alias="WW_TBB_LIBS_STUDIO_IA32"/>
+      <component alias="WW_TBB_LIBS_STUDIO_INTEL64"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_cmp_lib_doc_feature_name]" id="cmp_lib_doc"   visible="false"   required="false" priority="20" order="20" parent = "cmp_lib" description="[w_comp_lib_19_0_3_203_cmp_lib_doc_feature_dscr]">
+      <component alias="WW_TBB_DOC"/>
+      <component alias="WW_IPP_DOC"/>
+      <component alias="WW_MKL_DOC"/>
+      <component alias="WW_MKL_DOC_ISS"/>
+      <component alias="WW_DAAL_LIC"/>
+      <component alias="WW_DAAL_DOC_ISS"/>
+      <component alias="WW_DAAL_DOC_COMMON"/>
+      <component alias="WW_TBB_LIC"/>
+      <component alias="CMP_ICL_SHORTCUTS_DOCS"/>
+      <component alias="CMP_ICL_SAMPLES"/>
+      <component alias="CMP_ICL_GET_STARTED_DOCS"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_daal_feature_name]" id="daal"      required="false" priority="125" order="125" parent = "cmp_lib" description="[w_comp_lib_19_0_3_203_daal_feature_dscr]">
+      <component alias="WW_DAAL_CORE_COMMON"/>
+      <component alias="WW_DAAL_COMMON_C"/>
+      <component alias="DAAL_SHORTCUTS"/>
+   </feature>
+<feature priority="100" installdir_own="./debugger" name="[gt_debugger]" id="debugger" expanded="true" order="100" description="[image_info] Contains components for the host machine (machine used for debugging the compute shaders)." parent="opencl_toplevel">
+   </feature>
+<feature description="" parent="host" order="10" priority="10" visible="false" allow_fail="true" id="gt_vs15" name="VS2017 support for GT Debugger">
+      <component alias="Intel.IntelGfxDebug_vs15"/>
+      <component alias="Intel.MIDebugPackage_vs15"/>
+   </feature>
+<feature required="true" description="[image_info] Contains components for the host machine (machine used for debugging the compute shaders)." parent="debugger" expanded="true" order="10" priority="10" visible="false" id="host" name="Host components">
+<ask_for_reboot trigger="action == 'install'"/>
+      <component alias="gt_host"/>
+      <component alias="cptrg"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ide_feature_name]" id="ide"   visible="false"   required="false" priority="140" order="140" parent = "cmp_lib" description="[w_comp_lib_19_0_3_203_ide_feature_dscr]">
+
+      <disabled_descriptions>
+         <description type="dependency">[w_comp_lib_19_0_3_203_ide_feature_dependency_dscr]</description>
+         <description type="prerequisite">[w_comp_lib_19_0_3_203_ide_feature_prerequisite_dscr]</description>
+      </disabled_descriptions>
+      <component alias="IDE_UTILITIES_VS2013"/>
+      <component alias="IDE_UTILITIES_VS2015"/>
+      <component alias="IDE_UTILITIES_VS2017"/>
+      <component alias="IDE_COMMON_VS2013"/>
+      <component alias="IDE_COMMON_VS2015"/>
+      <component alias="IDE_COMMON_VS2017"/>
+      <component alias="IDE_C_UNIQUE_VS2013"/>
+      <component alias="IDE_C_UNIQUE_VS2015"/>
+      <component alias="IDE_C_UNIQUE_VS2017"/>
+      <component alias="IDE_C_COMMON_VS2013"/>
+      <component alias="IDE_C_COMMON_VS2015"/>
+      <component alias="IDE_C_COMMON_VS2017"/>
+      <component alias="IDE_C_COMMON_ISS_VS2013"/>
+      <component alias="IDE_C_COMMON_ISS_VS2015"/>
+      <component alias="IDE_C_COMMON_ISS_VS2017"/>
+      <component alias="IDE_C_COMMON_LIBOPT_VS2013"/>
+      <component alias="IDE_C_COMMON_LIBOPT_VS2015"/>
+      <component alias="IDE_C_COMMON_LIBOPT_VS2017"/>
+      <component alias="IDE_REGISTRY"/>
+   </feature>
+   <feature name="Command-line interface" id="insp_cli" required="true" priority="10" order="10" parent="insp_toplevel" description="[image_info] Command-line interface">
+      <component alias="insp_cli_install"/>
+   </feature>
+   <feature name="Graphical user interface" id="insp_gui" required="false" priority="20" order="20" parent="insp_toplevel" description="[image_info] Graphical user interface">
+      <component alias="insp_gui"/>
+   </feature>
+   <feature order="40"  priority="2040"    name="Intel Inspector 2019 Update 3" id="insp_toplevel"  required="false"   description="[image_info] Intel(R) Inspector 2019 Update 3" installdir_own="Inspector 2019" version="19.3.0.590798">
+      <common_location lock_install_dir="true">{2B696022-9942-4163-9BC8-E527C73B7D26}</common_location>
+      <upgrade type="msi_component_code" same_dir="false" name="Intel(R) Inspector 2019 Update 3">{182A61B3-5A6D-40D6-848D-97154884725F}</upgrade>
+<!-- 1) OptionalRemoval feature should be disabled for Beta and enabled for GOLD releases. -->
+      <upgrade type="msi_component_code" same_dir="false" optional="true" name="Intel(R) Inspector 2018 for Windows*">{3B7461E3-1287-47E9-9F79-21FFFA609AE7}</upgrade>
+
+
+
+      <activation>
+         <feature_name>Comp-CW &amp; Comp-PointerChecker &amp; PerfAnlSys &amp; (ThreadAnlGui | ThreadAnlGuiSys) &amp; AdvXEw</feature_name>
+      </activation>
+   </feature>
+   <feature name="Microsoft Visual Studio* software" id="insp_vs" visible="false" required="false" priority="30" order="30" parent="insp_toplevel" description="[image_info] Integration into Microsoft* Visual Studio* software">
+      <component alias="insp_vs2013-integration"/>
+      <component alias="insp_vs2015-integration"/>
+      <component alias="insp_vs2017-integration"/>
+   </feature>
+   <feature name="Intel System Studio Windows Target" id="insp_windows_target" visible="false" required="false" priority="60" order="60" parent="insp_toplevel" description="[image_info] Intel System Studio Windows Target">
+      <component alias="insp_shortcuts_win"/>
+      <component alias="insp_shortcuts_win_gui"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ipp_feature_name]" id="ipp"      required="false" priority="90" order="90" parent = "cmp_lib" description="[w_comp_lib_19_0_3_203_ipp_feature_dscr]">
+      <component alias="WW_IPP_CORE_COMMON"/>
+      <component alias="WW_IPP_EXAMP_SYML_PS_ISS"/>
+      <component alias="WW_IPP_CORE_IA32"/>
+      <component alias="WW_IPP_CORE_INTEL64"/>
+      <component alias="WW_IPP_ST_COMMON"/>
+      <component alias="WW_IPP_ST_COMMON_ISS"/>
+      <component alias="WW_IPP_ST_IA32_ISS"/>
+      <component alias="WW_IPP_ST_INTEL64_ISS"/>
+      <component alias="WW_IPP_MT_IA32_ISS"/>
+      <component alias="WW_IPP_MT_INTEL64_ISS"/>
+      <component alias="IPP_SHORTCUTS"/>
+   </feature>
+   <feature name="[w_cembdw_19_0_3_063_ism_cmp_feature_name]" id="ism_cmp"       visible="false"  required="false" priority="10" order="9000"  description="[w_cembdw_19_0_3_063_ism_cmp_feature_dscr]">
+      <component alias="ism"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_mkl_feature_name]" id="mkl"      required="false" priority="80" order="80" parent = "cmp_lib" description="[w_comp_lib_19_0_3_203_mkl_feature_dscr]">
+      <component alias="WW_MKL_CORE_COMMON"/>
+      <component alias="WW_MKL_CORE_COMMON_PS_ISS"/>
+      <component alias="WW_MKL_CORE_IA32"/>
+      <component alias="WW_MKL_CORE_INTEL64"/>
+      <component alias="WW_MKL_C_CORE_PS"/>
+      <component alias="MKL_SHORTCUTS"/>
+   </feature>
+<feature priority="95" name="Intel® CPU Runtime for OpenCL™ Applications 18.1" description="[image_info]" expanded="true" order="9" id="opencl_cpu_runtime_ftr" parent="opencl_toplevel">
+<disabled_descriptions>
+<description type="prerequisite">[gfx_installed_warning_tsd]</description>
+		
+</disabled_descriptions>
+      <component alias="opencl_cpu_runtime_cmp"/>
+   </feature>
+<feature name="OpenCL™ Tools 2019 Update 3" id="opencl_toplevel" installdir_own="OpenCL" description="OpenCL™ Tools 2019 Update 3" priority="50" order="50" >
+   </feature>
+<feature required="true" description="[image_info] Contains OpenCL C header files and libraries, and the Code Builder development platform." name="[code_builder]" expanded="true" id="sdk" priority="50" order="50" installdir_own="./sdk" parent="opencl_toplevel">
+<ask_for_reboot trigger="action == 'install'"/>
+      <component alias="F_OpenCL_PCB"/>
+      <component alias="F_OpenCL_Runtime_AVX"/>
+      <component alias="F_VCRedist2015_x86"/>
+      <component alias="F_VCRedist2015_x64"/>
+      <component alias="F_OpenCL_Runtime_CMRT"/>
+   </feature>
+   <feature name="[w_cembdw_19_0_3_063_sl_feature_name]" id="sl"       visible="false"  required="false" priority="2100" order="9200"  description="[w_cembdw_19_0_3_063_sl_feature_dscr]">
+      <component alias="STUDIO_SL_COMMON"/>
+      <component alias="STUDIO_SL_DEBUGGER"/>
+      <component alias="STUDIO_SL_CMP_LIB"/>
+      <component alias="STUDIO_SL_AMPL"/>
+      <component alias="STUDIO_SL_AMPL_SOCWATCH"/>
+      <component alias="STUDIO_SL_INSP"/>
+      <component alias="STUDIO_SL_SYSTEM_DEBUGGER"/>
+      <component alias="STUDIO_SL_ADVI"/>
+   </feature>
+   <feature name="[w_cembdw_19_0_3_063_studio_energy_analysis_ftr_name]" id="studio_energy_analysis_ftr"         required="false" priority="142" order="142"  description="[w_cembdw_19_0_3_063_studio_energy_analysis_ftr_dscr]">
+   </feature>
+   <feature name="[w_cembdw_19_0_3_063_studio_socwatch_target_ftr_name]" id="studio_socwatch_target_ftr"  arch="intel64"       required="false" priority="143" order="143" parent = "studio_energy_analysis_ftr" description="[w_cembdw_19_0_3_063_studio_socwatch_target_ftr_dscr]">
+      <component alias="STUDIO_SOCWATCH_TARGET_CMP"/>
+   </feature>
+   <feature order="350"  priority="2050"    name="Intel System Debugger 2019" id="sys_dbg"      required="false"    description=" Intel System Debugger 2019 containing notification module xdbntf.ko">
+
+      <disabled_descriptions>
+         <description type="prerequisite"> [cannot_install_sys_dbg_no_dotnet35sp1_description]</description>
+         <description type="permanent"> [cannot_install_sys_dbg_no_dotnet40_and_dotnet35_description]</description>
+         <description type="default"> [KB2999226_is_not_installed_description]</description>
+         <description type="activation"> [cannot_install_sys_dbg_no_dotnet40_description]</description>
+      </disabled_descriptions>
+
+      <activation>
+         <feature_name>Comp-CW &amp; Comp-PointerChecker &amp; DbgJTAGW &amp; PerfAnlSys &amp; (ThreadAnlGui | ThreadAnlGuiSys) &amp; AdvXEw</feature_name>
+      </activation>
+      <component alias="sys_dbg_ia32"/>
+      <component alias="sys_dbg_shortcuts_win"/>
+      <component alias="sys_dbg_doc"/>
+      <component alias="sys_trc_ia32"/>
+      <component alias="sys_trc_doc"/>
+      <component alias="sys_dbg_sl"/>
+      <component alias="xdp_drvr_intel64"/>
+      <component alias="sys_dbg_tca"/>
+   </feature>
+   <feature name="Python* and Intel(R) DCI driver" id="sys_dbg_axlr_ftr"   visible="false"  disable_action_by="components.sys_dbg_ia32" required="false" priority="100" order="100"  description=" Python* and Intel(R) DCI driver">
+      <component alias="py_main_x64"/>
+      <component alias="py_dot_net_ia32"/>
+      <component alias="py_readline_ia32"/>
+      <component alias="sys_dbg_dal"/>
+      <component alias="OpenIPC"/>
+      <component alias="redists"/>
+   </feature>
+   <feature name="Java Runtime Environment" id="sys_dbg_jre_ftr"   visible="false"   required="false" priority="330" order="330"  description=" Java Runtime Environment">
+      <component alias="sys_dbg_jre"/>
+   </feature>
+<feature priority="30" description="[image_info] Contains components for the target machine (machine used for running the host applications)." parent="debugger" name="Debugger target support" expanded="true" id="target" order="30">
+      <component alias="gt_target"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_tbb_feature_name]" id="tbb"      required="false" priority="110" order="110" parent = "cmp_lib" description="[w_comp_lib_19_0_3_203_tbb_feature_dscr]">
+      <component alias="WW_TBB_CORE_COMMON"/>
+      <component alias="WW_PSTL_CORE"/>
+      <component alias="WW_PSTL_DOC"/>
+      <component alias="TBB_SHORTCUTS"/>
+   </feature>
+<feature priority="40" description="[image_info] [code_builder] add-ins will be integrated into the local version of the Microsoft Visual Studio* 2015 software." parent="sdk" name="Microsoft Visual Studio* 2015 Addins" id="vs14" order="40" visible="false" >
+      <component alias="F_VS14"/>
+   </feature>
+<feature priority="50" description="[image_info] [code_builder] add-ins will be integrated into the local version of the Microsoft Visual Studio* 2017 software." parent="sdk" name="Microsoft Visual Studio* 2017 Addins" allow_fail="true" id="vs15" order="15" visible="false" >
+      <component alias="apidebugger_vs15"/>
+      <component alias="AnalyzePackage_vs15"/>
+      <component alias="CodeBuilderSessionManager_vs15"/>
+      <component alias="CodeBuilderTopMenu_vs15"/>
+      <component alias="icldbgeng_vs15"/>
+      <component alias="IntelOCLSupport_vs15"/>
+      <component alias="EmptyOpenCLProjectforWindowsTemplateVSIX_vs15"/>
+      <component alias="CPUOpenCLProjectforWindowsTemplateVSIX_vs15"/>
+      <component alias="GPUOpenCLProjectforWindowsTemplateVSIX_vs15"/>
+   </feature>
+   <feature name="Intel(R) Debug Extensions for WinDbg* 2019" id="win_dbg_main"      required="false" priority="160" order="160" parent = "sys_dbg" description=" Intel(R) Debug Extensions for WinDbg* 2019">
+
+      <disabled_descriptions>
+         <description type="dependency"> Intel(R) Debug Extensions for WinDbg* 2019 cannot be installed because of a conflict with the existing Python version on the system</description>
+         <description type="prerequisite"> Intel(R) Debug Extensions for WinDbg* 2019 cannot be installed without Intel(R) System Debugger 2019</description>
+         <description type="permanent"> Intel(R) Debug Extensions for WinDbg* 2019 cannot be installed without Intel(R) System Debugger 2019</description>
+         <description type="default"> Intel(R) Debug Extensions for WinDbg* 2019 cannot be installed without Intel(R) System Debugger 2019</description>
+         <description type="activation"> Intel(R) Debug Extensions for WinDbg* 2019 cannot be installed without Intel(R) System Debugger 2019</description>
+      </disabled_descriptions>
+      <component alias="win_dbg_doc"/>
+      <component alias="win_dbg"/>
+      <component alias="win_dbg_shortcuts"/>
+   </feature>
+   <feature name="Intel(R) Debug Extensions for WinDbg* Theme" id="win_dbg_reg"      required="false" priority="180" order="180" parent = "win_dbg_main" description=" Intel(R) Debug Extensions for WinDbg* Theme will be installed as default">
+
+      <disabled_descriptions>
+         <description type="dependency"> Intel(R) Debug Extensions for WinDbg* Theme cannot be installed because of a conflict with the existing Python version on the system</description>
+         <description type="prerequisite"> Intel(R) Debug Extensions for WinDbg* Theme cannot be installed, since this component requires Intel(R) Debug Extensions for WinDbg* 2019 and Microsoft Debugging Tools for Windows* (WinDbg*)</description>
+         <description type="permanent"> Intel(R) Debug Extensions for WinDbg* Theme cannot be installed without Intel(R) Debug Extensions for WinDbg* 2019</description>
+         <description type="default"> Intel(R) Debug Extensions for WinDbg* Theme cannot be installed without Intel(R) Debug Extensions for WinDbg* 2019</description>
+         <description type="activation"> Intel(R) Debug Extensions for WinDbg* Theme cannot be installed without Intel(R) Debug Extensions for WinDbg* 2019</description>
+      </disabled_descriptions>
+      <component alias="win_dbg_reg_intel64"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_cc_feature_name]" id="ww_cc"      required="false" priority="40" order="40" parent = "cmp_lib" description="[w_comp_lib_19_0_3_203_ww_cc_feature_dscr]">
+
+      <disabled_descriptions>
+         <description type="dependency">[w_comp_lib_19_0_3_203_ww_cc_feature_dependency_dscr]</description>
+      </disabled_descriptions>
+      <component alias="WW_ICL_ARCHSHARED"/>
+      <component alias="WW_ICL_ARCHSHARED_VARS"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_cmp_feature_name]" id="ww_cmp"   visible="false"   required="false" priority="30" order="30" parent = "cmp_lib" description="[w_comp_lib_19_0_3_203_ww_cmp_feature_dscr]">
+      <component alias="WW_OPENMP_IA32"/>
+      <component alias="WW_OPENMP_INTEL64"/>
+      <component alias="WW_CMP_ARCHSHARED"/>
+      <component alias="WW_CMP_ARCHSHARED_VARS"/>
+      <component alias="WW_CMP_IA32"/>
+      <component alias="WW_CMP_IA32_CROSS"/>
+      <component alias="WW_CMP_INTEL64"/>
+      <component alias="WW_ICL_IA32_REDIST_PKG"/>
+      <component alias="WW_ICL_INTEL64_REDIST_PKG"/>
+      <component alias="CMP_SHORTCUTS_BUILD_ENV_IA32"/>
+      <component alias="CMP_SHORTCUTS_BUILD_ENV_INTEL64"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_daal_core_ia32_name]" id="ww_daal_core_ia32"      required="false" priority="210"  parent = "daal" description="[w_comp_lib_19_0_3_203_ww_daal_core_ia32_dscr]">
+      <component alias="WW_DAAL_CORE_IA32"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_daal_core_intel64_name]" id="ww_daal_core_intel64"      required="false" priority="110"  parent = "daal" description="[w_comp_lib_19_0_3_203_ww_daal_core_intel64_dscr]">
+      <component alias="WW_DAAL_CORE_INTEL64"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_icl_ia32_name]" id="ww_icl_ia32"     disable_remove_by="components.ww_tbb_core_ia32" required="false" priority="40" order="40" parent = "ww_cc" description="[w_comp_lib_19_0_3_203_ww_icl_ia32_dscr]">
+
+      <disabled_descriptions>
+         <description type="dependency">[w_comp_lib_19_0_3_203_ww_cc_ia32_feature_dependency_dscr]</description>
+      </disabled_descriptions>
+      <component alias="WW_ICL_IA32"/>
+      <component alias="WW_ICL_IA32_CROSS"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_icl_intel64_name]" id="ww_icl_intel64"     disable_remove_by="components.ww_tbb_core_intel64" required="false" priority="80" order="80" parent = "ww_cc" description="[w_comp_lib_19_0_3_203_ww_icl_intel64_dscr]">
+
+      <disabled_descriptions>
+         <description type="dependency">[w_comp_lib_19_0_3_203_ww_cc_intel64_feature_dependency_dscr]</description>
+      </disabled_descriptions>
+      <component alias="WW_ICL_INTEL64"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_ipp_mt_ia32_name]" id="ww_ipp_mt_ia32"      required="false" priority="230"  parent = "ipp" description="[w_comp_lib_19_0_3_203_ww_ipp_mt_ia32_dscr]">
+
+      <disabled_descriptions>
+         <description type="dependency">[w_comp_lib_19_0_3_203_ww_ipp_mt_ia32_dependency_dscr]</description>
+      </disabled_descriptions>
+      <component alias="WW_IPP_MT_IA32"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_ipp_mt_intel64_name]" id="ww_ipp_mt_intel64"      required="false" priority="130"  parent = "ipp" description="[w_comp_lib_19_0_3_203_ww_ipp_mt_intel64_dscr]">
+
+      <disabled_descriptions>
+         <description type="dependency">[w_comp_lib_19_0_3_203_ww_ipp_mt_intel64_dependency_dscr]</description>
+      </disabled_descriptions>
+      <component alias="WW_IPP_MT_INTEL64"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_ipp_st_ia32_name]" id="ww_ipp_st_ia32"      required="false" priority="220"  parent = "ipp" description="[w_comp_lib_19_0_3_203_ww_ipp_st_ia32_dscr]">
+      <component alias="WW_IPP_ST_IA32"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_ipp_st_intel64_name]" id="ww_ipp_st_intel64"      required="false" priority="120"  parent = "ipp" description="[w_comp_lib_19_0_3_203_ww_ipp_st_intel64_dscr]">
+      <component alias="WW_IPP_ST_INTEL64"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_mkl_c_name]" id="ww_mkl_c"      required="false" priority="85"  parent = "mkl" description="[w_comp_lib_19_0_3_203_ww_mkl_c_dscr]">
+      <component alias="WW_MKL_C_CORE"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_mkl_c_core_ia32_name]" id="ww_mkl_c_core_ia32"      required="false" priority="60"  parent = "ww_mkl_c" description="[w_comp_lib_19_0_3_203_ww_mkl_c_core_ia32_dscr]">
+      <component alias="WW_MKL_C_CORE_IA32"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_mkl_c_core_intel64_name]" id="ww_mkl_c_core_intel64"      required="false" priority="20"  parent = "ww_mkl_c" description="[w_comp_lib_19_0_3_203_ww_mkl_c_core_intel64_dscr]">
+      <component alias="WW_MKL_C_CORE_INTEL64"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_mkl_tbb_ia32_name]" id="ww_mkl_tbb_ia32"      required="false" priority="70"  parent = "ww_mkl_c" description="[w_comp_lib_19_0_3_203_ww_mkl_tbb_ia32_dscr]">
+
+      <disabled_descriptions>
+         <description type="dependency">[w_comp_lib_19_0_3_203_ww_mkl_tbb_ia32_dependency_dscr]</description>
+      </disabled_descriptions>
+      <component alias="WW_MKL_TBB_IA32"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_mkl_tbb_intel64_name]" id="ww_mkl_tbb_intel64"      required="false" priority="30"  parent = "ww_mkl_c" description="[w_comp_lib_19_0_3_203_ww_mkl_tbb_intel64_dscr]">
+
+      <disabled_descriptions>
+         <description type="dependency">[w_comp_lib_19_0_3_203_ww_mkl_tbb_intel64_dependency_dscr]</description>
+      </disabled_descriptions>
+      <component alias="WW_MKL_TBB_INTEL64"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_sl_feature_name]" id="ww_sl"   visible="false"   required="false" priority="140" order="140" parent = "cmp_lib" description="[w_comp_lib_19_0_3_203_ww_sl_feature_dscr]">
+      <component alias="WW_SL_REDIST_IA32"/>
+      <component alias="WW_SL_REDIST_INTEL64"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_tbb_core_ia32_name]" id="ww_tbb_core_ia32"      required="false" priority="20" order="20" parent = "tbb" description="[w_comp_lib_19_0_3_203_ww_tbb_core_ia32_dscr]">
+      <component alias="WW_TBB_CORE_IA32"/>
+   </feature>
+   <feature name="[w_comp_lib_19_0_3_203_ww_tbb_core_intel64_name]" id="ww_tbb_core_intel64"      required="false" priority="30" order="30" parent = "tbb" description="[w_comp_lib_19_0_3_203_ww_tbb_core_intel64_dscr]">
+      <component alias="WW_TBB_CORE_INTEL64"/>
+   </feature>
+
+
+  <components>
+  <component alias="advi_cli_install" suppress_arp="true">
+   <ism>
+      <UpdateID>w_advisor_19.3.5000</UpdateID>
+      <RecordID>{B99848E2-99CB-4260-B7FB-1554C86B22FF}</RecordID>
+      <MediaID>S49</MediaID>
+      <ProductName>Intel(R) Advisor 2019</ProductName>
+      <ProductVersion>19.3</ProductVersion>
+   </ism>
+</component>
+<component alias="advi_fga" suppress_arp="true"/>
+<component alias="advi_gui" suppress_arp="true"/>
+<component alias="advi_shortcuts_iss_win" suppress_arp="true"/>
+<component alias="advi_shortcuts_iss_win_fga" suppress_arp="true" disable_action_by="components.advi_fga"/>
+<component alias="advi_shortcuts_iss_win_gui" suppress_arp="true" disable_action_by="components.advi_gui"/>
+<component alias="advi_vs2013-integration" disable_remove_by="components.advi_gui" suppress_arp="true">
+   <upgrade type="msi_component_code" version_min="13.0.0" version_max="15.0.0" same_dir="false">{599411BD-1085-4FDA-8BE1-7542719114DB},{CB1C3204-1041-4292-8346-61DD7A790CA4}</upgrade>
+   <upgrade type="msi_component_code" version_min="15.0.0" version_max="16.0.0" same_dir="false">{599411BD-1085-4FDA-8BE1-7542719114DB},{F7C9D8F0-31CD-4588-B2A2-0EDE54120F19}</upgrade>
+   <upgrade type="msi_component_code" version_min="16.0.0" version_max="17.0.0" same_dir="false">{599411BD-1085-4FDA-8BE1-7542719114DB},{61328802-B600-4685-AF3B-98178466D6B6}</upgrade>
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{599411BD-1085-4FDA-8BE1-7542719114DB},{E8A4639E-0696-49B5-AC70-838C6A4D6671}</upgrade>
+   <upgrade type="msi_component_code" version_min="18.0.0" version_max="19.0.0" same_dir="false">{599411BD-1085-4FDA-8BE1-7542719114DB},</upgrade>
+</component>
+<component alias="advi_vs2015-integration" disable_remove_by="components.advi_gui" suppress_arp="true">
+   <upgrade type="msi_component_code" version_min="15.0.0" version_max="16.0.0" same_dir="false">{E40A5556-DB30-4383-B270-9DEC10096ADD},{F7C9D8F0-31CD-4588-B2A2-0EDE54120F19}</upgrade>
+   <upgrade type="msi_component_code" version_min="16.0.0" version_max="17.0.0" same_dir="false">{E40A5556-DB30-4383-B270-9DEC10096ADD},{61328802-B600-4685-AF3B-98178466D6B6}</upgrade>
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{E40A5556-DB30-4383-B270-9DEC10096ADD},{E8A4639E-0696-49B5-AC70-838C6A4D6671}</upgrade>
+   <upgrade type="msi_component_code" version_min="18.0.0" version_max="19.0.0" same_dir="false">{E40A5556-DB30-4383-B270-9DEC10096ADD},</upgrade>
+</component>
+<component alias="advi_vs2017-integration" disable_remove_by="components.advi_gui" suppress_arp="true">
+    <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{AEC474FB-ECBE-46CD-9347-A339FF002302},{E8A4639E-0696-49B5-AC70-838C6A4D6671}</upgrade>
+    <upgrade type="msi_component_code" version_min="18.0.0" version_max="19.0.0" same_dir="false">{AEC474FB-ECBE-46CD-9347-A339FF002302},</upgrade>
+</component>
+<component alias="amplxe_cli_install" suppress_arp="true">
+   <ism>
+      <UpdateID>w_vtune_amplifier_xe_19.3.5000</UpdateID>
+      <RecordID>{AD3B9D38-102E-402F-8F78-5561966FC02C}</RecordID>
+      <MediaID>C5S</MediaID>
+      <ProductName>Intel(R) VTune(TM) Amplifier 2019</ProductName>
+      <ProductVersion>19.3</ProductVersion>
+   </ism>
+</component>
+<component alias="amplxe_gui" suppress_arp="true"/>
+<component alias="amplxe_sep" suppress_arp="true"/>
+<component alias="amplxe_shortcuts_win" suppress_arp="true"/>
+<component alias="amplxe_shortcuts_win_gui" suppress_arp="true" disable_action_by="components.amplxe_gui"/>
+<component alias="amplxe_target" suppress_arp="true"/>
+<component alias="amplxe_vs2013-integration" disable_remove_by="components.amplxe_gui" suppress_arp="true">
+   <upgrade type="msi_component_code" version_min="13.0.0" version_max="15.0.0" same_dir="false">{91CC7B71-B188-4700-AFA5-F29173C4A161},{10EA394C-C5C0-43cf-86D8-2B54F1DFF4BF}</upgrade>
+   <upgrade type="msi_component_code" version_min="15.0.0" version_max="16.0.0" same_dir="false">{91CC7B71-B188-4700-AFA5-F29173C4A161},{35E71CC9-C37D-4cb0-972F-8C1F7471C45C}</upgrade>
+   <upgrade type="msi_component_code" version_min="16.0.0" version_max="17.0.0" same_dir="false">{91CC7B71-B188-4700-AFA5-F29173C4A161},{888BF7D1-7980-44ee-B570-885B9B508D04}</upgrade>
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{91CC7B71-B188-4700-AFA5-F29173C4A161},{40D53AF8-669A-4FDB-A24A-CB8C9369650C}</upgrade>
+   <upgrade type="msi_component_code" version_min="18.0.0" version_max="19.0.0" same_dir="false">{91CC7B71-B188-4700-AFA5-F29173C4A161},{C6C1CA55-B2E6-4DDC-A076-07FACCFF0662}</upgrade>
+   <upgrade type="msi_component_code" version_min="15.0.0" version_max="16.0.0" same_dir="false">{91CC7B71-B188-4700-AFA5-F29173C4A161},{A7B385CD-7E8F-4ca6-A367-9D2792C54E12}</upgrade>
+   <upgrade type="msi_component_code" version_min="16.0.0" version_max="17.0.0" same_dir="false">{91CC7B71-B188-4700-AFA5-F29173C4A161},{E21B985C-76C2-4a2c-8680-6DD0A5A3FEE5}</upgrade>
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{91CC7B71-B188-4700-AFA5-F29173C4A161},{8F68DB2D-A9ED-4DA6-A6C1-6F2FED67EA1B}</upgrade>
+</component>
+<component alias="amplxe_vs2015-integration" disable_remove_by="components.amplxe_gui" suppress_arp="true">
+   <upgrade type="msi_component_code" version_min="15.0.0" version_max="16.0.0" same_dir="false">{79CC32BE-EF12-4b03-9046-9D76076A546C},{35E71CC9-C37D-4cb0-972F-8C1F7471C45C}</upgrade>
+   <upgrade type="msi_component_code" version_min="16.0.0" version_max="17.0.0" same_dir="false">{79CC32BE-EF12-4b03-9046-9D76076A546C},{888BF7D1-7980-44ee-B570-885B9B508D04}</upgrade>
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{79CC32BE-EF12-4b03-9046-9D76076A546C},{40D53AF8-669A-4FDB-A24A-CB8C9369650C}</upgrade>
+   <upgrade type="msi_component_code" version_min="18.0.0" version_max="19.0.0" same_dir="false">{79CC32BE-EF12-4b03-9046-9D76076A546C},{C6C1CA55-B2E6-4DDC-A076-07FACCFF0662}</upgrade>
+   <upgrade type="msi_component_code" version_min="15.0.0" version_max="16.0.0" same_dir="false">{79CC32BE-EF12-4b03-9046-9D76076A546C},{A7B385CD-7E8F-4ca6-A367-9D2792C54E12}</upgrade>
+   <upgrade type="msi_component_code" version_min="16.0.0" version_max="17.0.0" same_dir="false">{79CC32BE-EF12-4b03-9046-9D76076A546C},{E21B985C-76C2-4a2c-8680-6DD0A5A3FEE5}</upgrade>
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{79CC32BE-EF12-4b03-9046-9D76076A546C},{8F68DB2D-A9ED-4DA6-A6C1-6F2FED67EA1B}</upgrade>
+</component>
+<component alias="amplxe_vs2017-integration" disable_remove_by="components.amplxe_gui" suppress_arp="true">
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{69EDC647-1189-40E5-A7B9-C80228546470},{40D53AF8-669A-4FDB-A24A-CB8C9369650C}</upgrade>
+   <upgrade type="msi_component_code" version_min="18.0.0" version_max="19.0.0" same_dir="false">{69EDC647-1189-40E5-A7B9-C80228546470},{C6C1CA55-B2E6-4DDC-A076-07FACCFF0662}</upgrade>
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{69EDC647-1189-40E5-A7B9-C80228546470},{8F68DB2D-A9ED-4DA6-A6C1-6F2FED67EA1B}</upgrade>
+</component>
+<component alias="AnalyzePackage_vs15"/>
+<component alias="apidebugger_vs15"/>
+<component alias="CERT_COMODO" disable_action_by="components.IDE_C_COMMON_VS2017 || components.IDE_F_VS2017"   order="30"   permanent="true"     suppress_arp="true" check_connect="internet_not_available">
+</component>
+<component alias="CERT_INTEL" disable_action_by="components.IDE_C_COMMON_VS2017 || components.IDE_F_VS2017"   order="40"   permanent="true"     suppress_arp="true" check_connect="internet_not_available">
+</component>
+<component alias="CMP_ICL_GET_STARTED_DOCS"   disable_action_by="features.ww_cc"   order="200"     suppress_arp="true">
+   <upgrade type="msi_upgrade_code" version_min="18.0.0" version_max="18.1.0" same_dir="false" downgrade_allowed="false">{842E9084-7404-4278-AF9B-1063B1DA0743}</upgrade>
+
+</component>
+<component alias="CMP_ICL_SAMPLES"   disable_action_by="features.ww_cc"   order="210"     suppress_arp="true">
+   <upgrade type="msi_upgrade_code" version_min="18.0.0" version_max="18.1.0" same_dir="false" downgrade_allowed="false">{62F98099-13A2-454B-A0F0-166BF25527AC}</upgrade>
+
+</component>
+<component alias="CMP_ICL_SHORTCUTS_DOCS"   disable_action_by="features.ww_cc"   order="220"     suppress_arp="true">
+</component>
+<component alias="CMP_LIB_COMMON" disable_action_by="features.ww_cc || features.wl_cc || features.ww_fc || features.mkl || features.wl_mkl || features.ipp || features.wl_ipp || features.tbb || features.wl_tbb || features.daal || features.gdb || features.mpi || features.ippcp"   order="5"        suppress_arp="true" >
+</component>
+<component alias="CMP_SHORTCUTS_BUILD_ENV_IA32"   disable_action_by="components.WW_ICL_IA32 || components.WW_IPP_CORE_IA32 || components.WW_MKL_CORE_IA32 || components.WW_TBB || components.WW_DAAL"   order="220"     suppress_arp="true">
+</component>
+<component alias="CMP_SHORTCUTS_BUILD_ENV_INTEL64"   disable_action_by="components.WW_ICL_INTEL64 || components.WW_IPP_CORE_INTEL64 || components.WW_MKL_CORE_INTEL64 || components.WW_TBB || components.WW_DAAL"   order="230" arch="intel64"    suppress_arp="true">
+</component>
+<component alias="CodeBuilderSessionManager_vs15"/>
+<component alias="CodeBuilderTopMenu_vs15"/>
+<component alias="COMMON_ECLIPSE_IDE"   disable_action_by="features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal || features.gpa || features.sys_dbg || features.amplsys_toplevel || features.insp_toplevel || features.advi_toplevel || features.opencl_toplevel"        suppress_arp="true">
+</component>
+<component alias="cptrg" suppress_arp="true"/>
+<component alias="CPUOpenCLProjectforWindowsTemplateVSIX_vs15"/>
+<component alias="DAAL_SHORTCUTS"   disable_action_by="components.WW_DAAL_CORE_COMMON"   order="112" arch="intel64"    suppress_arp="true">
+</component>
+<component alias="DOCS_GDB"   disable_action_by="features.gdb_gt"   order="30"     suppress_arp="true">
+   <upgrade type="msi_upgrade_code" version_min="18.0.0" version_max="18.1.0" same_dir="false" downgrade_allowed="false">{9A0E6249-5F84-4EC5-956C-A0E3F5ED260C}</upgrade>
+
+</component>
+<component alias="eclipse"   disable_action_by="components.sys_trc_ia32"   order="210" arch="intel64"    suppress_arp="true">
+</component>
+<component alias="EmptyOpenCLProjectforWindowsTemplateVSIX_vs15"/>
+<component alias="F_OpenCL_PCB" suppress_arp="true" installdirname="APPLICATIONFOLDER"/>
+<component alias="F_OpenCL_Runtime_AVX" suppress_arp="true" installdirname="APPLICATIONFOLDER"/>
+<component alias="F_OpenCL_Runtime_CMRT" suppress_arp="true" installdirname="APPLICATIONFOLDER"/>
+<component alias="F_VCRedist2015_x64" suppress_arp="true" installdirname="APPLICATIONFOLDER"/>
+<component alias="F_VCRedist2015_x86" suppress_arp="true" installdirname="APPLICATIONFOLDER"/>
+<component alias="F_VS14" suppress_arp="true" installdirname="APPLICATIONFOLDER"/>
+<component alias="GPUOpenCLProjectforWindowsTemplateVSIX_vs15"/>
+<component alias="gt_host" suppress_arp="true"/>
+<component alias="gt_target" suppress_arp="true"/>
+<component alias="icldbgeng_vs15"/>
+<component alias="IDE_C_COMMON_ISS_VS2013" disable_remove_by="features.ww_cc || features.ww_icx || features.mkl || features.ipp || features.tbb || features.daal"   order="190" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{AAA82054-AB38-4C98-A82D-B96A04632013}</upgrade>
+
+</component>
+<component alias="IDE_C_COMMON_ISS_VS2015" disable_remove_by="features.ww_cc || features.ww_icx || components.IDE_VS_ANDROID_VS2015 || features.mkl || features.ipp || features.tbb || features.daal"   order="200" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{AAA82054-AB38-4C98-A82D-B96A04632015}</upgrade>
+
+</component>
+<component alias="IDE_C_COMMON_ISS_VS2017" disable_remove_by="features.ww_cc || features.ww_icx || components.IDE_VS_ANDROID_VS2017 || features.mkl || features.ipp || features.tbb || features.daal"   order="200" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{AAA82054-AB38-4C98-A82D-B96A04632017}</upgrade>
+
+</component>
+<component alias="IDE_C_COMMON_LIBOPT_VS2013" disable_remove_by="features.ww_cc || features.ww_icx || features.mkl || features.ipp || features.tbb || features.daal"   order="230" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{DE2D5D85-7013-41EA-B95A-ECFBCCBA2013}</upgrade>
+
+</component>
+<component alias="IDE_C_COMMON_LIBOPT_VS2015" disable_remove_by="features.ww_cc || features.ww_icx || components.IDE_VS_ANDROID_VS2015 || features.mkl || features.ipp || features.tbb || features.daal"   order="240" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{DE2D5D85-7013-41EA-B95A-ECFBCCBA2015}</upgrade>
+
+</component>
+<component alias="IDE_C_COMMON_LIBOPT_VS2017" disable_remove_by="features.ww_cc || features.ww_icx || components.IDE_VS_ANDROID_VS2017 || features.mkl || features.ipp || features.tbb || features.daal"   order="250" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{DE2D5D85-7013-41EA-B95A-ECFBCCBA2017}</upgrade>
+
+</component>
+<component alias="IDE_C_COMMON_VS2013" disable_remove_by="features.ww_cc || features.ww_icx || features.mkl || features.ipp || features.tbb || features.daal"   order="270" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="11.0.0" version_max="14.0.0" same_dir="false" downgrade_allowed="false">{A56033DF-7344-4E29-8D40-C2A0870BF0D0}</upgrade><upgrade type="msi_upgrade_code" version_min="14.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{D0729181-7030-4a5a-8DE6-F450C21C2013}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="16.0.0" same_dir="false" downgrade_allowed="false">{D9763B77-49D7-4053-8062-E2A1C9E22013}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="15.1.0" same_dir="false" downgrade_allowed="false">{330C05B8-6A03-4B46-BF5B-7F83B1CE2013}</upgrade>
+
+</component>
+<component alias="IDE_C_COMMON_VS2015" disable_remove_by="features.ww_cc || features.ww_icx || components.IDE_VS_ANDROID_VS2015 || features.mkl || features.ipp || features.tbb || features.daal"   order="280" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="11.0.0" version_max="14.0.0" same_dir="false" downgrade_allowed="false">{A56033DF-7344-4E29-8D40-C2A0870BF0D0}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{D0729181-7030-4a5a-8DE6-F450C21C2015}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="16.0.0" same_dir="false" downgrade_allowed="false">{D9763B77-49D7-4053-8062-E2A1C9E22015}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="15.1.0" same_dir="false" downgrade_allowed="false">{330C05B8-6A03-4B46-BF5B-7F83B1CE2015}</upgrade>
+
+</component>
+<component alias="IDE_C_COMMON_VS2017" disable_remove_by="features.ww_cc || features.ww_icx || components.IDE_VS_ANDROID_VS2017 || features.mkl || features.ipp || features.tbb || features.daal"   order="290" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="11.0.0" version_max="14.0.0" same_dir="false" downgrade_allowed="false">{A56033DF-7344-4E29-8D40-C2A0870BF0D0}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{D0729181-7030-4a5a-8DE6-F450C21C2017}</upgrade>
+
+</component>
+<component alias="IDE_C_UNIQUE_VS2013" disable_action_by="components.IDE_C_COMMON_VS2013"   order="150" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="12.0.0" version_max="14.0.0" same_dir="false" downgrade_allowed="false">{EB52239A-CC3B-4649-85FA-FF8EBC077DAB}</upgrade><upgrade type="msi_upgrade_code" version_min="14.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{B7BD834C-77A9-4175-97E4-70E796422013}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="15.1.0" same_dir="false" downgrade_allowed="false">{87BBED26-9371-4D61-8858-B118A41D2013}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="15.1.0" same_dir="false" downgrade_allowed="false">{DB86185C-C040-4C0f-91D2-519026052013}</upgrade><upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="17.1.0" same_dir="false" downgrade_allowed="false">{DEA45D6A-4AB9-440B-A6B5-1EEBF5CC2013}</upgrade><upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="17.1.0" same_dir="false" downgrade_allowed="false">{C90E67FF-2B14-47B2-8182-7326059C2013}</upgrade><upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="17.1.0" same_dir="false" downgrade_allowed="false">{2A13D628-7A40-44A8-AB01-B77F972E2013}</upgrade>
+
+</component>
+<component alias="IDE_C_UNIQUE_VS2015" disable_action_by="components.IDE_C_COMMON_VS2015"   order="160" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="12.0.0" version_max="14.0.0" same_dir="false" downgrade_allowed="false">{EB52239A-CC3B-4649-85FA-FF8EBC077DAB}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{B7BD834C-77A9-4175-97E4-70E796422015}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="15.1.0" same_dir="false" downgrade_allowed="false">{87BBED26-9371-4D61-8858-B118A41D2015}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="15.1.0" same_dir="false" downgrade_allowed="false">{DB86185C-C040-4C0f-91D2-519026052015}</upgrade><upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="17.1.0" same_dir="false" downgrade_allowed="false">{DEA45D6A-4AB9-440B-A6B5-1EEBF5CC2015}</upgrade><upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="17.1.0" same_dir="false" downgrade_allowed="false">{C90E67FF-2B14-47B2-8182-7326059C2015}</upgrade><upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="17.1.0" same_dir="false" downgrade_allowed="false">{2A13D628-7A40-44A8-AB01-B77F972E2015}</upgrade>
+
+</component>
+<component alias="IDE_C_UNIQUE_VS2017" disable_action_by="components.IDE_C_COMMON_VS2017"   order="170" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="12.0.0" version_max="14.0.0" same_dir="false" downgrade_allowed="false">{EB52239A-CC3B-4649-85FA-FF8EBC077DAB}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{B7BD834C-77A9-4175-97E4-70E796422017}</upgrade><upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="17.1.0" same_dir="false" downgrade_allowed="false">{DEA45D6A-4AB9-440B-A6B5-1EEBF5CC2017}</upgrade><upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="17.1.0" same_dir="false" downgrade_allowed="false">{C90E67FF-2B14-47B2-8182-7326059C2017}</upgrade><upgrade type="msi_upgrade_code" version_min="16.0.0" version_max="17.1.0" same_dir="false" downgrade_allowed="false">{2A13D628-7A40-44A8-AB01-B77F972E2017}</upgrade>
+
+</component>
+<component alias="IDE_COMMON_VS2013" disable_action_by="components.IDE_C_COMMON_VS2013 || components.IDE_F_VS2013"   order="70" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="12.1.0" version_max="14.0.0" same_dir="false" downgrade_allowed="false">{3718BA98-7263-403c-B6A4-1DD34890673E}</upgrade><upgrade type="msi_upgrade_code" version_min="14.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{CCF38B1B-0774-4508-82F9-B922739E2013}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="16.0.0" same_dir="false" downgrade_allowed="false">{7E4D0B36-2C11-4B4C-B87E-4FEFEF9E2013}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="15.1.0" same_dir="false" downgrade_allowed="false">{7535644C-EEDF-4BD5-A30F-3F482F122013}</upgrade>
+
+</component>
+<component alias="IDE_COMMON_VS2015" disable_action_by="components.IDE_C_COMMON_VS2015 || components.IDE_F_VS2015"   order="80" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="12.1.0" version_max="14.0.0" same_dir="false" downgrade_allowed="false">{3718BA98-7263-403c-B6A4-1DD34890673E}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{CCF38B1B-0774-4508-82F9-B922739E2015}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="16.0.0" same_dir="false" downgrade_allowed="false">{7E4D0B36-2C11-4B4C-B87E-4FEFEF9E2015}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="15.1.0" same_dir="false" downgrade_allowed="false">{7535644C-EEDF-4BD5-A30F-3F482F122015}</upgrade>
+
+</component>
+<component alias="IDE_COMMON_VS2017" disable_action_by="components.IDE_C_COMMON_VS2017 || components.IDE_F_VS2017"   order="90" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="12.1.0" version_max="14.0.0" same_dir="false" downgrade_allowed="false">{3718BA98-7263-403c-B6A4-1DD34890673E}</upgrade><upgrade type="msi_upgrade_code" version_min="15.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{CCF38B1B-0774-4508-82F9-B922739E2017}</upgrade>
+
+</component>
+<component alias="IDE_REGISTRY"   disable_action_by="components.IDE_C_COMMON_ISS_VS2013 || components.IDE_C_COMMON_ISS_VS2015 || components.IDE_C_COMMON_ISS_VS2017"   order="450"     suppress_arp="true">
+</component>
+<component alias="IDE_UTILITIES_VS2013" disable_action_by="components.IDE_C_COMMON_VS2013 || components.IDE_F_VS2013"   order="20" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="19.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{AD00199A-AD30-4330-9BCB-65F0DA872013}</upgrade>
+
+</component>
+<component alias="IDE_UTILITIES_VS2015" disable_action_by="components.IDE_C_COMMON_VS2015 || components.IDE_F_VS2015"   order="30" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="19.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{AD00199A-AD30-4330-9BCB-65F0DA872015}</upgrade>
+
+</component>
+<component alias="IDE_UTILITIES_VS2017" disable_action_by="components.IDE_C_COMMON_VS2017 || components.IDE_F_VS2017"   order="40" arch="intel64"       suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="19.0.0" version_max="19.1.0" same_dir="false" downgrade_allowed="false">{AD00199A-AD30-4330-9BCB-65F0DA872017}</upgrade>
+
+</component>
+<component alias="insp_cli_install" suppress_arp="true">
+   <ism>
+      <UpdateID>w_inspector_19.3.5000</UpdateID>
+      <RecordID>{EF06E74B-D049-46B0-96D5-6549E75415DF}</RecordID>
+      <MediaID>S49</MediaID>
+      <ProductName>Intel(R) Inspector 2019</ProductName>
+      <ProductVersion>19.3</ProductVersion>
+   </ism>
+</component>
+<component alias="insp_gui" suppress_arp="true"/>
+<component alias="insp_shortcuts_win" suppress_arp="true"/>
+<component alias="insp_shortcuts_win_gui" suppress_arp="true" disable_action_by="components.insp_gui"/>
+<component alias="insp_vs2013-integration" disable_remove_by="components.insp_gui" suppress_arp="true">
+   <upgrade type="msi_component_code" version_min="13.0.0" version_max="15.0.0" same_dir="false">{F432ED80-8D3D-4E05-928D-C0271198B5C9},{C14B9903-390D-44cb-B28C-595B4C7B9566}</upgrade>
+   <upgrade type="msi_component_code" version_min="15.0.0" version_max="16.0.0" same_dir="false">{F432ED80-8D3D-4E05-928D-C0271198B5C9},{53E3E11E-79CE-4d61-ADBE-ACB8D216950E}</upgrade>
+   <upgrade type="msi_component_code" version_min="16.0.0" version_max="17.0.0" same_dir="false">{F432ED80-8D3D-4E05-928D-C0271198B5C9},{84E39168-CD49-4d5b-B55C-4C98703B5D65}</upgrade>
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{F432ED80-8D3D-4E05-928D-C0271198B5C9},{C5D9FAE6-926C-4DD7-954F-D972F35DBA26}</upgrade>
+   <upgrade type="msi_component_code" version_min="18.0.0" version_max="19.0.0" same_dir="false">{F432ED80-8D3D-4E05-928D-C0271198B5C9},{790E7A3A-84CD-434D-8567-62CE062B9EC8}</upgrade>
+   <upgrade type="msi_component_code" version_min="15.0.0" version_max="16.0.0" same_dir="false">{F432ED80-8D3D-4E05-928D-C0271198B5C9},{867C6FB1-8179-43EE-A5CC-B4087F608086}</upgrade>   
+   <upgrade type="msi_component_code" version_min="16.0.0" version_max="17.0.0" same_dir="false">{C4624F60-E573-4BC6-A6A1-B711AC78C28F},{07E55553-B2B5-45c0-A8EA-152F789FC0A6}</upgrade>
+</component>
+<component alias="insp_vs2015-integration" disable_remove_by="components.insp_gui" suppress_arp="true">
+   <upgrade type="msi_component_code" version_min="15.0.0" version_max="16.0.0" same_dir="false">{EE96FC93-C6DF-4d03-AA01-3540087C04A6},{53E3E11E-79CE-4d61-ADBE-ACB8D216950E}</upgrade>
+   <upgrade type="msi_component_code" version_min="16.0.0" version_max="17.0.0" same_dir="false">{EE96FC93-C6DF-4d03-AA01-3540087C04A6},{84E39168-CD49-4d5b-B55C-4C98703B5D65}</upgrade>
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{EE96FC93-C6DF-4d03-AA01-3540087C04A6},{C5D9FAE6-926C-4DD7-954F-D972F35DBA26}</upgrade>
+   <upgrade type="msi_component_code" version_min="18.0.0" version_max="19.0.0" same_dir="false">{EE96FC93-C6DF-4d03-AA01-3540087C04A6},{790E7A3A-84CD-434D-8567-62CE062B9EC8}</upgrade>
+   <upgrade type="msi_component_code" version_min="15.0.0" version_max="16.0.0" same_dir="false">{EE96FC93-C6DF-4d03-AA01-3540087C04A6},{867C6FB1-8179-43EE-A5CC-B4087F608086}</upgrade>
+   <upgrade type="msi_component_code" version_min="16.0.0" version_max="17.0.0" same_dir="false">{682F977B-DD90-462D-ADC7-964333A5088B},{07E55553-B2B5-45c0-A8EA-152F789FC0A6}</upgrade>
+</component>
+<component alias="insp_vs2017-integration" disable_remove_by="components.insp_gui" suppress_arp="true">
+   <upgrade type="msi_component_code" version_min="17.0.0" version_max="18.0.0" same_dir="false">{A0B9CE74-AA4E-4447-A147-8881EADD4FEC},{C5D9FAE6-926C-4DD7-954F-D972F35DBA26}</upgrade>
+   <upgrade type="msi_component_code" version_min="18.0.0" version_max="19.0.0" same_dir="false">{A0B9CE74-AA4E-4447-A147-8881EADD4FEC},{790E7A3A-84CD-434D-8567-62CE062B9EC8}</upgrade>
+</component>
+<component alias="Intel.IntelGfxDebug_vs15"/>
+<component alias="Intel.MIDebugPackage_vs15"/>
+<component alias="IntelOCLSupport_vs15"/>
+<component alias="IPP_SHORTCUTS"   disable_action_by="components.ww_ipp_core_common"   order="92"     suppress_arp="true">
+</component>
+<component alias="ism"   action_by="features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal || features.gpa || features.sys_dbg || features.amplxe_toplevel || features.studio_socwatch_target_ftr || features.insp_toplevel || features.gdb_gt"   order="9000"     suppress_arp="false">
+</component>
+<component alias="MKL_SHORTCUTS"   disable_action_by="components.ww_mkl_core_common"   order="82"     suppress_arp="true">
+</component>
+<component alias="opencl_cpu_runtime_cmp" suppress_arp="true" installdir_own="runtime\cpu"/>
+<component alias="OpenIPC"           suppress_arp="false">
+</component>
+<component alias="py_dot_net_ia32"      order="120" arch="intel64"  permanent="true"  suppress_arp="false">
+   <upgrade type="msi_component_code" version_min="0" version_max="0" same_dir="true" downgrade_allowed="0">{0583FF94-046C-4A52-9BD5-A20512E94DE4}</upgrade>
+
+</component>
+<component alias="py_main_x64"      order="140"     suppress_arp="true">
+</component>
+<component alias="py_readline_ia32"      order="130" arch="intel64"  permanent="true"  suppress_arp="false">
+   <upgrade type="msi_component_code" version_min="0" version_max="0" same_dir="true" downgrade_allowed="0">{0583FF94-046C-4A52-9BD5-A20512E94DE4}</upgrade>
+
+</component>
+<component alias="redists"      order="141"     suppress_arp="true">
+</component>
+<component alias="STUDIO_COMMON"   disable_action_by="features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal || features.gpa || features.sys_dbg || features.amplxe_toplevel || features.insp_toplevel || features.openocd || features.studio_socwatch_target_ftr || features.advi_toplevel || features.opencl_toplevel"   order="10"     suppress_arp="true">
+</component>
+<component alias="STUDIO_COMMON_COMP"   disable_action_by="( features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal)"   order="20"     suppress_arp="true">
+
+   <ism>
+      <RecordID>{D9C19296-1B22-437B-9090-C5E59177F878}</RecordID>
+      <ProductName>Intel(R) System Studio 2019 Composer Edition for Windows*</ProductName>
+      <UpdateID>w_cembdw_comp_p_2019.3.063</UpdateID>
+      <ProductVersion>19.0</ProductVersion>
+      <MediaID>N72</MediaID>
+   </ism>
+
+</component>
+<component alias="STUDIO_COMMON_PROF"   disable_action_by="features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal || features.gpa || features.sys_dbg || features.amplxe_toplevel || features.insp_toplevel || features.studio_socwatch_target_ftr || features.advi_toplevel || features.opencl_toplevel"   order="20"     suppress_arp="true">
+
+   <ism>
+      <MediaID>4VG</MediaID>
+      <RecordID>{B8DE8D84-8915-44A7-A6E0-F1F77CB2027F}</RecordID>
+      <ProductName>Intel(R) System Studio 2019 Professional Edition for Windows*</ProductName>
+      <UpdateID>w_cembdw_prof_p_2019.3.063</UpdateID>
+      <ProductVersion>19.0</ProductVersion>
+   </ism>
+
+</component>
+<component alias="STUDIO_COMMON_ULT"   disable_action_by="( features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal || features.gpa || features.sys_dbg || features.amplxe_toplevel || features.insp_toplevel || features.studio_socwatch_target_ftr || features.advi_toplevel || features.opencl_toplevel)"   order="20"     suppress_arp="true">
+
+   <ism>
+      <MediaID>X6N</MediaID>
+      <UpdateID>w_cembdw_p_2019.3.063</UpdateID>
+      <ProductVersion>19.0</ProductVersion>
+      <ProductName>Intel(R) System Studio 2019 Ultimate Edition for Windows*</ProductName>
+      <RecordID>{53435A83-5561-41C6-A5CA-6FAD61F551E7}</RecordID>
+   </ism>
+
+</component>
+<component alias="STUDIO_DOCS"   disable_action_by="features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal || features.gpa || features.sys_dbg || features.amplxe_toplevel || features.studio_socwatch_target_ftr || features.insp_toplevel || features.gpa || features.gdb_gt || features.advi_toplevel || features.opencl_toplevel"   order="10"     suppress_arp="true">
+   <upgrade type="msi_upgrade_code" version_min="18.0.0" version_max="18.1.0" same_dir="false" downgrade_allowed="false">{481F5A70-BD95-4AD9-B9AD-2F76528FE36A}</upgrade>
+
+</component>
+<component alias="STUDIO_DOCS_PROF"   disable_action_by="features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal || features.gpa || features.sys_dbg || features.amplxe_toplevel || features.studio_socwatch_target_ftr || features.insp_toplevel || features.gdb_gt || features.advi_toplevel || features.opencl_toplevel"   order="20"     suppress_arp="true">
+   <upgrade type="msi_upgrade_code" version_min="18.0.0" version_max="18.1.0" same_dir="false" downgrade_allowed="false">{9B0C0D34-943C-4C44-A7C5-E60628623FA4}</upgrade>
+
+</component>
+<component alias="STUDIO_SL_ADVI"   disable_action_by="features.advi_toplevel"   order="60" arch="intel64"    suppress_arp="true">
+</component>
+<component alias="STUDIO_SL_AMPL"   disable_action_by="features.amplxe_toplevel"   order="40"     suppress_arp="true">
+</component>
+<component alias="STUDIO_SL_AMPL_SOCWATCH"   disable_action_by="features.amplifier_for_systems_socwatch"   order="45"     suppress_arp="true">
+</component>
+<component alias="STUDIO_SL_CMP_LIB"   disable_action_by="features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal"   order="30"     suppress_arp="true">
+</component>
+<component alias="STUDIO_SL_COMMON"   disable_action_by="features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal || features.gpa || features.sys_dbg || features.amplxe_toplevel || features.studio_socwatch_target_ftr || features.insp_toplevel || features.advi_toplevel || features.opencl_toplevel"   order="10"     suppress_arp="true">
+</component>
+<component alias="STUDIO_SL_DEBUGGER"   disable_action_by="features.gdb"   order="20"     suppress_arp="true">
+</component>
+<component alias="STUDIO_SL_INSP"   disable_action_by="features.insp_toplevel"   order="50"     suppress_arp="true">
+</component>
+<component alias="STUDIO_SL_SYSTEM_DEBUGGER"   disable_action_by="features.sys_dbg"   order="80"     suppress_arp="true">
+</component>
+<component alias="STUDIO_SOCWATCH_TARGET_CMP"           suppress_arp="true">
+</component>
+<component alias="sys_dbg_dal"      order="48"     suppress_arp="true">
+</component>
+<component alias="sys_dbg_doc"      order="20"     suppress_arp="true">
+</component>
+<component alias="SYS_DBG_ECLIPSE_IDE"   disable_action_by="features.sys_dbg"   order="223"     suppress_arp="true">
+</component>
+<component alias="sys_dbg_ia32"      order="20"     suppress_arp="true">
+</component>
+<component alias="sys_dbg_jre"   disable_action_by="components.eclipse"   order="330"     suppress_arp="true">
+   <upgrade type="msi_component_code" version_min="0" version_max="0" same_dir="false" downgrade_allowed="1">{0583FF94-046C-4A52-9BD5-A20512E94DE4}</upgrade> <upgrade type="msi_upgrade_code" version_min="0" version_max="0" same_dir="false" downgrade_allowed="1">{D3EE4371-69F5-427F-AF92-1CCCCFD8D86E}</upgrade> <upgrade type="msi_upgrade_code" version_min="0" version_max="0" same_dir="false" downgrade_allowed="1">{AB5384F8-7063-4D0C-8669-AE64BF1B1D51}</upgrade>
+
+</component>
+<component alias="sys_dbg_shortcuts_win"      order="40"     suppress_arp="true">
+</component>
+<component alias="sys_dbg_sl"      order="350"     suppress_arp="true">
+</component>
+<component alias="sys_dbg_tca"      order="32"     suppress_arp="true">
+</component>
+<component alias="sys_trc_doc"   disable_action_by="components.sys_trc_ia32"   order="52"     suppress_arp="true">
+</component>
+<component alias="sys_trc_ia32"      order="50"     suppress_arp="true">
+</component>
+<component alias="TBB_SHORTCUTS"   disable_action_by="components.ww_tbb_core_common"   order="102"     suppress_arp="true">
+</component>
+<component alias="vpp_server" suppress_arp="true"/>
+<component alias="win_dbg"      order="60"     suppress_arp="true">
+</component>
+<component alias="win_dbg_doc"   disable_action_by="components.win_dbg"   order="62"     suppress_arp="true">
+</component>
+<component alias="win_dbg_reg_intel64"      order="60"     suppress_arp="true">
+</component>
+<component alias="win_dbg_shortcuts"   disable_action_by="components.win_dbg"   order="65"     suppress_arp="true">
+</component>
+<component alias="WW_CMP_ARCHSHARED" disable_action_by="components.WW_CMP_IA32 || components.WW_CMP_INTEL64"   order="50" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_CMP_ARCHSHARED_VARS" disable_action_by="features.ww_cc || features.ww_fc || features.mkl || features.ipp || features.tbb || features.daal || features.mpi || features.ippcp"   order="40" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_CMP_IA32" disable_action_by="components.WW_ICL_IA32 || components.WW_IFORT_IA32" target_platform="ia32"  order="60" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_CMP_IA32_CROSS" disable_action_by="components.WW_CMP_IA32" target_platform="ia32"  order="60" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_CMP_INTEL64" disable_action_by="components.WW_ICL_INTEL64 || components.WW_IFORT_INTEL64 || components.WW_ICX_INTEL64"   order="110" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_DAAL_COMMON_C" disable_action_by="components.ww_daal_core_ia32 || components.ww_daal_core_intel64"           suppress_arp="true" >
+</component>
+<component alias="WW_DAAL_CORE_COMMON" disable_action_by="components.ww_daal_core_ia32 || components.ww_daal_core_intel64"           suppress_arp="true" >
+</component>
+<component alias="WW_DAAL_CORE_IA32"  target_platform="ia32"          suppress_arp="true" >
+</component>
+<component alias="WW_DAAL_CORE_INTEL64"  target_platform="intel64"          suppress_arp="true" >
+</component>
+<component alias="WW_DAAL_DOC_COMMON" disable_action_by="components.ww_daal_core_ia32 || components.ww_daal_core_intel64 || components.wl_daal_core_ia32 || components.wl_daal_core_intel64"           suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="19.0.0" version_max="19.9.9" same_dir="false" downgrade_allowed="false">{033E7FCD-C8A9-426C-80A6-61D4706872A4}</upgrade>
+
+</component>
+<component alias="WW_DAAL_DOC_ISS" disable_action_by="components.ww_daal_core_ia32 || components.ww_daal_core_intel64"           suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="19.0.0" version_max="19.9.9" same_dir="false" downgrade_allowed="false">{D6BCF5A6-E6C1-4BA7-9E6F-9DE0A99A26D4}</upgrade>
+
+</component>
+<component alias="WW_DAAL_LIC" disable_action_by="components.ww_daal_core_ia32 || components.ww_daal_core_intel64 || components.wl_daal_core_ia32 || components.wl_daal_core_intel64"           suppress_arp="true" >
+</component>
+<component alias="WW_ICL_ARCHSHARED" disable_action_by="components.WW_ICL_IA32 || components.WW_ICL_INTEL64 || components.WW_ICX_INTEL64"   order="10" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_ICL_ARCHSHARED_VARS" disable_action_by="features.ww_cc || features.mkl || features.ipp || features.tbb || features.daal || features.mpi || features.ippcp"   order="30" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_ICL_IA32" disable_remove_by="components.WW_ICL_INTEL64" target_platform="ia32"  order="40" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_ICL_IA32_CROSS" disable_action_by="components.WW_ICL_IA32" target_platform="ia32"  order="50" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_ICL_IA32_REDIST_PKG" disable_action_by="components.WW_ICL_IA32 || components.WW_IPP_CORE_IA32 || components.WW_MKL_CORE_IA32 || components.WW_TBB_CORE_COMMON || components.WW_DAAL_CORE_IA32 || features.ippcp" target_platform="ia32"  order="130"        suppress_arp="true" >
+</component>
+<component alias="WW_ICL_INTEL64"    order="80" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_ICL_INTEL64_REDIST_PKG" disable_action_by="components.WW_ICL_INTEL64 || components.WW_IPP_CORE_INTEL64 || components.WW_MKL_CORE_INTEL64 || components.WW_TBB_CORE_COMMON || components.WW_DAAL_CORE_INTEL64 || features.ippcp"   order="140"        suppress_arp="true" >
+</component>
+<component alias="WW_IPP_CORE_COMMON" disable_action_by="components.ww_ipp_core_ia32 || components.ww_ipp_core_intel64"   order="10"        suppress_arp="true" >
+</component>
+<component alias="WW_IPP_CORE_IA32" disable_action_by="components.ww_ipp_st_ia32" target_platform="ia32"          suppress_arp="true" >
+</component>
+<component alias="WW_IPP_CORE_INTEL64" disable_action_by="components.ww_ipp_st_intel64" target_platform="intel64"          arch="intel64" suppress_arp="true" >
+</component>
+<component alias="WW_IPP_DOC" disable_action_by="components.ww_ipp_core_ia32 || components.ww_ipp_core_intel64 || components.wl_ipp_core_ia32 || components.wl_ipp_core_intel64"           suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="19.0.0" version_max="19.9.9" same_dir="false" downgrade_allowed="false">{53F0168D-B4F8-4C6C-850A-0D70E0E78F51}</upgrade>
+
+</component>
+<component alias="WW_IPP_EXAMP_SYML_PS_ISS" disable_action_by="components.ww_ipp_core_common_ps || components.ww_ipp_st_common_iss || components.wl_ipp_core_common"   order="200"        suppress_arp="true" >
+</component>
+<component alias="WW_IPP_MT_IA32" disable_remove_by="components.ww_ipp_st_ia32" target_platform="ia32"    default_act="none"      suppress_arp="true" >
+</component>
+<component alias="WW_IPP_MT_IA32_ISS" disable_action_by="components.ww_ipp_mt_ia32" target_platform="ia32"    default_act="none"      suppress_arp="true" >
+</component>
+<component alias="WW_IPP_MT_INTEL64" disable_remove_by="components.ww_ipp_st_intel64" target_platform="intel64"    default_act="none"      arch="intel64" suppress_arp="true" >
+</component>
+<component alias="WW_IPP_MT_INTEL64_ISS" disable_action_by="components.ww_ipp_mt_intel64" target_platform="intel64"    default_act="none"      suppress_arp="true" >
+</component>
+<component alias="WW_IPP_ST_COMMON" disable_action_by="components.ww_ipp_st_IA32 || components.ww_ipp_st_INTEL64"   order="20"        suppress_arp="true" >
+</component>
+<component alias="WW_IPP_ST_COMMON_ISS" disable_action_by="components.ww_ipp_st_ia32_iss || components.ww_ipp_st_intel64_iss"   order="20"        suppress_arp="true" >
+</component>
+<component alias="WW_IPP_ST_IA32"  target_platform="ia32"          suppress_arp="true" >
+</component>
+<component alias="WW_IPP_ST_IA32_ISS" disable_action_by="components.ww_ipp_st_ia32" target_platform="ia32"          suppress_arp="true" >
+</component>
+<component alias="WW_IPP_ST_INTEL64"  target_platform="intel64"          arch="intel64" suppress_arp="true" >
+</component>
+<component alias="WW_IPP_ST_INTEL64_ISS" disable_action_by="components.ww_ipp_st_intel64" target_platform="intel64"          suppress_arp="true" >
+</component>
+<component alias="WW_MKL_C_CORE" disable_action_by="features.ww_mkl_c_core_ia32 || features.ww_mkl_c_core_intel64"           suppress_arp="true" >
+</component>
+<component alias="WW_MKL_C_CORE_IA32"  target_platform="ia32"          suppress_arp="true" >
+</component>
+<component alias="WW_MKL_C_CORE_INTEL64"  target_platform="intel64"          suppress_arp="true" >
+</component>
+<component alias="WW_MKL_C_CORE_PS" disable_action_by="features.ww_mkl_c_core_ia32 || features.ww_mkl_c_core_intel64"   order="15"        suppress_arp="true" >
+</component>
+<component alias="WW_MKL_CORE_COMMON" disable_action_by="features.ww_mkl_c_core_ia32 || features.ww_mkl_c_core_intel64 || features.ww_mkl_f_core_ia32 || features.ww_mkl_f_core_intel64"   order="10"        suppress_arp="true" >
+</component>
+<component alias="WW_MKL_CORE_COMMON_PS_ISS" disable_action_by="features.ww_mkl_c_core_ia32 || features.ww_mkl_c_core_intel64 || features.ww_mkl_f_core_ia32 || features.ww_mkl_f_core_intel64"   order="10"        suppress_arp="true" >
+</component>
+<component alias="WW_MKL_CORE_IA32" disable_action_by="features.ww_mkl_c_core_ia32 || features.ww_mkl_f_core_ia32" target_platform="ia32"  order="20"        suppress_arp="true" >
+</component>
+<component alias="WW_MKL_CORE_INTEL64" disable_action_by="features.ww_mkl_c_core_intel64 || features.ww_mkl_f_core_intel64" target_platform="intel64"  order="20"        suppress_arp="true" >
+</component>
+<component alias="WW_MKL_DOC" disable_action_by="features.ww_mkl_c || features.ww_mkl_f || components.wl_mkl_core_ia32 || components.wl_mkl_core_intel64"           suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="19.0.0" version_max="19.9.9" same_dir="false" downgrade_allowed="false">{26712048-A4B6-4BA6-8E58-3BF9A63C4D66}</upgrade>
+
+</component>
+<component alias="WW_MKL_DOC_ISS" disable_action_by="features.ww_mkl_c || components.wl_mkl_core_ia32 || components.wl_mkl_core_intel64"           suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="19.0.0" version_max="19.9.9" same_dir="false" downgrade_allowed="false">{96885488-835D-4C17-ADB1-AF08EFACE22B}</upgrade>
+
+</component>
+<component alias="WW_MKL_TBB_IA32" disable_remove_by="components.ww_mkl_c_core_ia32" target_platform="ia32"          suppress_arp="true" >
+</component>
+<component alias="WW_MKL_TBB_INTEL64" disable_remove_by="components.ww_mkl_c_core_intel64" target_platform="intel64"          suppress_arp="true" >
+</component>
+<component alias="WW_OPENMP_IA32" disable_action_by="components.WW_ICL_IA32 || components.WW_IFORT_IA32 || components.WW_IPP_CORE_IA32 || components.WW_MKL_CORE_IA32 || features.ippcp" target_platform="ia32"  order="10" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_OPENMP_INTEL64" disable_action_by="components.WW_ICL_INTEL64 || components.WW_IFORT_INTEL64 || components.WW_IPP_CORE_INTEL64 || components.WW_MKL_CORE_INTEL64 || features.ippcp"   order="20" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_PSTL_CORE" disable_action_by="components.ww_tbb_core_common"           suppress_arp="true" >
+</component>
+<component alias="WW_PSTL_DOC" disable_action_by="components.ww_pstl_core"           suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="19.0.0" version_max="19.9.9" same_dir="false" downgrade_allowed="false">{FF02900C-8CFA-494f-BD61-FEDB4098DA19}</upgrade>
+
+</component>
+<component alias="WW_SL_REDIST_IA32" disable_action_by="components.WW_ICL_IA32 || components.WW_IFORT_IA32 || components.WW_IPP_CORE_IA32 || components.WW_MKL_CORE_IA32 || components.WW_DAAL_CORE_IA32 || components.WW_TBB_LIBS_IA32 || features.ippcp" target_platform="ia32"  order="10" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_SL_REDIST_INTEL64" disable_action_by="components.WW_ICL_INTEL64 || components.WW_IFORT_INTEL64 || components.WW_IPP_CORE_INTEL64 || components.WW_MKL_CORE_INTEL64 || components.WW_DAAL_CORE_INTEL64 || components.WW_TBB_LIBS_INTEL64 || features.ippcp"   order="20" arch="intel64"       suppress_arp="true" >
+</component>
+<component alias="WW_TBB_CORE_COMMON" disable_action_by="components.ww_tbb_core_ia32 || components.ww_tbb_core_intel64"   order="10"        suppress_arp="true" >
+</component>
+<component alias="WW_TBB_CORE_IA32"  target_platform="ia32"  order="20"        suppress_arp="true" >
+</component>
+<component alias="WW_TBB_CORE_INTEL64"    order="30"        suppress_arp="true" >
+</component>
+<component alias="WW_TBB_DOC" disable_action_by="components.ww_tbb_core_common || components.wl_tbb_core_common"   order="70"        suppress_arp="true" >
+   <upgrade type="msi_upgrade_code" version_min="19.0.0" version_max="19.9.9" same_dir="false" downgrade_allowed="false">{3B976DA1-3113-4698-A3EA-1BB293D7FE9F}</upgrade>
+
+</component>
+<component alias="WW_TBB_LIBS_IA32" disable_action_by="components.ww_tbb_core_ia32 || components.ww_daal_core_ia32 || components.ww_mkl_core_ia32 || components.ww_ipp_core_ia32" target_platform="ia32"  order="40"        suppress_arp="true" >
+</component>
+<component alias="WW_TBB_LIBS_INTEL64" disable_action_by="components.ww_tbb_core_intel64 || components.ww_daal_core_intel64 || components.ww_mkl_core_intel64 || components.ww_ipp_core_intel64"   order="50"        suppress_arp="true" >
+</component>
+<component alias="WW_TBB_LIBS_STANDALONE_IA32" disable_action_by="components.ww_tbb_libs_ia32" target_platform="ia32"  order="100"        suppress_arp="true" >
+</component>
+<component alias="WW_TBB_LIBS_STANDALONE_INTEL64" disable_action_by="components.ww_tbb_libs_intel64"   order="100"        suppress_arp="true" >
+</component>
+<component alias="WW_TBB_LIBS_STUDIO_IA32" disable_action_by="components.ww_tbb_libs_ia32" target_platform="ia32"  order="100"        suppress_arp="true" >
+</component>
+<component alias="WW_TBB_LIBS_STUDIO_INTEL64" disable_action_by="components.ww_tbb_libs_intel64"   order="100"        suppress_arp="true" >
+</component>
+<component alias="WW_TBB_LIC" disable_action_by="components.ww_tbb_core_common || components.wl_tbb_core_common"   order="70"        suppress_arp="true" >
+</component>
+<component alias="xdp_drvr_intel64"      order="20"     suppress_arp="true">
+</component>
+
+  </components>
+</product>

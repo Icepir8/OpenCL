@@ -1,0 +1,17 @@
+<component type="msi" alias="py_main_x64">
+  <property name="ProductCode">{6D3D4EC7-042D-401A-A664-DB318A588D89}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Python 2.7</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">724844686</property>
+<property name="postinstall_script">scripts/install_python.bat</property>
+<property name="script_order">2</property>
+
+
+  <files>
+    <key chksum="" sha256="32f346ce7fd172769d9c05aea93cc69e57585b63d4c432c4bab51dc0740e06ee" size="1871872">sys_dbg/062/w_py_main_x64_19.0.0.062/w_py_main_x64_19.0.0.062.msi</key>
+    <file chksum="" sha256="5341d72d793513172a8cc05389bc42bdb6c06b0a8012e465d1e02e8ac55a7a3c" size="71394078">sys_dbg/062/w_py_main_x64_19.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,20 @@
+<component type="msi" alias="eclipse">
+  <property name="UpgradeCode">{93C2A14A-069C-402E-9F40-4BAFA91CEE4D}</property>
+  <property name="ProductCode">{F52468CB-4FCA-40E3-B62D-5F21B988315C}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[Eclipse*]</property>
+  <property name="ProductVersion">4.5.0</property>
+  <property name="size">250949410</property>
+
+<property name="EclipseVersion">4.5</property>
+<property name="EclipseArchitecture">x64</property>
+<property name="EclipseRequiredJava">1.7</property>
+
+  <files>
+    <key chksum="" sha256="827b683ed7a29b78d2e312e565cb2e70ed52828d033c8235c35b738023fcb6c4" size="454656">issw/063/eclipse/w_eclipse_p_4.6.0.062.msi</key>
+    <file chksum="" sha256="73e354192bf70703390a63b3f4356460fead098483317b37570946a4ac3bf6cb" size="206660651">issw/063/eclipse/data1.cab</file>
+
+  </files>
+
+
+</component>

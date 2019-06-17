@@ -1,0 +1,9 @@
+<component type="cer" alias="CERT_INTEL">
+  <property name="id">{069B5E99-2772-84C8-767F-1368A7DEB0F3}</property>
+  <property name="CertId">&quot;Intel External Issuing CA 7B&quot;</property>
+  <property name="StoreName">CA</property>
+   
+  <files>
+    <key sha256="d92bf8e9fa867dbd8b794c6a49e6ff1fcfac71f3d7f4ae55bb9587eb24ac6489" size="1869">cmp_and_libs/203/cert_intel/Intel_Software.dcr</key>
+  </files>
+</component>

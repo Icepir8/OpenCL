@@ -1,0 +1,18 @@
+<component type="msi" alias="sys_dbg_dal">
+  <property name="ProductCode">{FAE99AB5-9613-4638-86B6-D14B492233F8}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) DFx Abstraction Layer (Intel(R) DAL)</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">616915048</property>
+<property name="postinstall_script">scripts/install_dal.bat</property>
+<property name="preuninstall_script">scripts/remove_dal.bat</property>
+<property name="script_order">4</property>
+
+
+  <files>
+    <key chksum="" sha256="1d67a72a5e824f021051ec7179a798ee2af0d838736d4ef9759804bc923d669d" size="61440">sys_dbg/062/w_sys_dbg_dal_2019.0.0.062/w_sys_dbg_dal_2019.0.0.062.msi</key>
+    <file chksum="" sha256="a38786333be1b90f3220d3ec2b86251770a6698628f158a8658f989e997606f1" size="306569756">sys_dbg/062/w_sys_dbg_dal_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

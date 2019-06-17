@@ -1,0 +1,16 @@
+<component type="msi" alias="WW_ICL_INTEL64_REDIST_PKG">
+  <property name="ProductCode">{77F382BE-8BFB-401B-827A-95653846E168}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_icl_intel64_redist_pkg_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">0</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_icl_redist_intel64_2019.3.203/ww_icl_redist_intel64_2019.3.203_1041.mst</property>
+
+
+  <files>
+    <key chksum="" sha256="de7f5a2b8e0e931a1e46fb1a7c50857d5f1a44c67ebf58a25d2c5efc74bea9ee" size="11046912">cmp_and_libs/203/ww_icl_redist_intel64_2019.3.203/ww_icl_redist_intel64_2019.3.203.msi</key>
+    <file chksum="" sha256="66de0361981bf7cd730a198e26310446abd950a43bbc7d95d1e1807b5dd85a6f" size="20480">cmp_and_libs/203/ww_icl_redist_intel64_2019.3.203/ww_icl_redist_intel64_2019.3.203_1041.mst</file>
+
+
+  </files>
+</component>

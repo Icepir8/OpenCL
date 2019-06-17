@@ -1,0 +1,18 @@
+<component type="msi" alias="xdp_drvr_intel64">
+  <property name="ProductCode">{E62FE117-66D0-4612-ACC8-051E5CA761B0}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">XDPA USB Drivers</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">29595104</property>
+<property name="postinstall_script">scripts/install_drivers.bat</property>
+<property name="preuninstall_script">scripts/remove_drivers.bat</property>
+<property name="script_order">3</property>
+
+
+  <files>
+    <key chksum="" sha256="61a2f874d89a3da0d9bb6765c7f71808ea00dfab16f2eb350a8c34e7e6bb999d" size="61440">sys_dbg/062/w_xdp_drvr_intel64_19.0.0.062/w_xdp_drvr_intel64_19.0.0.062.msi</key>
+    <file chksum="" sha256="4a8fdfb3f41716a461200c780a04105adc610865a4d4e63db32ae7f1e4553cb8" size="12660405">sys_dbg/062/w_xdp_drvr_intel64_19.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

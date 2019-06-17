@@ -1,0 +1,15 @@
+<component type="msi" alias="sys_dbg_jre">
+  <property name="ProductCode">{E82D4B48-7868-4CF1-B90D-69F232FE2296}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Java Runtime Environment</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">612586978</property>
+
+
+  <files>
+    <key chksum="" sha256="ccfae97b8197dfafd0959511089dae849e39719a73bc832309dbc1ea0e2210cf" size="356352">sys_dbg/062/w_sys_dbg_jre_2019.0.0.062/w_sys_dbg_jre_2019.0.0.062.msi</key>
+    <file chksum="" sha256="0d6753a283a30b4ec76e1d0097d79ddf866a61a46a4c9d7685b38c9d284b1b67" size="167773503">sys_dbg/062/w_sys_dbg_jre_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

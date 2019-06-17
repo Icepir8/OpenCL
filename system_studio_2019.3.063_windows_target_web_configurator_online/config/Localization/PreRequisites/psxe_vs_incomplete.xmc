@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='PreRequisites' locale="1033">
+
+    <msg name='vs_incompete_installation_title'>Incomplete installation of Microsoft Visual Studio* [%s] is detected.</msg>
+    
+    <msg name='vs_incompete_installation_description_install'>Installation can continue; however, Intel® C++ and Fortran Compilers will not be integrated into [%s] during installation. Please, contact customer support (http://www.intel.com/software/products/support).</msg>
+    <msg name='vs_incompete_installation_description_modify'>Modification can continue; however, Intel® C++ and Fortran Compilers will not be integrated into [%s] during installation. Please, contact customer support (http://www.intel.com/software/products/support).</msg>
+
+    <msg name='vs_incompete_installation_description_install_silent'>Installation can continue; however, Intel® C++ and Fortran Compilers will not be integrated into [%s] during installation. Please, contact customer support (http://www.intel.com/software/products/support).</msg>
+    <msg name='vs_incompete_installation_description_modify_silent'>Modification can continue; however, Intel® C++ and Fortran Compilers will not be integrated into [%s] during installation. Please, contact customer support (http://www.intel.com/software/products/support).</msg>
+
+    <msg name='vs_edition_enterprise'>Microsoft Visual Studio* [%s] Enterprise edition</msg>
+    <msg name='vs_edition_professional'>Microsoft Visual Studio* [%s] Professional edition</msg>
+    <msg name='vs_edition_community'>Microsoft Visual Studio* [%s] Community edition</msg>
+    <msg name='vs_edition_and_delimiter'>, </msg>
+    
+  </catalog>
+</xmc>

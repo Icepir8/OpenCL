@@ -1,0 +1,16 @@
+<component type="msi" alias="STUDIO_SL_CMP_LIB">
+  <property name="ProductCode">{E534E6D0-FC48-4F2E-AE24-2A63CFD76E49}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_studio_sl_cmp_lib_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="3b75129ce731b1df8d2a7871c9bcc07f7240024bdc4291ad8348272678954c1f" size="249856">issw/063/studio_sl_cmp_lib_p_19.0.3.063/studio_sl_cmp_lib_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="807ba0b36fbfdc284d0b75c71adf56cbc131f455f8931d8f24e19f224f84330c" size="9507">issw/063/studio_sl_cmp_lib_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

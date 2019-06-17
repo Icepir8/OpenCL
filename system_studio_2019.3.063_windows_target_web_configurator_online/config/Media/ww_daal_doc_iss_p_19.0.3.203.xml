@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_DAAL_DOC_ISS">
+  <property name="ProductCode">{2EE9BB2A-B912-48FB-BC0C-03A66F435307}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_daal_doc_iss_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">328183</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_daal_doc_iss_p_19.0.3.203/ww_daal_doc_iss_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="2ce3db35a2760f92c53300e324ee126b673aabd22c006b1ca48fd038b184bbe4" size="311296">cmp_and_libs/203/ww_daal_doc_iss_p_19.0.3.203/ww_daal_doc_iss_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="f72b2a3b4eaa98792d73baf8b8ba47eb190c524443f3ac84204db20b40f0b4c4" size="208363">cmp_and_libs/203/ww_daal_doc_iss_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="6ad48c777feaf34aec13a2925f59e910a8c8aad2b8750c89ffb7db85afad615d" size="20480">cmp_and_libs/203/ww_daal_doc_iss_p_19.0.3.203/ww_daal_doc_iss_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_MKL_DOC">
+  <property name="ProductCode">{7D198CA3-3B26-412E-9527-F27A88D2AFE9}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_mkl_doc_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">140726</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_mkl_doc_p_19.0.3.203/ww_mkl_doc_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="14810c9f1864e9d097335ba26c5da042ce9f76d07d66ac9fb4274646be756c9d" size="311296">cmp_and_libs/203/ww_mkl_doc_p_19.0.3.203/ww_mkl_doc_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="5cdf2477e7a64b13720253cdb5085916be81c8b0b86bf446d80ec9724aa0fc91" size="20545">cmp_and_libs/203/ww_mkl_doc_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="0cd66901d23fe9df31dd6e72145a09295ef2844eeec9593448f9c10b0779d9ec" size="20480">cmp_and_libs/203/ww_mkl_doc_p_19.0.3.203/ww_mkl_doc_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

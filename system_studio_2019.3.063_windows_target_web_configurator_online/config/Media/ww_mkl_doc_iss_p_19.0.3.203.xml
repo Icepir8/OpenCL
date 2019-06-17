@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_MKL_DOC_ISS">
+  <property name="ProductCode">{B76C2B38-CF1A-454E-A204-AAA4218A7278}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_mkl_doc_iss_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">317344</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_mkl_doc_iss_p_19.0.3.203/ww_mkl_doc_iss_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="3920dbac8917e6f0ea8b36b68f3e9dca8a302c711b84e4af3b696f3e567706e6" size="311296">cmp_and_libs/203/ww_mkl_doc_iss_p_19.0.3.203/ww_mkl_doc_iss_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="0acbc5ce2d6cadff3886cec989c50b046b2dff6d14fa9cea9b488640902ac0cd" size="209472">cmp_and_libs/203/ww_mkl_doc_iss_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="c93219668acd75cb71bce00973d2f8a909fcfb162b8be593c0f3789724f30fc7" size="20480">cmp_and_libs/203/ww_mkl_doc_iss_p_19.0.3.203/ww_mkl_doc_iss_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

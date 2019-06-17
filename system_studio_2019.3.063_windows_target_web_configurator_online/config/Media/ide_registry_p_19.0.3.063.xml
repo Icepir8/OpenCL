@@ -1,0 +1,16 @@
+<component type="msi" alias="IDE_REGISTRY">
+  <property name="ProductCode">{20F43D22-980A-46DB-BEFD-2FCC789E7F99}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_ide_registry_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="e20fe85ccce4dc4864aadff86ddd13a27a61a7b77f026ba607b337a2e38a044d" size="49152">issw/063/ide_registry_p_19.0.3.063/ide_registry_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="91c726c5e7b06102277bdf96d303d1d38b7c227f4f1ec79bc53c6fe633f8b364" size="9508">issw/063/ide_registry_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

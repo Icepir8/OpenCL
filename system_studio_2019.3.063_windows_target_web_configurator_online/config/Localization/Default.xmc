@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='feature menu' locale="1033">
+    <msg name='text_cancel'>Cancel</msg>
+    <msg name='text_ok'>OK</msg>
+    <msg name='unknown'>Unknown</msg>
+
+    <!-- Common variables.  Next 2 rows shouldn't be translated-->
+    <msg name='banners_location'>Banners</msg>
+    <msg name='templates_location'>Templates</msg>
+    <msg name="font_family">Segoe UI</msg>
+    <msg name="flow_direction">leftToRight</msg>
+    <!-- Common variables end -->
+
+    <msg name='install this'>Install this component</msg>
+    <msg name='install this only'>Install this and all child components</msg>
+    <msg name='remove this'>Remove this and all child components</msg>
+    <msg name='remove this only'>Remove this component</msg>
+    <msg name='do not install'>Do not install this component</msg>
+    <msg name='do not remove'>Do not remove this component</msg>
+    <msg name='cancel confirmation title'>Please confirm cancellation...</msg>
+    <msg name='cancel confirmation message'>Are you sure you want to cancel installation?</msg>
+    <msg name='reboot_opt'>You must restart your system for the configuration changes made to [title] to take effect. Click Yes to restart now or No if you plan to manually restart later.</msg>
+    <msg name='installing'>Installing [%s]...</msg>
+    <msg name='removing'>Removing [%s]...</msg>
+    <msg name='loading'>Loading [%s]...</msg>
+    <msg name='component_xmls'>component XMLs</msg>
+    <msg name='starting'>Starting [%s]...</msg>
+    <msg name='downloading'>Downloading</msg>
+    <msg name='download_complete'>Download complete</msg>
+    <msg name='detect_proxy'>Detecting proxy settings</msg>
+    <msg name='extracting'>Extracting</msg>
+    <msg name='waiting_for_media'></msg>
+    <msg name='load_configuration'>[downloading] Product configuration</msg>
+    <msg name='checking_existing_license'>Checking existing license ...</msg>
+
+    <msg name='logs_location'>Installer logs location: [%s]</msg>
+
+    <msg name='PrgInstall'></msg>
+    <msg name='PrgInstallCurrComponent'>Installing component [%s] of [%s]</msg>
+
+    <msg name='PrgPreInstallRemove'>Removing incompatible products</msg>
+    <msg name='PrgPreInstallCurrComponent'>Removing incompatible component [%s] of [%s]</msg>
+
+    <msg name='PrgRemove'></msg>
+    <msg name='PrgRemoveCurrComponent'>Removing component [%s] of [%s]</msg>
+
+    <msg name='PrgRollback'>Rolling back failed components</msg>
+    <msg name='PrgRollbackCurrComponent'>Rollback component [%s] of [%s]</msg>
+
+    <msg name='PrgDownload'>Downloading required media</msg>
+    <msg name='PrgDownloadCurrComponent'>Downloading [%s] of [%s]</msg>
+    <msg name='PrgDownloadOnly'>Destination Folder: [%s]</msg>
+    <msg name='PrgDownloadFilesList'></msg>
+
+    <msg name='ISSA_DOWNLOAD_LIST_DOWNLOADED_FILES'>0</msg>
+    <msg name='ISSA_DOWNLOAD_LIST_TOTAL_FILES'>0</msg>
+    <msg name='PrgDownloadFilesListMessage'>Downloaded [ISSA_DOWNLOAD_LIST_DOWNLOADED_FILES] of [ISSA_DOWNLOAD_LIST_TOTAL_FILES] files</msg>
+    <msg name='PrgPreparingDownloadFilesListMessage'>Download initialization ...</msg>
+
+    <msg name='PrgCommit'>Committing configuration changes</msg>
+    <msg name='PrgCommitCurrComponent'>Committing component changes</msg>
+    <msg name='PrgCompleted'>Completed</msg>
+
+    <msg name='prepare_environment'>Prepare environment ...</msg>
+
+    <!-- Following messages for preinstall content-->
+    <msg name="destination_folders">Destination folder(s):</msg>
+    <msg name="configuration_options">Configuration options:</msg>
+    <msg name="software_to_optional_remove">The following software will be removed:</msg>
+    <msg name="components_to_install">The following components will be installed:</msg>
+    <msg name="components_to_download_only">The following components will be downloaded:</msg>
+    <msg name="components_to_remove">The following components will be removed:</msg>
+    <msg name="components_to_update">The following components will be updated:</msg>
+    <msg name="components_to_download">Download size: [%xsize]</msg>
+    <msg name="will_be_removed">will be removed</msg>
+    <msg name='nothing_to_install'>No components selected to install.</msg>
+    <msg name='nothing_to_modify'>Nothing to modify.</msg>
+    <msg name="another_instance">Another instance of the setup has been detected. Please complete the other install and try again.</msg>
+    <msg name="download_configuration">Download configuration</msg>
+    <msg name='vs_is_running'>[%s] is currently running.</msg>
+    <msg name='vs_is_running_suggest'>Installation can not continue while Microsoft Visual Studio* software is currently running. \par Suggestion: exit Microsoft Visual Studio* and click 'Retry' to continue.</msg>
+    <msg name='file_in_use'>Click 'OK' to automatically close applications and attempt to restart them after setup is complete or click 'Ignore' to continue (Warning: a reboot will be required and you will lose unsaved work on any open files).</msg>
+    <!-- ##################################################### -->
+    <!-- Eclipse integration messages -->
+    <msg name='integration_with_eclipse'>Integration with Eclipse* software ([%s]).</msg>
+    <msg name='deintegration_with_eclipse'>De-integration with Eclipse* software ([%s]).</msg>
+
+    <msg name='eclipse_integration_failed_with_message_from_log'>Eclipse integration failed, please see log file [%s] for details.</msg>
+    <msg name='eclipse_integration_failed_general_message'>Eclipse Integration failed.</msg>
+    <msg name='eclipse_integration_failed_because_of_eclipse_error'>Eclipse integration failed, because of Eclipse error: [%s]</msg>
+
+    <!-- ##################################################### -->
+    <!-- NDK integration pre-install messages -->
+    <msg name='integration_with_ndk'>Integration with NDK software ([%s]).</msg>
+
+    <!-- ##################################################### -->
+    <!-- Path checking messages -->
+    <msg name='path_not_absolute'>[space_incorrect_path]. Path isn't absolute; please indicate the absolute path</msg>
+    <msg name='path_contains_incorrect_symbols'>[space_incorrect_path]. Path contains incorrect symbols</msg>
+    <msg name='network_path_contains_colon'>[space_incorrect_path]. Network path contains ':'</msg>
+    <msg name='path_contains_more_than_one_colon'>[space_incorrect_path]. Path contains more than one ':'</msg>
+    <msg name='path_not_writable'>Cannot write to the destination directory. Please check the permissions on that directory.</msg>
+    <msg name='path_too_long'>The specified path is too long.</msg>
+    <msg name='tmp_missed_title'>TMP environment variable is missing or temp folder is not writable.</msg>
+    <msg name='tmp_missed_message'>Suggestion: Change the TMP environment definition to point to a writable folder.</msg>
+    <msg name='log_not_writable_title'>Log folder is not writable.</msg>
+    <msg name='log_not_writable_message'>Suggestion: Change location for log files to a writable folder.</msg>
+
+    <msg name='disallow_space_in_installdir'>The installation location you entered is not valid; please remove spaces in the destination location.</msg>
+    <msg name='64bit_programfiles_path_is_disallowed'>Destination folder is disallowed as a path for installing product. Please select 'Program Files (x86)' folder.</msg>
+    <msg name='space_failed_plain_message'>There isn't enough free space available: required [%xsize], available [%xsize]</msg>
+    <msg name='space_incorrect_path_plain_message'>Path is incorrect [%s]</msg>
+    <msg name='space_required_plain_message'>Space check passed: required [%xsize], available [%xsize]</msg>
+    <msg name='space_unknown_plain_message'>Cannot detect available space for target path: required [%xsize], available [%xsize]</msg>
+
+    <!-- ##################################################### -->
+    <!-- Silent mode messages -->
+    <msg name='destination_info'>Product will be installed into [%s]</msg>
+    <msg name='installer_destination_info'>Installer will be downloaded into [%s]</msg>
+
+    <msg name='eula_rejected'>ERROR: End User License Agreement (EULA) is not accepted. Installation will end. End User License Agreement must be accepted to proceed with the installation. Suggestion: Read EULA and run the setup again with &apos;--eula=accept&apos;.</msg>
+    <msg name='eula_accepted'>End User License Agreement (EULA) is accepted</msg>
+    <msg name='s_welcome'>[title] installation. Copyright (C) 2019, Intel Corporation. All rights reserved.</msg>
+    <msg name='s_product_is_absent'>[title] product is absent</msg>
+    <msg name='required_installation_directory'>Installdir was defined as [%s]</msg>
+    <msg name='s_install'>[title] will be installed.</msg>
+    <msg name='s_modify'>[title] will be modified.</msg>
+    <msg name='s_repair'>[title] will be repaired.</msg>
+    <msg name='s_remove'>[title] will be removed.</msg>
+    <msg name='s_install_success'>[title] installation was completed successfully.</msg>
+    <msg name='s_repair_success'>[title] repairing was completed successfully.</msg>
+    <msg name='s_remove_success'>[title] uninstallation was completed successfully.</msg>
+    <msg name='s_modify_success'>[title] modify was completed successfully.</msg>
+    <msg name='s_installation_failed'>[title] installation was failed.</msg>
+    <msg name='lic_file_not_defined'>license file isn't defined</msg>
+    <msg name='no_valid_license_found'>No valid license was found</msg>
+    <msg name='valid_license_file_found'>Found valid license file [%s]</msg>
+    <msg name='valid_trial_found'>Found valid trial, [%s] remaining</msg>
+    <msg name='activation_success'>Activation completed successfully</msg>
+    <msg name='activation_failed'>Activation failed: [%s]</msg>
+    <msg name='activate_sn'>Activate product using sn [%s]</msg>
+    <msg name='activate_licfile'>Activate product using license file [%s]</msg>
+    <msg name='activate_trial'>Trial activation</msg>
+    <msg name='s_no_output_specified'>ERROR: Missing option &apos;--output=&lt;file&gt;&apos;. The output file should be specified. Use &apos;--help&apos; for assistance.</msg>
+    <msg name='s_failed_to_create_output'>ERROR: Failed to create the output file. Suggestion: Specify another path with option &apos;--output=&lt;file&gt;&apos;.</msg>
+    <msg name='s_no_report_specified'>ERROR: Missing option &apos;--status=&lt;file&gt;&apos;. The output file should be specified. Use &apos;--help&apos; for assistance.</msg>
+    <msg name='s_failed_to_create_report'>ERROR: Failed to create the report file. Suggestion: Specify another path with option &apos;--status=&lt;file&gt;&apos;.</msg>
+    <msg name='s_components_wrong_options'>ERROR: The command line option 'components' could not be used with 'finstall' or 'fremove' options.</msg>
+
+    <!-- ##################################################### -->
+    <!-- Default disabled descriptions -->
+    <msg name='disabled_by_permanent'>[image_warning] [disabled_by_permanent_msg]</msg>
+    <msg name='disabled_by_prerequisite'>[image_warning] [disabled_by_prerequisite_msg]</msg>
+    <msg name='disabled_by_activation'>[image_warning] [disabled_by_activation_msg]</msg>
+    <msg name='disabled_by_dependency'>[image_warning] [disabled_by_dependency_msg]</msg>
+    <msg name='disabled_by_downgrade'>[image_warning] [disabled_by_downgrade_msg]</msg>
+    <msg name='disabled_by_target_arch'>[image_warning] [disabled_by_target_arch_msg]</msg>
+    <msg name='disabled_no_available_source'>[image_warning] [disabled_no_available_source_msg]</msg>
+    <msg name='disabled_default_description'></msg>
+
+    <msg name='disabled_by_permanent_msg'>Feature is already installed and can be removed using ARP only.</msg>
+    <msg name='disabled_by_prerequisite_msg'>Critical Prerequisites not resolved</msg>
+    <msg name='disabled_by_activation_msg'>Valid license was not found</msg>
+    <msg name='disabled_by_dependency_msg'>Dependency not resolved</msg>
+    <msg name='disabled_by_downgrade_msg'>Newer version is already installed</msg>
+    <msg name='disabled_by_target_arch_msg'>Not applicable for selected target platform architecture</msg>
+    <msg name='disabled_no_available_source_msg'>No available sources found</msg>
+    <msg name='checking_license_perc'>Checking license configuration ([%s]%) ...</msg>
+    <msg name='checking_license_no_perc'>Checking license configuration ...</msg>
+    <msg name='checking_prereqs_no_perc'>Checking prerequisites ...</msg>
+
+    <!-- ##################################################### -->
+    <!-- Default locked descriptions -->
+    <msg name='locked_by_upgrade_mode'>Destination Directory cannot be changed, because [%s] is already installed there.</msg>
+    <msg name='locked_by_modify_mode'>Destination Directory cannot be changed, because [%s] is already installed there.</msg>
+    <msg name='locked_by_same_dir_mode'>Destination Directory cannot be changed, because [%s] is already installed there.</msg>
+    <!-- ##################################################### -->
+    <msg name='finish_click_here_link_name'>Click here</msg>
+  </catalog>
+</xmc>

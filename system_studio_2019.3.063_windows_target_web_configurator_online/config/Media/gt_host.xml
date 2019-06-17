@@ -1,0 +1,31 @@
+<component type="msi" alias="gt_host">
+  <property name="UpgradeCode">{0D83559F-74A5-40F0-84C5-3008A03D5403}</property>
+  <property name="WixUIRMOption">UseRM</property>
+  <property name="ALLUSERS">1</property>
+  <property name="ARPPRODUCTICON">icon.ico</property>
+  <property name="DISABLEADVTSHORTCUTS">1</property>
+  <property name="Manufacturer">Intel Corporation</property>
+  <property name="ProductCode">{78AD81C2-ED7B-49F5-B547-66E6BC2377AF}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) Debugger for Heterogeneous Compute</property>
+  <property name="ProductVersion">1.1.61582.0</property>
+  <property name="DefaultUIFont">WixUI_Font_Normal</property>
+  <property name="WixUI_Mode">FeatureTree</property>
+  <property name="ErrorDialog">ErrorDlg</property>
+  <property name="SecureCustomProperties">VS_VSIX_INSTALLER_PATH;VS2010_VSIX_INSTALLER_PATH;VS2012_VSIX_INSTALLER_PATH;VS2013_VSIX_INSTALLER_PATH;VS2015_ROOT_FOLDER;VS2015_VSIX_INSTALLER_PATH;VS2015DEVENV;WIX_DOWNGRADE_DETECTED;WIX_UPGRADE_DETECTED</property>
+  <property name="DirectoryTable100_amd64.AF4EABEE_4589_3789_BA0A_C83A71662E1D">DirectoryTable</property>
+  <property name="size">98153034</property>
+  <files>
+    <key size="69111808" sha256="59e6d4955b0ac5dd7c2d8fb92680a9fadec932df8add84284d69888e08e4aa70">opencl\gt_host\gen_debugger_host_release_1\gen_debugger_host_release_1.1.61582.0.msi</key>
+  </files>
+	<property name="install_params">MSIRESTARTMANAGERCONTROL=Disable</property>
+
+  <feature id="gdb" parent="Host" size="23435120" fullsize="23435120"/>
+  <feature id="VC140_CRT" parent="Host" size="3333216" fullsize="3333216"/>
+  <feature id="Host" parent="" size="0" fullsize="98153034"/>
+  <feature id="StartMenuShortcutsHost" parent="Host" size="0" fullsize="0"/>
+  <feature id="utils" parent="Host" size="1446762" fullsize="1446762"/>
+  <feature id="VSIntegration" parent="Host" size="440386" fullsize="440386"/>
+  <feature id="GDBSourceCode" parent="Host" size="68777516" fullsize="68777516"/>
+  <feature id="igfxdbg_source" parent="Host" size="720034" fullsize="720034"/>
+</component>

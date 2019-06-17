@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='TProductDeafult' locale="1033">
+    <!-- help option support -->
+    <msg name='help_text'>[help_template]</msg>
+    <file name='help_template'>../templates/help.rtf</file>
+    <!-- help option support -->
+
+    <file name='no_sources_for_repair_rtf'>..\templates\no_sources_for_repair.rtf</file>
+    <msg name='no_sources_for_repair'>[no_sources_for_repair_rtf]</msg>
+
+    <msg name='s_update_eq_no_another_product_update_found'>ERROR: A different version of [title] is already installed. The currently installed version of [title] shall be removed prior to installing the version in this package. Suggestion: use '--update=always' to force removal of the currently installed version.</msg>
+    <msg name='s_update_eq_always_another_product_update_found'>WARNING: A different version of [title] is already installed. The currently installed version of [title] will be automatically removed prior to installing the version in this package.</msg>
+    <msg name='s_update_option_has_unknown_value'>The command line option 'update' is defined with unknown value. Ignore it.</msg>
+
+    <msg name='add_integration_opt'>Add integration into [%s]</msg>
+    <msg name='rm_integration_opt'>Remove integration into [%s]</msg>
+
+  </catalog>
+</xmc>

@@ -1,0 +1,16 @@
+<component type="msi" alias="STUDIO_SL_ADVI">
+  <property name="ProductCode">{74B5E40F-4577-4933-9A23-EEC0923B374C}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_studio_sl_advi_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="64cb7053adaae1840f86572a4aceea9dd93a2326633d68e0c8b031da0803e679" size="249856">issw/063/studio_sl_advi_p_19.0.3.063/studio_sl_advi_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="8cd138ddfb71d78c0d77321a1bd4f302b78c65a412de02d1ae28f168dbe91753" size="9508">issw/063/studio_sl_advi_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

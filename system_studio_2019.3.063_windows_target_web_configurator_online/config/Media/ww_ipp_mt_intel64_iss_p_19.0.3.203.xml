@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_IPP_MT_INTEL64_ISS">
+  <property name="ProductCode">{1F3780BB-5BB9-461D-AED6-24431175CAE8}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_ipp_mt_intel64_iss_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">1617546</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_ipp_mt_intel64_iss_p_19.0.3.203/ww_ipp_mt_intel64_iss_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="f0465dc0cb088b12e3c8a506c9d886989b579a600ff987a0535779f4b57e6d42" size="311296">cmp_and_libs/203/ww_ipp_mt_intel64_iss_p_19.0.3.203/ww_ipp_mt_intel64_iss_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="9e1209e95cae125b81f82655088b5bfa6b728bcf2db5e221bd5fcb0af8a354a9" size="226561">cmp_and_libs/203/ww_ipp_mt_intel64_iss_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="e1eaa662e5f11759ce5f000672ac42ff347e28113fdec7fd9f4e274d9a764e27" size="20480">cmp_and_libs/203/ww_ipp_mt_intel64_iss_p_19.0.3.203/ww_ipp_mt_intel64_iss_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

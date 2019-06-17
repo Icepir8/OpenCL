@@ -1,0 +1,11 @@
+<component type="msi" alias="amplxe_shortcuts_win_gui">
+  <property name="UpgradeCode">{B27C52D3-11A4-4250-BCAD-55A147E30073}</property>
+  <property name="ProductCode">{74050B92-0F4E-4432-AF84-E43D85262FC0}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel VTune Amplifier 2019 Update 3 Intel System Studio Shortcuts</property>
+  <property name="ProductVersion">19.3.0.590814</property>
+  <property name="size">0</property>
+  <files>
+    <key size="90112" chksum="" sha256="c038b23410a681c6facdeffee9b9257b8dc4d2bb40ebc0f7685664878b4443d1">amplxe/amplxe_shortcuts_win_gui/amplxe_shortcuts_win_gui.msi</key>
+  </files>
+</component>

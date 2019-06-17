@@ -1,0 +1,9 @@
+<component type="cer" alias="CERT_COMODO">
+  <property name="id">{4CAF9CA-DB63-6FE0-1FF7-4ED85B03869D}</property>
+  <property name="CertId">&quot;COMODO RSA Certification Authority&quot;</property>
+  <property name="StoreName">CA</property>
+   
+  <files>
+    <key sha256="52f0e1c4e58ec629291b60317f074671b85d7ea80d5b07273463534b32b40234" size="1500">cmp_and_libs/203/cert_comodo/Comodo_RSA.dcr</key>
+  </files>
+</component>

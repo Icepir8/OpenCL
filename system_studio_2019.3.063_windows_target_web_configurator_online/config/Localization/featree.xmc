@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='beacon tree control' locale="1033">
+    <msg name="act_upgrade">Upgrade</msg>
+    <msg name="act_install">Install</msg>
+    <msg name="act_download">Download</msg>
+    <msg name="act_remove">Remove</msg>
+    <msg name="act_installed">Installed</msg>
+
+    <msg name="tree_header_component_name">Component Name</msg>
+    <msg name="tree_header_action">Action</msg>
+    <msg name="tree_header_size">Size</msg>
+    <msg name="tree_header_quality">Quality</msg>
+
+    <msg name='media_unavailable'>Component could not be installed because source media is not available. To install component launch installer from source media.</msg>
+  </catalog>
+</xmc>

@@ -1,0 +1,16 @@
+<component type="msi" alias="STUDIO_SL_COMMON">
+  <property name="ProductCode">{76A5D548-E985-4DC2-AAC5-B62F29B0EA8E}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_studio_sl_common_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="6e6cfd8f0da7102171a0f57576de5d1db4687d2a4bf2d04a09ec033f0f606db1" size="249856">issw/063/studio_sl_common_p_19.0.3.063/studio_sl_common_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="e488aea402ca65a89d8fd23a12444d21a93b3027cf3e2f7d63ea264f8545ab6b" size="9508">issw/063/studio_sl_common_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

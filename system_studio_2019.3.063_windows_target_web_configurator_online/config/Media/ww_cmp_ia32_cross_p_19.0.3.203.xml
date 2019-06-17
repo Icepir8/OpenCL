@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_CMP_IA32_CROSS">
+  <property name="ProductCode">{FF52ECDA-A0FF-4E7B-A446-F0E467473927}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_cmp_ia32_cross_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">20780024</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_cmp_ia32_cross_p_19.0.3.203/ww_cmp_ia32_cross_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="31fb904653f676a6bf390a0ae8090f4f1324e034acba0ebb97a9952fde0e0edf" size="311296">cmp_and_libs/203/ww_cmp_ia32_cross_p_19.0.3.203/ww_cmp_ia32_cross_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="6558bb24981806387307c69b6b6c7d6cf5c823eb546a9cf6aa074f36206fbaea" size="869526">cmp_and_libs/203/ww_cmp_ia32_cross_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="828ab0688c9b213b8121e5d8377dfccfdf6b1522ed4fc371207f44c5fa8de345" size="20480">cmp_and_libs/203/ww_cmp_ia32_cross_p_19.0.3.203/ww_cmp_ia32_cross_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

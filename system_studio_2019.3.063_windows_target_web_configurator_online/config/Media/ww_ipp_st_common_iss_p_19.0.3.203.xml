@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_IPP_ST_COMMON_ISS">
+  <property name="ProductCode">{093CD2E1-0956-4E3E-BE7D-A4BBBB0F371A}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_ipp_st_common_iss_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">1585799</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_ipp_st_common_iss_p_19.0.3.203/ww_ipp_st_common_iss_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="f810708371fb6b7b2944b136d90ab5c5299a2e5d6b9a463fe8e21f6598eb53a9" size="307200">cmp_and_libs/203/ww_ipp_st_common_iss_p_19.0.3.203/ww_ipp_st_common_iss_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="66dcf76d52b2c1ad0fbe1af38e0f883c79e1d7432f693945e49bc12f110d2d3f" size="1553363">cmp_and_libs/203/ww_ipp_st_common_iss_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="da993d525e89668abed656e4ac5a443c4e3920edf780cce1c7c1952eba08dfd6" size="20480">cmp_and_libs/203/ww_ipp_st_common_iss_p_19.0.3.203/ww_ipp_st_common_iss_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

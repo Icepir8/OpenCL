@@ -1,0 +1,13 @@
+<component type="msi" alias="advi_cli_install">
+  <property name="UpgradeCode">{B69DB00D-4B24-4F40-9EEE-71BC8CD39B20}</property>
+  <property name="ProductCode">{A4A1CD9F-C665-49B2-97B2-45D33B1F798B}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel Advisor 2019 Update 3 Command-line interface</property>
+  <property name="ProductVersion">19.3.0.591264</property>
+  <property name="PreUninstalls">{0CBE9903-808E-4D84-B4AC-9EED895E756B}</property>
+  <property name="size">580595690</property>
+  <files>
+    <key size="2736128" chksum="" sha256="99d5ef3fd3d54681c476e2d46dd6766256c269d2bbc0c4b2f37ea899e6c877d7">advi/advi_cli_install/advi_cli_install.msi</key>
+    <file size="130200543" chksum="" sha256="a4321693cdf2f4c274211d4a8304341c0de5b3b4a718901ff8ba11098dea39f4">advi/advi_cli_install/data1.cab</file>
+  </files>
+</component>

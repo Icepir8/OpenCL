@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_OPENMP_INTEL64">
+  <property name="ProductCode">{D775AA69-3C2F-4ED0-9A84-E348D3AA3898}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_openmp_intel64_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">7102828</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_openmp_intel64_p_19.0.3.203/ww_openmp_intel64_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="2717d44fdd18a2d8f144b4a0e3be4943d06cbb2d3462efc6c0eab95eb9824133" size="311296">cmp_and_libs/203/ww_openmp_intel64_p_19.0.3.203/ww_openmp_intel64_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="11ef2659f02e1a014a877867bb47413629eaf83335429944c655e7bd4461d988" size="1560413">cmp_and_libs/203/ww_openmp_intel64_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="5cd560788e0d6d2cb5ea73af2b837e31523774165aa79adef203e22950818d9c" size="20480">cmp_and_libs/203/ww_openmp_intel64_p_19.0.3.203/ww_openmp_intel64_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

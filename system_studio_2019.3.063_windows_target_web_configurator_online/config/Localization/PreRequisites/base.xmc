@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='PreRequisites' locale="1033">
+    <msg name="another_instance">Another instance of the setup has been detected. Please complete the other install and try again.</msg>
+
+    <msg name='no_admin_privilege_title'>The account under which the Setup is running does not have administator privileges.</msg>
+    <msg name='no_admin_privilege_description_install'>Installation will end because this installer requires administrative privileges. \par\pard\par\pard \b Suggestion: \b0 \par\pard Request administrative privileges, or ask someone with administrative privileges to install this product for you.</msg>
+    <msg name='no_admin_privilege_description_modify'>Modification will end because this installer requires administrative privileges. \par\pard\par\pard \b Suggestion: \b0 \par\pard Request administrative privileges, or ask someone with administrative privileges to remove/repair this product for you.</msg>
+    <msg name='no_admin_privilege_description_repair'>Repair will end because this installer requires administrative privileges. \par\pard\par\pard \b Suggestion: \b0 \par\pard Request administrative privileges, or ask someone with administrative privileges to repair this product for you.</msg>
+    <msg name='no_admin_privilege_description_remove'>Removal will end because this installer requires administrative privileges. \par\pard\par\pard \b Suggestion: \b0 \par\pard Request administrative privileges, or ask someone with administrative privileges to remove this product for you.</msg>
+
+    <msg name='no_admin_privilege_description_install_silent'>Installation will end because this installer requires administrative privileges. Suggestion: Request administrative privileges, or ask someone with administrative privileges to install this product for you.</msg>
+    <msg name='no_admin_privilege_description_modify_silent'>Modification will end because this installer requires administrative privileges. Suggestion: Request administrative privileges, or ask someone with administrative privileges to remove/repair this product for you.</msg>
+    <msg name='no_admin_privilege_description_repair_silent'>Repair will end because this installer requires administrative privileges. Suggestion: Request administrative privileges, or ask someone with administrative privileges to repair this product for you.</msg>
+    <msg name='no_admin_privilege_description_remove_silent'>Removal will end because this installer requires administrative privileges. Suggestion: Request administrative privileges, or ask someone with administrative privileges to remove this product for you.</msg>
+    
+    <msg name='processor_architecture_ia32'>IA-32</msg>
+    <msg name='processor_architecture_ia64'>IA-64</msg>
+    <msg name='processor_architecture_intel64'>Intel® 64</msg>
+
+    <msg name='cpu_arch_not_supported_title'>Machine CPU architecture [%s] is not supported.</msg>
+    <msg name='cpu_arch_not_supported_title_description'>Installation will end because this architecture is not supported. \par\pard\par\pard \b Suggestion: \b0 \par\pard Check Release Notes for a list of supported CPU architectures, then install this product on a compliant machine.</msg>
+    <msg name='cpu_arch_not_supported_title_description_silent'>Installation will end because this architecture is not supported. Suggestion: Check Release Notes for a list of supported CPU architectures, then install this product on a compliant machine.</msg>
+
+    <msg name='non_intel_cpu_title'>The system does not have an Intel Architecture processor.</msg>
+    <msg name='non_intel_cpu_description'>Installation can continue; however, product functionality may not meet expectations because this product is untested on this CPU.</msg>
+
+    <msg name='os_not_supported_title'>Operating system "[%s]" is not supported.</msg>
+    <msg name='os_not_supported_description'>Installation will end because this operating system is not supported. \par\pard\par\pard \b Suggestion: \b0 \par\pard Check Release Notes for a list of supported operating systems and install this product on a compliant system.</msg>
+    <msg name='os_not_supported_description_silent'>Installation will end because this operating system is not supported. Suggestion: Check Release Notes for a list of supported operating systems and install this product on a compliant system.</msg>
+
+    <msg name='os_not_tested_title'>This machine uses operating system "[%s]". Compatibility problems are possible.</msg>
+    <msg name='os_not_tested_description'>Installation can continue; however, product functionality may not meet expectations because this product is untested on this operating system. \par\pard\par\pard \b Suggestion: \b0 \par\pard Check Release Notes for a list of supported operating systems and install this product on a compliant system.</msg>
+    <msg name='os_not_tested_description_silent'>Installation can continue; however, product functionality may not meet expectations because this product is untested on this operating system. Suggestion: Check Release Notes for a list of supported operating systems and install this product on a compliant system.</msg>
+
+    <msg name='tmp_missed_title'>TMP environment variable is missed or temp directory is not writable.</msg>
+    <msg name='tmp_missed_message'>Suggestion: Change the TMP environment definition to point to a writable folder.</msg>
+
+    <msg name='no_sources_title'>Modification cannot continue because no installation media is available.</msg>
+    <msg name='no_sources_message'>Suggestion: Start the install from the original media.</msg>
+
+    <msg name='blockprocesses'>Some processes block installation. Exit blocking software and click Re-check below to validate status or click Next to close blocking processes automatically. \par\pard Detected blocking processes:</msg>
+
+  </catalog>
+</xmc>

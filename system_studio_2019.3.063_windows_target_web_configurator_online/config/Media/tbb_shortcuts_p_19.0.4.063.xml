@@ -1,0 +1,16 @@
+<component type="msi" alias="TBB_SHORTCUTS">
+  <property name="ProductCode">{35494905-799B-46E0-9E59-783E1D18385A}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_tbb_shortcuts_name]</property>
+  <property name="ProductVersion">19.0.4.063</property>
+  <property name="size">0</property>
+
+
+
+  <files>
+    <key chksum="" sha256="47c8e37e00ec0ff34396c569779a153308dc85307822162cc413211d05b93715" size="151552">issw/063/tbb_shortcuts_p_19.0.4.063/tbb_shortcuts_p_19.0.4.063.msi</key>
+    <file chksum="" sha256="b3926b41e2263522a5efe40b7f0fa1c2ef196143ca261d3dfe0742310bc18749" size="9508">issw/063/tbb_shortcuts_p_19.0.4.063/data1.cab</file>
+
+
+  </files>
+</component>

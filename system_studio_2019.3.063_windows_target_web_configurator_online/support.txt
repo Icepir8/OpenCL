@@ -1,0 +1,24 @@
+Package ID: w_cembdw_prof_p_2019.3.063
+
+This package contains:
+        Intel(R) System Studio 2019 Update 3 Professional Edition for Windows*
+        Intel(R) C++ Compiler 19.0 Update 3 for Windows* Target
+        Intel(R) Math Kernel Library 2019 Update 3 for Windows* Target
+        Intel(R) Integrated Performance Primitives 2019 Update 3 for Windows* Target
+        Intel(R) Threading Building Blocks 2019 Update 4 for Windows* Target
+        Intel(R) Data Analytics Acceleration Library 2019 Update 3 for Windows* Target
+        Intel(R) VTune(TM) Amplifier 2019 Update 3
+        Intel(R) Inspector 2019 Update 3
+        Intel(R) Debugger for Heterogeneous Compute 2016**
+        Intel(R) SoC Watch for Windows*
+        Intel(R) Energy Profiler
+        OpenCL(TM) Tools 2019 Update 3
+        Intel(R) Advisor 2019 Update 3
+
+Please use the following information when submitting customer support requests.
+Please check the dedicated forum for this product at Intel(R) Developer Zone http://software.intel.com/forums/ for answers to any questions you may have.
+
+If you purchased support for this product please direct customer support requests through Online Service Center https://supporttickets.intel.com
+You need a valid license to use this product.
+
+** GNU* GDB and source provided under GNU General Public License (GPL) V3, ELFDWARF library provided under GNU LGPL.

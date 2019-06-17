@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='controls' locale="1033">
+    <msg name='subtitle_ndk_integration'>Android* NDK Integration</msg>
+
+    <!-- NDK dialog-->
+    <file name='ndk_incorrect_path_file'>..\templates\ndk_incorrect_path.rtf</file>
+    <file name='ndk_location_not_valid_file'>..\templates\ndk_location_not_valid.rtf</file>
+    <file name='ndk_not_supported_version_file'>..\templates\ndk_not_supported_version.rtf</file>
+    <msg name='ndk_incorrect_path'>Path is incorrect: [%s]</msg>
+    <msg name='ndk_location_invalid'>Android* NDK installation location is not valid, please enter proper location of Android* NDK.</msg>
+    <!--msg name='ndk_header_message'>The installation has detected that Intel® C++ Compiler for Android* is selected for install.\par Please state Android* NDK installation location to proceed with installation:</msg-->
+    <file name='ndk_header_file'>..\templates\ndk_header.rtf</file>
+    <msg name='ndk_header_message'>Please provide the Android* NDK location for integration of the Intel® C++ Compiler. Android NDK integration is required to use the compiler for Android targets. If you do not have an Android NDK installed or do not intend to developing for Android, you can skip this step.</msg>
+
+    <!--msg name='ndk_footer_message'>Do not install the Intel® C++ Compiler for Android*</msg-->
+    <msg name='ndk_footer_message'></msg>
+    <msg name='ndk_label'>Android* NDK location:</msg>
+    <msg name='ndk_check_box_label'>Integrate into Android* NDK</msg>
+
+    <!--msg name='ndk_header'>\ql\b{Please state Android* NDK installation location \par to proceed with installation}</msg-->
+    <msg name='ndk_header'>Please state Android* NDK installation location to proceed with installation</msg>
+    <msg name='ndk_location_invalid_title'>Invalid Android* NDK location</msg>
+    <msg name='ndk_location_with_spaces_title'>Invalid Android* NDK location</msg>
+    <msg name='ndk_location_with_spaces_msg'>Android* NDK installation location is not valid, please remove spaces in Android* NDK location.</msg>
+    <msg name='ndk_not_supported_version_title'>Android* NDK version is not supported</msg>
+    <msg name='ndk_not_supported_version_msg'>Android* NDK version in the specified folder is not supported. Android* NDK r9 is required. Installation can continue but compiler may not be integrated into Android* NDK. Do you want to continue the installation?</msg>
+    <!-- NDK dialog end-->
+  </catalog>
+</xmc>

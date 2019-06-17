@@ -1,0 +1,27 @@
+<component type="msi" alias="IDE_C_COMMON_VS2017">
+  <property name="ProductCode">{D77D8E35-5F10-45F7-AE3B-C9BEF3AE8C90}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ide_c_common_vs2017_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">1442215</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ide_c_common_vs2017_p_19.0.3.203/ide_c_common_vs2017_p_19.0.3.203_1041.mst</property>
+
+
+  <vs_integration>
+    <vs_2017 selected="1" skip_restart="yes">NEED_VS2017_INTEGRATION</vs_2017>
+  </vs_integration>
+
+  <block_processes>
+    <custom>vs_2017</custom>
+  </block_processes>
+
+  <vs_pre_install><vsix name="COMP_ALL_SHARED_VS150.vsix" guid="8cb3d944-0ae5-45ef-aa5f-6098d7b497aa" vs_version="2017"></vsix><vsix name="CppCompilerPkgs.vsix" guid="1fc9e444-a812-467b-8585-0f47655ab914" vs_version="2017"></vsix></vs_pre_install>
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="2839e6482607b307b20c9a8ad9897748597a772a1ad3ea0e1424b0cb6ad28d63" size="847872">cmp_and_libs/203/ide_c_common_vs2017_p_19.0.3.203/ide_c_common_vs2017_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="cbb23c8f86f0fae133b5b01d9d6dfbe23772003dde5109ebb93ce7dfe61f238a" size="612667">cmp_and_libs/203/ide_c_common_vs2017_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="e67c5c91456a96da9aa9bdb0568e0d95cc7630b29f462e403aa0b96492f6cc97" size="20480">cmp_and_libs/203/ide_c_common_vs2017_p_19.0.3.203/ide_c_common_vs2017_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

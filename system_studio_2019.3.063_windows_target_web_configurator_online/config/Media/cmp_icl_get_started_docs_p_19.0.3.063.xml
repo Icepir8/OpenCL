@@ -1,0 +1,16 @@
+<component type="msi" alias="CMP_ICL_GET_STARTED_DOCS">
+  <property name="ProductCode">{CC2FAED4-A809-4CBE-B294-D95188A426DD}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_cmp_icl_get_started_docs_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">141585</property>
+
+
+
+  <files>
+    <key chksum="" sha256="290e855a270356f2114a18e2a4bb9ac17cd4797898e1952ea99343e63f6a9006" size="49152">issw/063/cmp_icl_get_started_docs_p_19.0.3.063/cmp_icl_get_started_docs_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="9722c8429ce4060a7cf90b70f14ca0b06b8360a69943cbf16c0a32bbe823a53d" size="60676">issw/063/cmp_icl_get_started_docs_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

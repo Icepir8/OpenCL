@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+  <cache dir_id="35" subdir="Intel/installer/ParallelStudio/cache/" noload="1"/>
+  <micl id="{CA4E4772-8F7E-4FFF-AED8-798193170483}"/>
+</config>

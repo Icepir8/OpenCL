@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='PreRequisites' locale="1033">
+
+    <msg name='no_vs_target_amd64_title'>[%s] does not have C++ "X64 Compiler and Tools" components installed.</msg>
+    <msg name='no_vs_target_amd64_description'>Installation can continue; however, [%s] will not build using [%s]. \par\pard Please refer to the Release Notes for information on configuring Microsoft Visual Studio* for 64-bit application development.</msg>
+    <msg name='no_vs_target_amd64_description_silent'>Installation can continue; however, [%s] will not build using [%s]. Please refer to the Release Notes for information on configuring Microsoft Visual Studio* for 64-bit application development.</msg>
+
+    <msg name='component_name_c_ia32'>Intel® C++ Compiler for IA-32</msg>
+    <msg name='component_name_c_intel64'>Intel® C++ Compiler for Intel® 64</msg>
+    <msg name='component_name_f_ia32'>Intel® Visual Fortran Compiler for IA-32</msg>
+    <msg name='component_name_f_intel64'>Intel® Visual Fortran Compiler for Intel® 64</msg>
+
+    <msg name='component_name_c_f_intel64'>Intel® C++ Compiler for Intel® 64 and Intel® Visual Fortran Compiler for Intel® 64</msg>
+    
+  </catalog>
+</xmc>

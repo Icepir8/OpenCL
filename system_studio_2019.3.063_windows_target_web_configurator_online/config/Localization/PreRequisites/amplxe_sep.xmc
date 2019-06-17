@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='PreRequisites' locale="1033">
+    <msg name='sep_intel_not_tested_cpu_title'>The product version does not support hardware event-based sampling for the Microprocessor in this system.</msg>
+    <msg name='sep_intel_not_tested_cpu_description'>Installation can continue, however performance analysis types that use hardware event-based sampling (EBS) will not be enabled.  All other performance analysis types will be available.  Refer to the product Release Notes document for the most recent list of supported processors and instructions on how to enable EBS, if appropriate for the processor in this system.</msg>
+  </catalog>
+</xmc>

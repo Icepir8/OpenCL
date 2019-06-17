@@ -1,0 +1,16 @@
+<component type="msi" alias="STUDIO_SL_SYSTEM_DEBUGGER">
+  <property name="ProductCode">{DCB8BBE4-34B6-49BE-80DE-BA9805ADE7C5}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_studio_sl_system_debugger_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="3a625c0f99d0a1a5a081c7eb8a99151dbf29c104a4927a0576c35b3c7f983f91" size="249856">issw/063/studio_sl_system_debugger_p_19.0.3.063/studio_sl_system_debugger_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="181f40ce609a95a979a86e0fe4f56c229d6f806f6792b6795e9005ebf3edf859" size="9508">issw/063/studio_sl_system_debugger_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

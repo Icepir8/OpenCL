@@ -1,0 +1,16 @@
+<component type="msi" alias="py_dot_net_ia32">
+  <property name="UpgradeCode">HASH(0x7c69638)</property>
+  <property name="ProductCode">{96D427FA-9FAB-4FEE-ADB0-B716D08F3F49}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Python .NET</property>
+  <property name="ProductVersion">2.0.18</property>
+  <property name="size">122214</property>
+
+
+  <files>
+    <key chksum="" sha256="4ea6fd96ff41abcac535961f573f646c6ed134b00af8c6ebd487c35b287b8520" size="159744">sys_dbg/062/py_dot_net_ia32/python.net_python27-2.0.18.win32.msi</key>
+
+  </files>
+
+
+</component>

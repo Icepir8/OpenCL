@@ -1,0 +1,16 @@
+<component type="msi" alias="STUDIO_DOCS_PROF">
+  <property name="ProductCode">{F59907AB-8682-4BAD-8F47-EE509468D787}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_studio_docs_prof_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">2619284</property>
+
+
+
+  <files>
+    <key chksum="" sha256="3bc40ab623181c37f96362a9770a66f7e97bf54ee11d87461b0903491a8dddef" size="417792">issw/063/studio_docs_prof_p_19.0.3.063/studio_docs_prof_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="42edfea2c473c42e695fb38481afd4945d8ccbc757e7cb59fe0163ac0e0b7326" size="2276270">issw/063/studio_docs_prof_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

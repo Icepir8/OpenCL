@@ -1,0 +1,16 @@
+<component type="msi" alias="IPP_SHORTCUTS">
+  <property name="ProductCode">{37677484-6B22-47C2-83D6-08C364B3FA7C}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_ipp_shortcuts_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+
+  <files>
+    <key chksum="" sha256="3c6b7b3174652ccff9f9a1b743208ff4735efa840cfb0cfdc88cf0dbc91af738" size="151552">issw/063/ipp_shortcuts_p_19.0.3.063/ipp_shortcuts_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="999296d2cb68aff392f1275ef312864d9080f5a6d6da96d25c2ba908d514c7b1" size="9508">issw/063/ipp_shortcuts_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

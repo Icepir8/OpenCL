@@ -1,0 +1,33 @@
+<component type="msi" alias="opencl_cpu_runtime_cmp">
+  <property name="DiskPrompt">Disk [1]</property>
+  <property name="UpgradeCode">{3AA52303-14D3-4313-941B-510D95D07874}</property>
+  <property name="WixUIRMOption">UseRM</property>
+  <property name="ARPNOMODIFY">1</property>
+  <property name="ALLUSERS">1</property>
+  <property name="ARPPRODUCTICON">app_icon</property>
+  <property name="REINSTALLMODE">amus</property>
+  <property name="INSTALLLEVEL">100</property>
+  <property name="REBOOT">Suppress</property>
+  <property name="INTEL_PRODUCT_NAME">Intel® CPU Runtime for OpenCL™ Applications 18.1</property>
+  <property name="INTEL_PRODUCT_VERSION">18.1.016</property>
+  <property name="CMM_CC_ProductFamily">;OpenCL_60;WW_OPENCL_INTEL64_REDIST_PKG;</property>
+  <property name="DefaultUIFont">WixUI_Font_Normal</property>
+  <property name="WixUI_Mode">Minimal</property>
+  <property name="Manufacturer">Intel Corporation</property>
+  <property name="ProductCode">{969FF637-F026-46E3-8E43-20A8114E4F40}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel® CPU Runtime for OpenCL™ Applications 18.1</property>
+  <property name="ProductVersion">18.1.016</property>
+  <property name="ErrorDialog">ErrorDlg</property>
+  <property name="SecureCustomProperties">COEXUPGRADE;NEWPRODUCTFOUND;SUPPORTDIR;UPGRADEFOUND</property>
+  <property name="size">246262438</property>
+  <files>
+    <key size="63393792" sha256="cb7908c1c4ab9c4e35277099e5e9dc8fcd05f6f53b7368a916d3a6eb78ff9709">opencl\opencl_cpu_runtime_cmp\opencl_runtime_18\opencl_runtime_18.1_x64_setup.msi</key>
+  </files>
+	<property name="install_params">MSIRESTARTMANAGERCONTROL=Disable</property>
+
+  <feature id="lib" parent="" size="245887666" fullsize="245887666"/>
+  <feature id="bin" parent="" size="0" fullsize="0"/>
+  <feature id="include" parent="" size="0" fullsize="0"/>
+  <feature id="Documentation" parent="" size="374772" fullsize="374772"/>
+</component>

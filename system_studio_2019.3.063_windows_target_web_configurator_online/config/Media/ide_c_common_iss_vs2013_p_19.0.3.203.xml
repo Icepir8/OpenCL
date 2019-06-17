@@ -1,0 +1,22 @@
+<component type="msi" alias="IDE_C_COMMON_ISS_VS2013">
+  <property name="ProductCode">{318A6CDF-D1C7-4C06-89FB-1598576F6384}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ide_c_common_iss_vs2013_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">512830</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ide_c_common_iss_vs2013_p_19.0.3.203/ide_c_common_iss_vs2013_p_19.0.3.203_1041.mst</property>
+
+
+  <vs_integration>
+    <vs_2013 selected="1">NEED_VS2013_INTEGRATION</vs_2013>
+  </vs_integration>
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="dfa27c643476cfd2e485ad0668d11c8aa32f196b976b325e2e09a0e8f9b94a67" size="471040">cmp_and_libs/203/ide_c_common_iss_vs2013_p_19.0.3.203/ide_c_common_iss_vs2013_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="24255f3cfabac97c45db83b690ca141b40af464fbdae700a26287c2cd6b7aa1d" size="97410">cmp_and_libs/203/ide_c_common_iss_vs2013_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="2e364eed7d7de5de4c9fa52408ec9f39cf85e10b6ae27610756849f75c5e6e1c" size="20480">cmp_and_libs/203/ide_c_common_iss_vs2013_p_19.0.3.203/ide_c_common_iss_vs2013_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

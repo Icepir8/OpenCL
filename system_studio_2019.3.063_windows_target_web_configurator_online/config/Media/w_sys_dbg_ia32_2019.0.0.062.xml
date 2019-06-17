@@ -1,0 +1,18 @@
+<component type="msi" alias="sys_dbg_ia32">
+  <property name="ProductCode">{CB458869-8D09-4BFE-8682-75415D491AD8}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) System Debugger</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">102721883</property>
+<property name="postinstall_script">scripts/post-install-xdb.bat</property>
+<property name="preuninstall_script">scripts/pre-uninstall-xdb.bat</property>
+<property name="script_order">11</property>
+
+
+  <files>
+    <key chksum="" sha256="5812d3a92eab3ab881ed8d9277d6e7dc622eeb9ba34154c5aa6111660ee06d12" size="118784">sys_dbg/062/w_sys_dbg_ia32_2019.0.0.062/w_sys_dbg_ia32_2019.0.0.062.msi</key>
+    <file chksum="" sha256="92a5c06b9d31fc6945314e249f8866fd298105d129d107e8b3159680a5fea1d0" size="63473456">sys_dbg/062/w_sys_dbg_ia32_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

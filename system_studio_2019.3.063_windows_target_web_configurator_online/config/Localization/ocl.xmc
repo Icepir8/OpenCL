@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='ocl_sdk' locale="1033">
+    <msg name='win7_required'>This product may be installed on Windows* 7 or newer operating system only.</msg>
+
+    <msg name='code_builder'>Intel® Code Builder for OpenCL™ API 2019 Update 3</msg>
+    <msg name='no_cpu_runtime_warning_title'>OpenCL™ driver is missing or out of date.</msg>
+    <msg name='no_cpu_runtime_warning_msg'>Obtain the relevant driver version at {\field{*\fldinst HYPERLINK \o "http://software.intel.com/en-us/articles/soc-compute-builder-opencl-drivers"}{\fldrslt OpenCL™ Drivers}} webpage.</msg>
+    <msg name='no_cpu_runtime_link'>http://software.intel.com/en-us/articles/soc-compute-builder-opencl-drivers</msg>
+    <msg name='no_cpu_runtime_link_tmpl'>OpenCL™ Drivers</msg>
+
+    <msg name='will_not_be_installed'>[%s] will not be installed because [%s] is not found on your system</msg>
+    <msg name='gdb_src_dscr'>[%s] will not be installed because [%s] is not found on your system</msg>
+    
+    <msg name='newer_installed_title'>A newer version of [title] is already installed.</msg>
+    <msg name='newer_installed_description'>Please uninstall a newer version if you wish to install this package.</msg>
+
+    <msg name='older_installed_title'>An older version of [title] is already installed.</msg>
+    <msg name='older_installed_description'>The currently installed version will be automatically removed prior to installing [title].</msg>
+
+    <msg name='non_skl'>Your system doesn't meet the requirements to support OpenCL™ kernel debugging</msg>
+    <msg name='non_skl_dscr'>OpenCL™ kernel debugging is supported only on 6th Generation of Intel® Core™ Processors with Intel® Iris™, Intel® Iris Pro and HD Graphics.</msg>
+
+    <msg name='gpu_not_supported'>[%s] will not be installed because supported GPU device is not found</msg>
+    
+    <msg name='startmenu_fld'>OpenCL™ Tools 2019 Update 3</msg>
+    <msg name='ism_lnk_name'>Intel Software Manager.lnk</msg>
+    <msg name='ism_path'>[sh_folder_common_x86]\Intel\Intel Software Manager\ism.exe</msg>
+    <msg name='ism_lnk_description'>Launch Intel Software Manager</msg>
+
+    <msg name="update_kb2999226_title">Update for Universal C Runtime in Windows* is not installed.</msg>
+    <msg name="update_kb2999226_message">Your system is missing an important pre-requisite software update that you must download from Microsoft (KB2999226) and install it before using the product: ({\field{*\fldinst HYPERLINK \o "https://support.microsoft.com/en-us/kb/2999226"}{\fldrslt https://support.microsoft.com/en-us/kb/2999226}}).
+</msg>
+    <msg name="update_kb2999226_link">https://support.microsoft.com/en-us/kb/2999226</msg>
+
+    <msg name='restart_required'>You must restart you system for the configuration changes made to "[%s]" to take effect.</msg>
+    
+    <msg name='no_java_link'>Please visit http://java.com/en/download/ to download latest JRE.</msg>
+    <msg name='no_java_64_title'>Java* Runtime Environment 64-bit version 1.8.0.77 or newer is not detected.</msg>
+    <msg name='no_java_64'>Installation will continue, but you have to install 64-bit JRE version 1.8.0.77 or newer. [no_java_link]</msg>
+  
+    <msg name='no_perl_link'>Please visit https://www.perl.org/ to download latest Perl version.</msg>
+    <msg name='no_perl_title'>Perl 6.5 or newer is not detected.</msg>
+    <msg name='no_perl_msg'>Installation will continue, but you have to install Perl 6.5 or newer. [no_perl_link]</msg>
+    <msg name='ocl_newer_installed_title'>A newer version of OpenCL™ Tools 2019 Update 3 is already installed.</msg>
+    <msg name='ocl_newer_installed_description'>Installation can continue; however, OpenCL™ Tools 2019 Update 3 will not be installed because a newer version is already installed on the system. If you wish to install the version of OpenCL™ Tools 2019 Update 3 from this package, please remove the currently installed version of OpenCL™ Tools 2019 Update 3 prior to installing this package.</msg>
+    <msg name='ocl_unsupported_os_tsd'>OpenCL™ Tools 2019 Update 3 support for Windows* 7 has been deprecated.</msg>
+    <msg name='ocl_unsupported_os_prereq_title'>OpenCL™ Tools 2019 Update 3 support for Windows* 7 has been deprecated. For more information, please visit {\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/intel-opencl"}{\fldrslt https://software.intel.com/en-us/intel-opencl}}.</msg>
+    <msg name='ocl_unsupported_os_prereq_desc'>Last available package supporting Windows* 7 platforms is Intel® SDK for OpenCL™ Applications 2017 R2, available at {\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/intel-opencl/download"}{\fldrslt https://software.intel.com/en-us/intel-opencl/download}}. This package will soon be replaced by upcoming versions of OpenCL™ Tools 2019 Update 3.</msg>
+    <msg name='gfx_installed_warning_title'>Intel® CPU Runtime for OpenCL™ Applications cannot be installed</msg>
+    <msg name='gfx_installed_warning_msg'>Intel® CPU Runtime for OpenCL™ Applications is already installed as part of Intel® Graphics Driver. However, to update OpenCL™ for CPU support, a manual installation of the package can be performed, please see the Release Notes and follow "Manual Installation on Windows* OS": {\field{*\fldinst HYPERLINK \o " https://software.intel.com/en-us/articles/opencl-runtime-release-notes"}{\fldrslt  https://software.intel.com/en-us/articles/opencl-runtime-release-notes}}</msg>
+    <msg name='gfx_installed_warning_tsd'>Intel® CPU Runtime for OpenCL™ Applications is already installed as part of Intel® Graphics Driver.</msg>
+
+    <msg name='newer_runtime_installed_warning_title'>Intel® CPU Runtime for OpenCL™ Applications cannot be installed</msg>
+    <msg name='newer_runtime_installed_warning_msg'>A higher version of the Intel® CPU Runtime for OpenCL™ Applications is already installed.</msg>
+
+  </catalog>
+</xmc>

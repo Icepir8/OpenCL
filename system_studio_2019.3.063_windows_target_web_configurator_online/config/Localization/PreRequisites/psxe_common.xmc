@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='PreRequisites' locale="1033">
+    
+    <msg name='not_supported_cpu_title'>The system does not meet minimum product installation requirements.</msg>
+    <msg name='not_supported_cpu_description'>Intel® Pentium® 4 processor or later, or a compatible non-Intel processor is required. Please see release notes for full details.</msg>
+
+    <msg name='not_supported_ms_dev_tools_title'>The [%s] requires that a Microsoft* development product be installed. Refer to the Release Notes for a list of the required Microsoft* development tools.</msg>
+    <msg name='not_supported_ms_dev_tools_description'>Installation can continue; however, you will have to configure Compiler scripts for command line build environment by hand if you want to use them. Refer to documentation for instructions how to do it.</msg>
+    
+  </catalog>
+</xmc>

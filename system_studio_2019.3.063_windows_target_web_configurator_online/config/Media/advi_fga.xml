@@ -1,0 +1,14 @@
+<component type="msi" alias="advi_fga">
+  <property name="UpgradeCode">{14E76909-A0DD-40E8-97D4-BD333AAEF32A}</property>
+  <property name="ProductCode">{41037BD7-39B2-491D-9947-4B5FB0FDD49C}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel Advisor 2019 Update 3 Flow Graph Analyzer</property>
+  <property name="ProductVersion">19.3.0.591264</property>
+  <property name="size">69526866</property>
+  <files>
+    <key size="212992" chksum="" sha256="b46503107973420bac6b79ab49054fb4b936c666691c7fb8bc2f20d2518b732f">advi/advi_fga/advi_fga.msi</key>
+    <file size="21010624" chksum="" sha256="0e08ce9dc342b4749cf9bc634c8f6eebed2e12bce88b5c51d92208b441dc7281">advi/advi_fga/data1.cab</file>
+  </files>
+  <vs_integration>
+  </vs_integration>
+</component>

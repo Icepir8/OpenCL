@@ -1,0 +1,23 @@
+<component type="msi" alias="advi_vs2017-integration">
+  <!-- <property name="UpgradeCode">{AEC474FB-ECBE-46CD-9347-A339FF002302}</property> -->
+  <property name="ProductCode">{23FBE677-CBA9-4088-9BA9-4D2B27E2BED9}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Microsoft Visual Studio* 2017 software integration</property>
+  <property name="ProductVersion">19.3.0.591264</property>
+  <property name="size">29388</property>
+  <property name="Reinstall">1</property>
+  <property name="TCARVSProcessing">1</property>
+  <block_processes>
+    <custom>vs_2017</custom>
+  </block_processes>
+  <vs_pre_install>
+    <vsix name="ISM::Intel.SoftwareManager.vsix" guid="fe3b8c7e-13bd-41ac-becd-58880ab0c756" vs_version="2017"></vsix>
+    <vsix name="advi_vs2017-integration.vsix" guid="54AB0332-9EC4-4535-BBE1-7CE49F13170C" vs_version="2017"></vsix>
+  </vs_pre_install>
+  <files>
+    <key size="569344" chksum="" sha256="02ef5380c4aa4f0be630bc25b2e7311e5471536642e5cb77c6036ca0bf3df3c3">advi/advi_vs2017-integration/advi_vs2017-integration.msi</key>
+  </files>
+  <vs_integration>
+    <vs_2017 selected="1" skip_restart="yes">NEED_VS2017_INTEGRATION</vs_2017>
+  </vs_integration>
+</component>

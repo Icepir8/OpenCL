@@ -1,0 +1,41 @@
+<component type="msi" alias="F_VCRedist2015_x86">
+  <property name="UpgradeCode">{A85DC1A0-2EA4-4CF6-AF57-340D93623FC7}</property>
+  <property name="WixUIRMOption">UseRM</property>
+  <property name="WIXUI_INSTALLDIR">APPLICATIONFOLDER</property>
+  <property name="ALLUSERS">1</property>
+  <property name="ARPNOREPAIR">yes</property>
+  <property name="VS_CL_ASSOCIATION">VisualStudio.cl.11.0</property>
+  <property name="OCL_2_0_ENABLED_X86">true</property>
+  <property name="OCL_2_0_ENABLED_X64">true</property>
+  <property name="ARPPRODUCTICON">app_icon</property>
+  <property name="ARPCOMMENTS">dkdnfngdfkjndfkjgndfndfgk</property>
+  <property name="REINSTALLMODE">amus</property>
+  <property name="EXTERNALUI">PSET</property>
+  <property name="PH_PRODUCT_ID">code_builder_x64-7.0.0.3500</property>
+  <property name="NEED_VS2015_INTEGRATION">1</property>
+  <property name="NEED_VS2016_INTEGRATION">1</property>
+  <property name="INSTALL_OPENCL_DLL_32">0</property>
+  <property name="INSTALL_OPENCL_DLL_64">0</property>
+  <property name="DefaultUIFont">WixUI_Font_Normal</property>
+  <property name="WixUI_Mode">InstallDir</property>
+  <property name="Manufacturer">Intel Corporation</property>
+  <property name="ProductCode">{16E2FB99-E26F-45AF-B5F9-1BE642BBD98D}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel® SDK for OpenCL™ Applications 2019 Update 3 for Windows*</property>
+  <property name="ProductVersion">7.0.0.3500</property>
+  <property name="ErrorDialog">ErrorDlg</property>
+  <property name="SecureCustomProperties">ARPNOREPAIR;CPURUNTIMEPACKAGEFOUND;NEWPRODUCTFOUND;UPGRADEFOUND;VC2010EXPRESS_IDE;VS2015_EXTENSIONS_DIR;VS2015_IDE_VC_PROJECTSYSTEM_INSTALLED;VS2015_ROOT_FOLDER;VS2015DEVENV;VS2017_EXTENSIONS_DIR;VS2017_IDE_DIR;VS2017_IDE_VC_PROJECTSYSTEM_INSTALLED;VS2017_ROOT_FOLDER;VS2017DEVENV</property>
+  <property name="DirectoryTable100_x86.4DC92F6E_EBA2_3C5C_A487_1CFA4311A269">DirectoryTable</property>
+  <property name="DirectoryTable100_amd64.3CFBED52_9B44_3A4D_953C_90E456671BA1">DirectoryTable</property>
+  <property name="size">2854464</property><property name="HeadFeature">F_VCRedist2015_x86</property><property name="id">F_VCRedist2015_x86_7.0.0.3500</property>
+  <files>
+    <key size="113696768" sha256="b96e3bca1a3d7b24d52265384341370432928ff109f5cded61dfceb25df2e51e">opencl\intel_sdk_for_opencl_2019_x64_setup\intel_sdk_for_opencl_2019_x64_setup.msi</key>
+  </files>
+	<property name="install_params">MSIRESTARTMANAGERCONTROL=Disable</property>
+
+  <feature id="F_VS14" parent="" size="8191451" fullsize="8191451"/>
+  <feature id="F_VS15" parent="" size="5229945" fullsize="5229945"/>
+  <feature id="F_VCRedist2015_x86" parent="" size="2854464" fullsize="2854464"/>
+  <feature id="F_VCRedist2015_x64" parent="" size="3354712" fullsize="3354712"/>
+  <feature id="F_OpenCL_PCB" parent="" size="336871133" fullsize="336871133"/>
+</component>

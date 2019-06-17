@@ -1,0 +1,27 @@
+<component type="msi" alias="IDE_C_UNIQUE_VS2017">
+  <property name="ProductCode">{F7B26F55-4EB9-4FD2-A407-8C82C6A0D8A3}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ide_c_unique_vs2017_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">3188510</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ide_c_unique_vs2017_p_19.0.3.203/ide_c_unique_vs2017_p_19.0.3.203_1041.mst</property>
+
+
+  <vs_integration>
+    <vs_2017 selected="1" skip_restart="yes">NEED_VS2017_INTEGRATION</vs_2017>
+  </vs_integration>
+
+  <block_processes>
+    <custom>vs_2017</custom>
+  </block_processes>
+
+  <vs_pre_install><vsix name="COMP_WIN32_PSXE170_VS150.vsix" guid="a11cf1d5-78bd-4d8e-ba15-330e23ab01d5" vs_version="2017"></vsix><vsix name="COMP_X64_PSXE170_VS150.vsix" guid="388b8a0b-034d-486a-b85b-4306416f075a" vs_version="2017"></vsix><vsix name="COMP_WIN32_PSXE180_VS150.vsix" guid="4c2c521f-0f7e-4981-a3bc-dc3126448cf8" vs_version="2017"></vsix><vsix name="COMP_X64_PSXE180_VS150.vsix" guid="63e1417f-bef6-42aa-b497-1401bf9a3bc8" vs_version="2017"></vsix><vsix name="COMP_WIN32_PSXE190_VS150.vsix" guid="49A33A23-D7E9-4152-A444-CE4D9CC7D032" vs_version="2017"></vsix><vsix name="COMP_X64_PSXE190_VS150.vsix" guid="66EBFA79-1525-4A91-9598-0FC16F2C6255" vs_version="2017"></vsix></vs_pre_install>
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="4d46785dc181868961a394788dd3a8daff93f7c439661a951fdff72d844b54c4" size="860160">cmp_and_libs/203/ide_c_unique_vs2017_p_19.0.3.203/ide_c_unique_vs2017_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="836009bc2a07f0e6b9fe3eced375f02532ee5af9c2919cbaad08f598f6648a84" size="661208">cmp_and_libs/203/ide_c_unique_vs2017_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="7964a40312c0079e18b74fe53fcfec6be71220cacdd8f541df498557fb17d823" size="20480">cmp_and_libs/203/ide_c_unique_vs2017_p_19.0.3.203/ide_c_unique_vs2017_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,11 @@
+<component type="msi" alias="amplxe_sep">
+  <property name="UpgradeCode">{5E4E6244-2E8E-4722-8278-A930F6CC6641}</property>
+  <property name="ProductCode">{B21FD924-3CFE-4F66-BC48-C6CABF806761}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel VTune Amplifier 2019 Update 3 Event-based sampling driver</property>
+  <property name="ProductVersion">19.3.0.590814</property>
+  <property name="size">0</property>
+  <files>
+    <key size="307200" chksum="" sha256="2b9259de64d234e4634a096256443ed41f4f4e0ac598f298045c97cb191f3ea2">amplxe/amplxe_sep/amplxe_sep.msi</key>
+  </files>
+</component>

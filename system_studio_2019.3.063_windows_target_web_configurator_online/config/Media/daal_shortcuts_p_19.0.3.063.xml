@@ -1,0 +1,16 @@
+<component type="msi" alias="DAAL_SHORTCUTS">
+  <property name="ProductCode">{6E50ADAF-DA46-4708-9B19-AB96F3EEF37B}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_daal_shortcuts_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+
+  <files>
+    <key chksum="" sha256="2a1b1880ef2f7e61d03e18f142b1f8681b432d447c17bb362d95c9a39eaf84a6" size="151552">issw/063/daal_shortcuts_p_19.0.3.063/daal_shortcuts_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="964271ea2092b69d110aad29c1e30bfce43dce5000fef3c11f3a2289f78cf011" size="9508">issw/063/daal_shortcuts_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

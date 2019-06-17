@@ -1,0 +1,16 @@
+<component type="msi" alias="MKL_SHORTCUTS">
+  <property name="ProductCode">{ED154AD2-2B31-406F-96E5-2719708E3058}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_mkl_shortcuts_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+
+  <files>
+    <key chksum="" sha256="53ea6f673aef646073580733c918b8bb18959c02e73dce41eddc7b13642d1542" size="151552">issw/063/mkl_shortcuts_p_19.0.3.063/mkl_shortcuts_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="bb38542996b06c1da1baa1c044573b4708d35de51e17c8ffdaf9f66f75d4cf05" size="9508">issw/063/mkl_shortcuts_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

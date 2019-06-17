@@ -1,0 +1,11 @@
+<component type="msi" alias="advi_shortcuts_iss_win_fga">
+  <property name="UpgradeCode">{B7078955-3783-441F-83CD-697584D32FB4}</property>
+  <property name="ProductCode">{939113DD-8B6C-4F7D-A773-F8CD2C1CE0AA}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel Advisor 2019 Update 3 Intel System Studio Shortcuts for Advisor FGA</property>
+  <property name="ProductVersion">19.3.0.591264</property>
+  <property name="size">0</property>
+  <files>
+    <key size="159744" chksum="" sha256="3ad570ce3bcd1b074645711601cd146841f565985ba5795628001ac52dd20b74">advi/advi_shortcuts_iss_win_fga/advi_shortcuts_iss_win_fga.msi</key>
+  </files>
+</component>

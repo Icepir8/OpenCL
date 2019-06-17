@@ -1,0 +1,25 @@
+<component type="msi" alias="sys_dbg_tca">
+  <property name="ProductCode">{633E884C-B6DA-4427-88E6-E54E11A281F0}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) System Debugger</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">26720004</property>
+<property name="preuninstall_script">scripts/tca-pre_uninstall.bat</property>
+<property name="script_order">6</property>
+
+  <eclipse_integartion>
+    <plugins_location>jar:file:/"[installdir]/eclipse-repos/com.intel.tcf.ipc.all.site-1.0.0-SNAPSHOT.zip"!/,jar:file:/"[installdir]/eclipse-repos/org.eclipse.tcf.repo.zip"!/</plugins_location>
+
+<repositories></repositories>
+<plugins_patterns>org.eclipse.tcf.core.feature.feature.group;com.intel.tcf.ipc.core.feature.feature.group;com.intel.tcf.ipc.ui.feature.feature.group</plugins_patterns>
+<plugins_prefs>"[installdir]/system_debugger_2019/system_trace/eclipse_repository/com.intel.iss.ide.integration.main.prefs"</plugins_prefs>
+<plugins_installdir_var>\$ISS_2019_INSTALL_DIR</plugins_installdir_var>
+  </eclipse_integartion>
+
+  <files>
+    <key chksum="" sha256="04e1c9f2172c3bb75bcaa2c2b216e59df03e32bcdcc661250daacf05c768fbe1" size="90112">sys_dbg/062/w_sys_dbg_tca_2019.0.0.062/w_sys_dbg_tca_2019.0.0.062.msi</key>
+    <file chksum="" sha256="3e4dd5ba75774f91efba5f4810e46f2b51cef74e3a612d6e33aa7cc78059c8a5" size="11436945">sys_dbg/062/w_sys_dbg_tca_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='sys_dbg' locale="1033">
+
+    <msg name='missing_dot_net_40'>http://www.microsoft.com/en-us/download/details.aspx?id=17851</msg>
+    <msg name='missing_dot_net_40_standalone'>http://www.microsoft.com/en-us/download/details.aspx?id=17718</msg>
+    <msg name='missing_dot_net_35sp1'>http://www.microsoft.com/en-us/download/details.aspx?id=22</msg>
+    <msg name='missing_dot_net_35sp1_full'>http://www.microsoft.com/en-us/download/details.aspx?id=25150</msg>
+
+    <msg name='sys_dbg_newer_installed_title'>A newer version of Intel System Debugger is already installed.</msg>
+    <msg name='sys_dbg_newer_installed_description'>If you continue with the installation, the currently installed Intel System Debugger will be replaced with the version in the current package.</msg>
+    
+    <msg name='sys_dbg_older_installed_title'>An older version of Intel System Debugger is already installed.</msg>
+    <msg name='sys_dbg_older_installed_description'>The currently installed Intel System Debugger will be automatically removed prior to installing the version in the current package.</msg>
+
+    <msg name='sys_dbg_dal_newer_installed_title'>A newer version of Intel® DFx Abstraction Layer (Intel® DAL) is already installed.</msg>
+    <msg name='sys_dbg_dal_newer_installed_description'>Please remove currently installed Intel® DFx Abstraction Layer (Intel® DAL) prior to installing this package.</msg>
+    
+    <msg name='sys_dbg_dal_older_installed_title'>An older version of Intel(R) DFx Abstraction Layer (Intel(R) DAL) is already installed.</msg>
+    <msg name='sys_dbg_dal_older_installed_description'>The currently installed Intel(R) DFx Abstraction Layer (Intel(R) DAL) will be automatically removed prior to installing the version in the current package.</msg>
+
+    <msg name='cannot_install_sys_dbg_no_dotnet35sp1_title'>The Intel System Debugger 2019 can not be installed.</msg>
+    <msg name='cannot_install_sys_dbg_no_dotnet35sp1_description'>Installation can continue; however, Intel System Debugger 2019 will not be installed because it requires that Microsoft .NET Framework* 3.5 SP1 is installed. Alternatively you might install the Microsoft .NET Framework* 3.5 SP1 (full package)</msg>
+    <msg name='cannot_install_sys_dbg_no_dotnet35sp1_description_rtf'>Installation can continue; however, Intel System Debugger 2019 will not be installed because it requires that {\field{\*\fldinst HYPERLINK "http://www.microsoft.com/en-us/download/details.aspx?id=22"}{\fldrslt Microsoft .NET Framework* 3.5 SP1}} is installed. Alternatively you might install the {\field{\*\fldinst HYPERLINK "http://www.microsoft.com/en-us/download/details.aspx?id=25150"}{\fldrslt Microsoft .NET Framework* 3.5 SP1 (full package)}}</msg>
+
+    <msg name='cannot_install_sys_dbg_no_dotnet40_title'>The Intel System Debugger 2019 can not be installed.</msg>
+    <msg name='cannot_install_sys_dbg_no_dotnet40_description_rtf'>Installation can continue; however, Intel System Debugger 2019 will not be installed because it requires that {\field{\*\fldinst HYPERLINK "http://www.microsoft.com/en-us/download/details.aspx?id=17851"}{\fldrslt Microsoft .NET Framework* 4.0}} is installed. Alternatively you might install the {\field{\*\fldinst HYPERLINK "http://www.microsoft.com/en-us/download/details.aspx?id=17718"}{\fldrslt Microsoft .NET Framework* 4.0 (standalone installer)}}</msg>
+    <msg name='cannot_install_sys_dbg_no_dotnet40_description'>Installation can continue; however, Intel System Debugger 2019 will not be installed because it requires that Microsoft .NET Framework* 4.0 is installed. Alternatively you might install the Microsoft .NET Framework* 4.0 (standalone installer)</msg>
+
+    <msg name='cannot_install_sys_dbg_no_dotnet40_and_dotnet35_title'>The Intel System Debugger 2019 can not be installed.</msg>
+    <msg name='cannot_install_sys_dbg_no_dotnet40_and_dotnet35_description_rtf'>Installation can continue; however, Intel System Debugger 2019 will not be installed because it requires that {\field{\*\fldinst HYPERLINK "http://www.microsoft.com/en-us/download/details.aspx?id=22"}{\fldrslt Microsoft .NET Framework* 3.5 SP1}} and {\field{\*\fldinst HYPERLINK "http://www.microsoft.com/en-us/download/details.aspx?id=17851"}{\fldrslt Microsoft .NET Framework* 4.0}} are installed. Alternatively you might install the the {\field{\*\fldinst HYPERLINK "http://www.microsoft.com/en-us/download/details.aspx?id=25150"}{\fldrslt Microsoft .NET Framework* 3.5 SP1 (full package)}} and {\field{\*\fldinst HYPERLINK "http://www.microsoft.com/en-us/download/details.aspx?id=17718"}{\fldrslt Microsoft .NET Framework* 4.0 (standalone installer)}}</msg>
+    <msg name='cannot_install_sys_dbg_no_dotnet40_and_dotnet35_description'>Installation can continue; however, Intel System Debugger 2019 will not be installed because it requires that Microsoft .NET Framework* 3.5 SP1 and Microsoft .NET Framework* 4.0 are installed. Alternatively you might install the the Microsoft .NET Framework* 3.5 SP1 (full package) and Microsoft .NET Framework* 4.0 (standalone installer)</msg>
+
+    <!--msg name='no_java'>This machine is missing JRE* Software. Installation will continue, but you have to install 64-bit JRE version 1.7 or higher from here: http://java.com/en/download/manual.jsp before using the Intel System Debugger 2019.</msg-->
+    <msg name='cannot_install_sys_dbg_no_jre'>64-bit version of Java Runtime Environment(JRE) was not found in PATH. Installation will continue, but you have to install 64-bit JRE version 1.7 or higher from http://java.com/en/download/manual.jsp before you are able to use Intel System Debugger, or 64-bit Eclipse* software provided with this package. See the Release Notes for details.</msg>
+
+    <msg name="wdk10_not_installed_title"></msg>
+    <msg name="wdk10_not_installed_description">Intel(R) Debug Extensions for WinDbg* for IA JTAG debugging is not usable without valid Windows Driver Kit* installation</msg>
+    <msg name="wdk10_not_installed_description_rtf">Intel(R) Debug Extensions for WinDbg* for IA JTAG debugging is not usable without valid {\field{\*\fldinst HYPERLINK "https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk/"}{\fldrslt Windows Driver Kit*}} installation</msg>
+    <msg name="wdk10_link">https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk/</msg>
+
+    <msg name="KB2999226_is_not_installed_title">KB2999226 (Update for Universal C Runtime in Windows*) is not installed</msg>
+    <msg name="KB2999226_is_not_installed_description">This is required for Intel(R) System Debugger and Intel(R) Debug Extensions for WinDbg*. You must first install KB2999226 (Update for Universal C Runtime) before installing the Intel(R) System Debugger 2019</msg>
+    <msg name="KB2999226_is_not_installed_description_rtf">This is required for Intel(R) System Debugger and Intel(R) Debug Extensions for WinDbg*. You must first install {\field{\*\fldinst HYPERLINK "https://support.microsoft.com/en-us/kb/2999226/"}{\fldrslt KB2999226 (Update for Universal C Runtime)}} before installing the Intel(R) System Debugger 2019</msg>
+    <msg name="KB2999226_link_string">KB2999226 (Update for Universal C Runtime)</msg>
+    <msg name="KB2999226_link">https://support.microsoft.com/en-us/kb/2999226</msg>
+    <msg name="exdiipc_dll_was_not_registered">Failed to register Intel(R) Debug Extensions for WinDbg* library "ExdiIpc.dll"</msg>
+    <msg name="python27_32b_installed_description">Intel(R) Debug Extensions for WinDbg* cannot be installed because of a conflict with the existing Python version on the system. Installation will continue without Intel(R) Debug Extensions for WinDbg*. See Release Notes for details</msg>
+    <msg name="python27_path_will_be_changed">Default Python* path will be changed to c:\\python27 in case of Intel(R) System Debugger 2019 installation</msg>
+  </catalog>
+</xmc>

@@ -1,0 +1,16 @@
+<component type="msi" alias="COMMON_ECLIPSE_IDE">
+  <property name="ProductCode">{7D75BB6B-9603-4B4A-A019-8B66AEEB535E}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[Eclipse*]</property>
+  <property name="ProductVersion">19.0.3</property>
+  <property name="size">784184</property>
+
+
+
+  <files>
+    <key chksum="" sha256="7cc21d2d24d2d30e45033f4324b7f0b71b9cd2fc2510a1767cc889e42be43c65" size="49152">issw/063/common_eclipse_ide_p_19.0.3.063/common_eclipse_ide_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="254080747e2779b9d0cc3f538d72dda020323cd9112b79ad6451741a9357016c" size="776075">issw/063/common_eclipse_ide_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

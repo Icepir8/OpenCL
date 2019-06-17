@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_SL_REDIST_IA32">
+  <property name="ProductCode">{A55CDDC8-8CF7-4089-A6F5-90E5CFD55894}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_sl_redist_ia32_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">0</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_sl_redist_ia32_p_19.0.3.203/ww_sl_redist_ia32_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="3ddf5416146d40ea54f67e5e285dbfa7ca51dc609972a8b72c120d7bcc12c265" size="311296">cmp_and_libs/203/ww_sl_redist_ia32_p_19.0.3.203/ww_sl_redist_ia32_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="13d1772ac1fd606516e5b902d46ad24bd6756650413245a8a8cb53fb533e45ea" size="9508">cmp_and_libs/203/ww_sl_redist_ia32_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="d2abd9c8a5f5c8f40cf42eef0fe8f7f0afd7cd8221e4ed382e0fa198337e4957" size="20480">cmp_and_libs/203/ww_sl_redist_ia32_p_19.0.3.203/ww_sl_redist_ia32_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

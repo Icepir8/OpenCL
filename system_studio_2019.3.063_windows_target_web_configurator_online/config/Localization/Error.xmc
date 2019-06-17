@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='feature menu' locale="1033">
+    <msg name="failed_to_download">[image_error] Failed to download file: [%s]</msg>
+    <msg name="http_error_code">\tab HTTP response code: [%s]</msg>
+    <msg name="http_error_message">\tab Error message: [%s]</msg>
+    <msg name="failed_to_create_target_dir">\tab Failed to create target directory</msg>
+    <msg name="failed_to_remove_target_dir">Failed to remove target directory: [%s]</msg>
+    <msg name="failed_to_create_dir">Failed to create directory: [%s]</msg>
+    <msg name="failed_to_remove_dir">Failed to remove directory: [%s]</msg>
+    <msg name="failed_to_delete_file">Failed to delete file: [%s]</msg>
+    <msg name="failed_to_delete_symlink">Failed to delete symlink: [%s]</msg>
+    <msg name="failed_to_create_symlink">Failed to create symlink: [%s]</msg>
+    <msg name="failed_to_create_junction">Failed to create junction: [%s]</msg>
+    <msg name="failed_to_copy_file">Failed to copy file: [%s]</msg>
+    <msg name="failed_to_copy_dir">Failed to copy directory: [%s]</msg>
+    <msg name="failed_to_rename_file">Failed to rename file: [%s]</msg>
+    <msg name="failed_to_process">Failed to process: [%s]</msg>
+    <msg name="failed_to_calc_hash">Failed to calculate hash string: [%s]</msg>
+    <msg name="error_message">Error: [%s]</msg>
+    <msg name="issa_error_code">Error code: [%s]</msg>
+
+    <msg name="file_not_exist">File does not exist</msg>
+    <msg name="dir_not_exist">Directory does not exist</msg>
+    <msg name="path_is_directory">Path is directory</msg>
+    <msg name="src_path_is_directory">Source path is directory</msg>
+    <msg name="src_path_is_file">Source path is file</msg>
+    <msg name="target_path_is_directory">Target path is directory</msg>
+    <msg name="target_path_is_file">Target path is file</msg>
+    <msg name="incorrect_parameter">Incorrect parameter</msg>
+    <msg name="no_source_path">No source path specified</msg>
+    <msg name="no_target_path">No target path specified</msg>
+    <msg name="internal_error">Internal error</msg>
+    <msg name="internal_error_in_processing">Internal error happened in processing [%s]</msg>
+
+    <msg name="failed_define_target_path">Target path is not defined</msg>
+    <msg name="failed_define_file_path">File path is not defined</msg>
+    <msg name="failed_define_hash_alg">Hash algorithm is not defined</msg>
+    <msg name="failed_define_hash_value">Hash reference value is not defined</msg>
+
+    <msg name="wi_failed">[image_error] Windows Installer failed to configure product:</msg>
+    <msg name="wi_err_code">\tab Error code: [%s]</msg>
+    <msg name="wi_err_msg">\tab Error message: \b [%s] \b0</msg>
+    <msg name="wi_err_file">\tab File name: [%s]</msg>
+    <msg name="wi_err_prod_code">\tab Product code: [%s]</msg>
+    <msg name="wi_err_prod_name">\tab Module name: [%s]</msg>
+    <msg name="wi_err_sign">\tab Invalid module signature.</msg>
+    <msg name="wi_err_another_instance_running">Another installation is already in progress. Complete that installation before proceeding with this install.</msg>
+
+    <msg name="web_config_load_failed">[image_error] Failed to load configuration files.</msg>
+
+    <msg name="exe_failed">[image_error] Execution of installation process failed.</msg>
+    <msg name="exe_failed_to_start">\tab Failed to launch application.</msg>
+    <msg name="exe_failed_to_start_error">\tab [%s]</msg>
+    <msg name="exe_failed_result">\tab Application returned error code: [%s]</msg>
+    <msg name="exe_failed_name">\tab Module name: [%s]</msg>
+
+    <msg name="crt_failed">[image_error] Execution of installation process failed.</msg>
+    <msg name="crt_failed_to_start">\tab Failed to launch certification.</msg>
+    <msg name="crt_failed_result">\tab Certification returned error code: [%s]</msg>
+    <msg name="crt_failed_name">\tab Module name: [%s]</msg>
+
+    <msg name='reboot_required'>[image_warning] Your computer should be restarted to complete installation. \par Please reboot your computer to apply changes.</msg>
+
+    <msg name='install_failed_media'>[install_failed_to_install] [install_failed_to_process_media]
+
+[install_press_ok_or_cancel]</msg>
+    <msg name='install_failed_download'>[install_failed_to_install] [install_failed_to_download_media]
+
+[install_press_ok_or_cancel]
+    </msg>
+    <msg name='install_failed_to_install'>Failed to install [%s]:</msg>
+    <msg name='install_failed_to_download_media'>Failed to download installation files.</msg>
+    <msg name='install_failed_to_process_media'>Installation process returned error code.</msg>
+    <msg name='install_failed_checksum'>Incorrect checksum of file: [%s]</msg>
+    <msg name='install_press_ok_or_cancel'>Click "[text_ok]" to ignore error and continue installation of other components or "[text_cancel]" to cancel installation and rollback changes.</msg>
+    <msg name='install_failed_wrong_arch'>This installation package is not supported by this processor type. Contact your product vendor.</msg>
+
+    <msg name='failed_to_create_reg_key'>Failed to create registry key: [%s]/[%s]</msg>
+    <msg name='failed_to_remove_reg_key'>Failed to remove registry key: [%s]/[%s]</msg>
+
+    <msg name='failed_to_extract_archive'>Failed to extract archive: [%s]</msg>
+    <msg name='failed_to_open_archive'>Failed to open archive</msg>
+
+    <msg name="hash_alg_unknown">Unknown hash algorithm: [%s]</msg>
+
+    <msg name="hash_invalid">File hash is not valid: [%s]</msg>
+
+    <msg name="feature_failed">Failed to process component: [%s]</msg>
+    <msg name="click_to_continue">Click 'Continue' to ignore error and install other components or 'Cancel' to cancel installation and rollback changes.</msg>
+
+    <msg name="unknown_error">Internal error happened in processing package</msg>
+    <msg name="found_errors">Errors detected during installation. Some components failed to process:</msg>
+
+    <msg name="integrity_failed">Integrity checking failed</msg>
+    <msg name="incorrect_src_file">Source file is incorrect</msg>
+    <msg name="vs_integration_failed">{\rtf1 [%s] integration failed to install correctly. Some of [title] components may not be available in [%s]. Please refer to {\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/articles/intel-software-development-tools-integration-to-vs2017-issue"}{\fldrslt https://software.intel.com/en-us/articles/intel-software-development-tools-integration-to-vs2017-issue}} for more information.}</msg>
+
+  </catalog>
+</xmc>

@@ -1,0 +1,16 @@
+<component type="msi" alias="insp_vs2015-integration">
+  <!-- <property name="UpgradeCode">{EE96FC93-C6DF-4D03-AA01-3540087C04A6}</property> -->
+  <property name="ProductCode">{6BC5CAE2-0604-43B7-AAC9-2049CE0BFAF7}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Microsoft Visual Studio* 2015 software integration</property>
+  <property name="ProductVersion">19.3.0.590798</property>
+  <property name="size">4204192</property>
+  <property name="Reinstall">1</property>
+  <property name="TCARVSProcessing">1</property>
+  <files>
+    <key size="1708032" chksum="" sha256="9f9f7046036a2ab34b4b3c6fb14d76750f38c53ed1cb7abdd7bf792ee0c820c1">insp/insp_vs2015-integration/insp_vs2015-integration.msi</key>
+  </files>
+  <vs_integration>
+    <vs_2015 selected="1">NEED_VS2015_INTEGRATION</vs_2015>
+  </vs_integration>
+</component>

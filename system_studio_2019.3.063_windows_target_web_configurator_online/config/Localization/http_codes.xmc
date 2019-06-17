@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='http responce codes' locale="1033">
+
+    <msg name='http_code_201'>The request has been fulfilled and resulted in a new resource being created.</msg>
+    <msg name='http_code_202'>The request has been accepted for processing, but the processing has not been completed. The request might or might not eventually be acted upon, as it might be disallowed when processing actually takes place.</msg>
+    <msg name='http_code_203'>Non-Authoritative Information (since HTTP/1.1). The server successfully processed the request, but is returning information that may be from another source.</msg>
+    <msg name='http_code_204'>The server successfully processed the request, but is not returning any content.</msg>
+    <msg name='http_code_205'>Reset Content. The server successfully processed the request, but is not returning any content.</msg>
+    <msg name='http_code_206'>Partial Content. The server is delivering only part of the resource due to a range header sent by the client.</msg>
+    <msg name='http_code_230'>Authentication Successful. The client's authentication attempt was successful.</msg>
+
+    <msg name='http_code_400'>Bad Request. The request cannot be fulfilled due to bad syntax.</msg>
+    <msg name='http_code_401'>Unauthorized</msg>
+    <msg name='http_code_402'>Payment Required</msg>
+    <msg name='http_code_403'>Forbidden</msg>
+    <msg name='http_code_404'>File Not Found</msg>
+    <msg name='http_code_405'>Method Not Allowed</msg>
+    <msg name='http_code_406'>Not Acceptable</msg>
+    <msg name='http_code_407'>Proxy Authentication Required</msg>
+    <msg name='http_code_408'>Request Timeout</msg>
+    <msg name='http_code_409'>Conflict. Request could not be processed because of conflict in the request.</msg>
+    <msg name='http_code_411'>Length Required. The request did not specify the length of its content, which is required by the requested resource</msg>
+    <msg name='http_code_412'>Precondition Failed. The server does not meet one of the preconditions that the requester put on the request</msg>
+    <msg name='http_code_413'>Request Entity Too Large. The request is larger than the server is willing or able to process</msg>
+    <msg name='http_code_414'>Request-URI Too Long. The URI provided was too long for the server to process</msg>
+    <msg name='http_code_415'>Unsupported Media Type. The request entity has a media type which the server or resource does not support.</msg>
+    <msg name='http_code_416'>Requested Range Not Satisfiable</msg>
+    <msg name='http_code_417'>Expectation Failed. The server cannot meet the requirements of the Expect request-header field</msg>
+    <msg name='http_code_423'>Locked. The resource that is being accessed is locked.</msg>
+    <msg name='http_code_424'>Failed Dependency. The request failed due to failure of a previous request.</msg>
+    <msg name='http_code_424'>Method Failure.</msg>
+    <msg name='http_code_425'>Unordered Collection.</msg>
+    <msg name='http_code_426'>Upgrade Required. The client should switch to a different protocol.</msg>
+    <msg name='http_code_429'>Too Many Requests.</msg>
+    <msg name='http_code_431'>Request Header Fields Too Large.</msg>
+    <msg name='http_code_444'>No Response.</msg>
+    <msg name='http_code_449'>Retry With.</msg>
+    <msg name='http_code_450'>Blocked by Windows Parental Controls.</msg>
+    <msg name='http_code_451'>Unavailable For Legal Reasons.</msg>
+    <msg name='http_code_494'>Request Header Too Large.</msg>
+    <msg name='http_code_495'>Cert Error.</msg>
+    <msg name='http_code_496'>No Cert.</msg>
+    <msg name='http_code_499'>Client Closed Request.</msg>
+
+    <msg name='http_code_500'>Internal Server Error.</msg>
+    <msg name='http_code_501'>Not Implemented.</msg>
+    <msg name='http_code_502'>Bad Gateway. The server was acting as a gateway or proxy and received an invalid response from the upstream server.</msg>
+    <msg name='http_code_503'>Service Unavailable. The server is currently unavailable (because it is overloaded or down for maintenance). Generally, this is a temporary state.</msg>
+    <msg name='http_code_504'>Gateway Timeout. The server was acting as a gateway or proxy and did not receive a timely response from the upstream server.</msg>
+    <msg name='http_code_505'>HTTP Version Not Supported. The server does not support the HTTP protocol version used in the request</msg>
+    <msg name='http_code_506'>Variant Also Negotiates. Transparent content negotiation for the request results in a circular reference.</msg>
+    <msg name='http_code_507'>Insufficient Storage. The server is unable to store the representation needed to complete the request.</msg>
+    <msg name='http_code_508'>Loop Detected. The server detected an infinite loop while processing the request (sent in lieu of 208).</msg>
+    <msg name='http_code_509'>Bandwidth Limit Exceeded.</msg>
+    <msg name='http_code_510'>Not Extended. Further extensions to the request are required for the server to fulfill it.</msg>
+    <msg name='http_code_511'>Network Authentication Required.</msg>
+    <msg name='http_code_598'>Network read timeout error.</msg>
+    <msg name='http_code_599'>Network connect timeout error.</msg>
+  </catalog>
+</xmc>

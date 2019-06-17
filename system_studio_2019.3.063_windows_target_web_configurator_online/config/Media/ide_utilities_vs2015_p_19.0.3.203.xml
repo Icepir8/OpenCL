@@ -1,0 +1,22 @@
+<component type="msi" alias="IDE_UTILITIES_VS2015">
+  <property name="ProductCode">{19C228E6-98FC-48DC-9097-3B7CE4AFC709}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ide_utilities_vs2015_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">105208</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ide_utilities_vs2015_p_19.0.3.203/ide_utilities_vs2015_p_19.0.3.203_1041.mst</property>
+
+
+  <vs_integration>
+    <vs_2015 selected="1">NEED_VS2015_INTEGRATION</vs_2015>
+  </vs_integration>
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="e36e790761789b905dfa9303ebec02d43bc52004c0e31ffccb39b9596824d947" size="466944">cmp_and_libs/203/ide_utilities_vs2015_p_19.0.3.203/ide_utilities_vs2015_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="d8f0a679e5c92cee0fc7eb6d6c9a3337362ab53a1408e25500c68191a47a77a0" size="55035">cmp_and_libs/203/ide_utilities_vs2015_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="f60d033c578cb527c3cb3dd56fbc77d35b29996b50c10c050cee01b774ba0c88" size="20480">cmp_and_libs/203/ide_utilities_vs2015_p_19.0.3.203/ide_utilities_vs2015_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='GettingStarted dialog' locale="1033">
+    <msg name='getting_started_install_text'>[WpfHotKey]Install to this computer</msg>
+    <msg name='getting_started_modify_text'>Modify/repair/remove</msg>
+    <msg name='getting_started_download_text'>[WpfHotKey]Download for later installation on this or another computer</msg>
+    <msg name='getting_started_download_path'>Download Path:</msg>
+    <msg name='Recommended'>Select Recommended</msg>
+    <msg name='SelectAll'>Select All</msg>
+    <msg name='ClearAll'>Clear All</msg>
+    <msg name='getting_started_eula_link'>..\1033\license.rtf</msg>
+    <!--msg name='getting_started_eula_template_text'>By selecting this option you agree to the terms of the</msg-->
+    <msg name='getting_started_eula_install_template_text'>By clicking "Next", I acknowledge that I accept the</msg>
+    <msg name='getting_started_eula_download_template_text'>By clicking "Download", I acknowledge that I accept the</msg>
+    <msg name='getting_started_eula_template_link'>End User License Agreement (EULA)</msg>
+    <msg name='getting_started_install_path'>Destination Directory:</msg>
+    <msg name='space_not_enough'>Not enough space to install</msg>
+    <file name='getting_started_eula_template'>..\templates\getting_started_eula_template.rtf</file>
+    <file name='getting_started_eula_file'>..\1033\license.rtf</file>
+  </catalog>
+</xmc>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='feature menu' locale="1033">
+    <msg name='cluster_subtitle'>Configure Cluster Installation</msg>
+    <msg name='cluster_install_failed'>Installation has been failed on some cluster nodes. Please, see log file for details.</msg>
+    <msg name='cluster_modify_failed'>Modify has been failed on some cluster nodes. Please, see log file for details.</msg>
+    <msg name='cluster_repair_failed'>Repair has been failed on some cluster nodes. Please, see log file for details.</msg>
+    <msg name='cluster_install_chkbox'>In addition to the current system, install the product on all detected cluster nodes.</msg>
+    <msg name='left_cluster_configuration'>Cluster installation configuration</msg>
+    <msg name='cluster_install_message'>Install this software on all detected cluster nodes in addition to the current system. [%i] cluster nodes are detected.</msg>
+    <msg name='single_cluster_install_message'>Install this software on all detected cluster nodes in addition to the current system. [%i] cluster node is detected.</msg>
+    <msg name='cluster_nodes_count_label'>Number of nodes detected in your cluster: [%i]</msg>
+  </catalog>
+</xmc>

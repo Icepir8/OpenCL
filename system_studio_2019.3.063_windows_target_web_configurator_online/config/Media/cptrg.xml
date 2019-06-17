@@ -1,0 +1,35 @@
+<component alias="cptrg" type="copy">
+	<property name="UpgradeCode">{C7288467-28EF-4CCB-A60E-5C26C4370C14}</property>
+	<property name="WixUIRMOption">UseRM</property>
+	<property name="ALLUSERS">1</property>
+	<property name="ARPPRODUCTICON">icon.ico</property>
+	<property name="IS_GPU_SUPPORTED">0</property>
+	<property name="DISABLEADVTSHORTCUTS">1</property>
+	<property name="DISABLEPREEMPTION">1</property>
+	<property name="DISABLETDR">1</property>
+	<property name="Manufacturer">Intel Corporation</property>
+	<property name="ProductCode">cptrg.1.1.61582.0</property>
+	<property name="ProductLanguage">1033</property>
+	<property name="ProductName">Intel(R) Debugger for Heterogeneous Compute Target</property>
+	<property name="ProductVersion">1.1.61582.0</property>
+	<property name="DefaultUIFont">WixUI_Font_Normal</property>
+	<property name="WixUI_Mode">FeatureTree</property>
+	<property name="ErrorDialog">ErrorDlg</property>
+	<property name="SecureCustomProperties">WIX_DOWNGRADE_DETECTED;WIX_UPGRADE_DETECTED</property>
+	<property name="DirectoryTable100_amd64.AF4EABEE_4589_3789_BA0A_C83A71662E1D">DirectoryTable</property>
+	<property name="size">77598075</property>
+	<files>
+		<key size="68055040" sha256="5b9c4a16c6eb3a0f14f633d84fd4208dcbfb70e79c74b6138fa8762de7f675b5">opencl\gt_target\gen_debugger_target_release_1\gen_debugger_target_release_1.1.61582.0.msi</key>
+	</files>
+	<property name="install_params">MSIRESTARTMANAGERCONTROL=Disable</property>
+	<feature id="Target" parent="" size="0" fullsize="74264859"/>
+	<feature id="gdbserver" parent="Target" size="2586888" fullsize="2586888"/>
+	<feature id="WMIFirewallException" parent="Target" size="0" fullsize="0"/>
+	<feature id="elfdwarf" parent="Target" size="248171" fullsize="248171"/>
+	<feature id="VC140_CRT" parent="" size="3333216" fullsize="3333216"/>
+	<feature id="StartMenuShortcutsTarget" parent="Target" size="0" fullsize="0"/>
+	<feature id="TargetCore" parent="Target" size="503655" fullsize="503655"/>
+	<feature id="gdb_source" parent="Target" size="68777516" fullsize="68777516"/>
+	<feature id="elfdwarf_source" parent="Target" size="1428595" fullsize="1428595"/>
+	<feature id="igfxdbg_source" parent="Target" size="720034" fullsize="720034"/>
+</component>

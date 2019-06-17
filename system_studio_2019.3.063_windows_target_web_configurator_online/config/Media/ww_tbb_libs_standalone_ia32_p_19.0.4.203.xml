@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_TBB_LIBS_STANDALONE_IA32">
+  <property name="ProductCode">{A20E4791-579B-453F-BC09-6CEC95021DF5}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_tbb_libs_standalone_ia32_name]</property>
+  <property name="ProductVersion">19.0.4.203</property>
+  <property name="size">108220</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_tbb_libs_standalone_ia32_p_19.0.4.203/ww_tbb_libs_standalone_ia32_p_19.0.4.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="86340d2d61c41ff81c4733b89b2074a11b39b57ea8f000d044024d7073fc8dd1" size="311296">cmp_and_libs/203/ww_tbb_libs_standalone_ia32_p_19.0.4.203/ww_tbb_libs_standalone_ia32_p_19.0.4.203.msi</key>
+    <file chksum="" sha256="eee8a98dbec358d8d071555731c8afaf7ff872273961da7b23589ad44d1f672f" size="20644">cmp_and_libs/203/ww_tbb_libs_standalone_ia32_p_19.0.4.203/data1.cab</file>
+    <file chksum="" sha256="4820fd37095950dc13cd7159e12ccef4abaa4b4d82776024a216722ec9189301" size="20480">cmp_and_libs/203/ww_tbb_libs_standalone_ia32_p_19.0.4.203/ww_tbb_libs_standalone_ia32_p_19.0.4.203_1041.mst</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,15 @@
+<component type="msi" alias="sys_trc_doc">
+  <property name="ProductCode">{D6932E8B-164E-4419-B1C9-0F1FBB9B30D9}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) System Debugger</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">8444904</property>
+
+
+  <files>
+    <key chksum="" sha256="20aed1ad4be3409661dfed29dc24cd88ff85b9a708c1493a6d99ba7b5c53abc8" size="61440">sys_dbg/062/w_sys_trc_doc_2019.0.0.062/w_sys_trc_doc_2019.0.0.062.msi</key>
+    <file chksum="" sha256="66cb8877b00b3bc78a656d0977bfb2422977416ece9448d18456ae1996dde31e" size="6221400">sys_dbg/062/w_sys_trc_doc_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

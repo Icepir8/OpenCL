@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_TBB_LIBS_STUDIO_INTEL64">
+  <property name="ProductCode">{1463B9B0-A256-4FE0-8A35-523471671ED2}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_tbb_libs_studio_intel64_name]</property>
+  <property name="ProductVersion">19.0.4.203</property>
+  <property name="size">215288</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_tbb_libs_studio_intel64_p_19.0.4.203/ww_tbb_libs_studio_intel64_p_19.0.4.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="7c604d3a146d3f761dca87655cee13e24815ce619a09cb6421e0f1bc3d399398" size="311296">cmp_and_libs/203/ww_tbb_libs_studio_intel64_p_19.0.4.203/ww_tbb_libs_studio_intel64_p_19.0.4.203.msi</key>
+    <file chksum="" sha256="867f73c5646166127b3047f6ffbd1e623d8bd2ac794ef0b1a80037d1c879592b" size="96978">cmp_and_libs/203/ww_tbb_libs_studio_intel64_p_19.0.4.203/data1.cab</file>
+    <file chksum="" sha256="62fa287933c65b96e4793aaaec0a35922f0505b68f4f34b1b175f78b6da286c4" size="20480">cmp_and_libs/203/ww_tbb_libs_studio_intel64_p_19.0.4.203/ww_tbb_libs_studio_intel64_p_19.0.4.203_1041.mst</file>
+
+
+  </files>
+</component>

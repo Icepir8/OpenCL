@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='Architecture dialog' locale="1033">
+    <msg name='architecture'>Architecture Selection</msg>
+    <msg name='arch_header_link'>http://software.intel.com/en-us/articles/about-target-architecture-selection-during-installation</msg>
+    <msg name='arch_header_link_tmpl'>click here</msg>
+    <msg name='arch_feature_link_tmpl'>here</msg>
+    <msg name='arch_intel_32'>IA-[WpfHotKey]32</msg>
+    <msg name='arch_intel_64'>Intel® [WpfHotKey]64</msg>
+    <msg name='arch_feature_message_first'>Target platform architecture (click</msg>
+    <msg name='arch_feature_message_second'>for more information)</msg>
+    <msg name='arch_feature_message'>Target platform architecture:</msg>
+  </catalog>
+</xmc>

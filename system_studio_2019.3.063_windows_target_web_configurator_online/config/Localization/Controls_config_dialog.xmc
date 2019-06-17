@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='Configuration dialog' locale="1033">
+    <msg name='skip_for_eval'>(Skip this for 30 day evaluation. Otherwise provide the following information requested.)</msg>
+    <msg name='eval_expired_remark'>(Your 30 day evaluation has expired. Please provide the following information requested for activation.)</msg>
+    <msg name='during_eval_remark'>Your 30 day evaluation will end on [%s]. Until then, you can continue installation without providing activation information.</msg>
+    <msg name='during_tll_remark'>The license is detected. Your 90-day Community License is going to expire on [%s].</msg>
+    <msg name='about_to_expire_tll_remark'>Your Community License has [%s] day(s) left (Expire: [%s]). </msg>
+    <msg name='about_to_expire_tll_begin'>Please visit</msg>
+    <msg name='about_to_expire_tll_link'>https://registrationcenter.intel.com/products/lookup</msg>
+    <msg name='about_to_expire_tll_end'>to update your license.</msg>
+    <msg name='provide_sn_during_tll'>You can continue to install with a new SN or leave the SN field blank to use the existing license.</msg>
+    <msg name='existing_license_file'>[%s]</msg>
+    <msg name='existing_license_sn'>Serial Number: [%s]</msg>
+    <msg name='first_time_activation_alt'>If you want to activate offline using a license file or license manager, click</msg>
+
+    <msg name='eval_expired_alt'>If you want alternative activation using a license file or license manager, or if you are not connected to the Internet, click</msg>
+    <msg name='during_eval_alt'>However, if you want alternative activation, click</msg>
+    <msg name='during_tll_alt'>However, if you want alternative activation, click</msg>
+    <msg name='existing_license_alt'>You can continue installation with the above existing activation detected. However, if you want alternative activation, click</msg>
+    <msg name='activated_by_file_alt'>You can continue installation with the above activation. However, if you want alternative activation, click</msg>
+    <msg name='activated_by_sn_alt'>You can continue installation with the above activation. However, if you want alternative activation, click</msg>
+    <msg name='provide_sn'>Provide a serial number.</msg>
+    <msg name='how_to_find_sn'>How to find my serial number</msg>
+    <msg name='how_to_find_sn_link'>https://software.intel.com/en-us/articles/find-my-serial-number/</msg>
+    <msg name='alternative_activation_link_text'>here</msg>
+    <msg name='alternative_activation_choose_text'>Choose alternative activation</msg>
+    <msg name='alternative_license_activation'>Alternative license activation</msg>
+    <msg name='provide_a_license_file'>Provide a license file</msg>
+    <msg name='license_available_for_download'>Your license file is available for download from </msg>
+    <msg name='reg_center_link'>https://registrationcenter.intel.com</msg>
+    <msg name='further_instructions'>. Further instructions are available at &#160;</msg>
+    <msg name='instructions_link'>http://software.intel.com/en-us/articles/offline-activation-of-intel-software-development-products</msg>
+    <msg name='activate_through_manager'>If you are a Floating License user, enter the license server host name and port number to activate through a license manager.</msg>
+    <msg name='host_name_caption'>Server Host name:</msg>
+    <msg name='port_number_caption'>Port number:</msg>
+    <msg name='offline_eval_header'>You don't have internet connection to activate evaluation license automatically.</msg>
+    <msg name='offline_eval_body'>Please use the Intel® Software Development Products Registration Center link below to register for an evaluation license file. After that, you can activate this product using the license file with the "License File Activation" option.</msg>
+    <msg name='offline_eval_link'>https://registrationcenter.intel.com/en/forms/?productid=2777</msg>
+    <msg name='offline_sn_header'>You don't have Internet connection to activate your license automatically.</msg>
+    <msg name='offline_sn_body'>Please use the Intel® Software Development Products Registration Center link below to register for a license file. After that, you can activate this product using the license file with the "License File Activation" option.</msg>
+    <msg name='offline_sn_link'>https://registrationcenter.intel.com/en/products/</msg>
+    <msg name='ide_integration_caption'>IDE Integration</msg>
+    <msg name='ide_customize'>Customize</msg>
+    <msg name='ide_text'>Integrate with all detected versions of Microsoft Visual Studio*.</msg>
+    <msg name='ide_default_text'>To setup integration with Microsoft Visual Studio, please click Customize</msg>
+    <msg name='ide_text_targets'>Integrate with [%s].</msg>
+    <msg name='ide_text_no_targets'>Do not integrate with Microsoft Visual Studio*.</msg>
+    <msg name='evaluate'>[WpfHotKey]Evaluate this product for 30 days</msg>
+    <msg name='evaluate_text'></msg>
+    <msg name='license_file_activation'>License [WpfHotKey]file activation</msg>
+    <msg name='serial_number_activation'>[WpfHotKey]Serial number activation</msg>
+    <msg name='existing_license_activation'>[WpfHotKey]Existing activation</msg>
+    <msg name='floating_license_activation'>Floating [WpfHotKey]license activation</msg>
+    <msg name='license_manager_guide_text'>License Manager Guide</msg>
+    <msg name='requires_internet_connection'>The activation requires an active Internet connection</msg>
+    <msg name='license_manager_guide_link'>https://software.intel.com/en-us/articles/intel-software-license-manager-getting-started-tutorial</msg>
+    <msg name='vs_not_installed'>not installed</msg>
+    <msg name='vs_install_not_complete'>incomplete installation</msg>
+  </catalog>
+</xmc>

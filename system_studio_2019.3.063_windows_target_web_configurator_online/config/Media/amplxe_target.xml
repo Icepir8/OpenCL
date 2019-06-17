@@ -1,0 +1,14 @@
+<component type="msi" alias="amplxe_target">
+  <property name="UpgradeCode">{2E2F1A2D-4FE1-47D5-AE6F-39E27FA0FD3B}</property>
+  <property name="ProductCode">{DFE744E5-D5AE-41A8-AE7F-C021F9826E07}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel VTune Amplifier 2019 Update 3 Target</property>
+  <property name="ProductVersion">19.3.0.590814</property>
+  <property name="size">134169839</property>
+  <files>
+    <key size="86016" chksum="" sha256="569d89a1e1d034c3884ec67f3a56ea9c9ade1d7b881abca00cf6cefca406b131">amplxe/amplxe_target/amplxe_target.msi</key>
+    <file size="131984582" chksum="" sha256="7811381afbcf9be9e6b4576197c8a98530ec22f9cfb57df52ffa3ca754fabae1">amplxe/amplxe_target/data1.cab</file>
+  </files>
+  <vs_integration>
+  </vs_integration>
+</component>

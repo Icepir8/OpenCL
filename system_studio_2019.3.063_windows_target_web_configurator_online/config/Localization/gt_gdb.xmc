@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='gt_gdb' locale="1033">
+    <msg name='will_not_be_installed'>[%s] will not be installed because [%s] is not found on your system</msg>
+    <msg name='gdb_src_dscr'>[%s] will not be installed because [%s] is not found on your system</msg>
+    <msg name='gpu_not_supported'>[%s] will not be installed because supported GPU device is not found</msg>
+
+    <msg name='gbd_registry_warning_title'>System registry keys will be changed after installation.</msg>
+    <msg name='gbd_registry_warning_msg'>Click here to view more details.</msg>
+    <msg name='gbd_registry_link'>https://software.intel.com/en-us/intel-opencl</msg>
+    <msg name='gbd_registry_link_tmpl'>Click here</msg>
+    <msg name='cptrg_title'>Debugger target support installer</msg>
+    <msg name='cptrg_msg'>You have chosen not to install the GPU kernel debugger target components or your system does not support it. You will need to copy it over to your target machine and install if you want to debug OpenCL kernels. Debugger target installer will be copied to [%s] folder.</msg>
+    
+    
+    <msg name='cptrg_msg_complete'>In order to be able to remotely debug OpenCL(TM) kernels on the Intel® GPU on different machines, you will need to install the [title] and select "Debugger target support" feature or copy the target installer MSI file to the target machine and install it. It is available under:</msg>
+    
+    <msg name='open_target_location'>Open target installer folder.</msg>
+    <msg name='gt_debugger'>Intel® Debugger for Heterogeneous Compute 2016</msg>
+   </catalog>
+</xmc>

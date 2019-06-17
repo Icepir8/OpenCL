@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='w_cembdw_p_2019.0.3.063' locale="1033">
+    <msg name='splash_png'>1033/Splash/splash.png</msg>
+    <msg name='splash_png_for_modify'>1033/Splash/splash_second.png</msg>
+    <msg name='newer_prod_exists'>A newer version of [title] Applications is already installed on your system.</msg>
+    <msg name='newer_feature_exists'>[image_warning] A newer version of [%s] is already installed on your system.</msg>
+    <msg name='win7_required'>This product may be installed on Windows* 7 or newer operating system only.</msg>
+    <!--msg name='no_java'>This machine is missing JRE* Software. Installation will continue, but you have to install 32-bit JRE version 1.5 or higher from here: http://java.com/en/download/manual.jsp before using the Debugger.</msg-->
+
+    <msg name='add_integration_opt'>Add integration into [%s]</msg>
+    <msg name='rm_integration_opt'>Remove integration into [%s]</msg>
+
+    <msg name='welcome_rtf'>1033/welcome.rtf</msg> <!-- it is relative path from config folder -->
+    <file name='welcome_text'>../1033/welcome.rtf</file> <!-- it is relative path from localization folder -->
+    
+    <msg name='eula_rtf'>1033/license.rtf</msg> <!-- it is relative path from config folder -->
+    <file name='eula_rtf_file'>../1033/license.rtf</file>
+    <msg name='eula_filename_tmpl'>End User License for the Intel(R) Software Development Products</msg>
+  </catalog>
+</xmc>

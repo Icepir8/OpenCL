@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_ICL_ARCHSHARED_VARS">
+  <property name="ProductCode">{EF8362B6-123D-4BE9-BFD2-EBCA4F8A770A}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_icl_archshared_vars_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">5776</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_icl_archshared_vars_p_19.0.3.203/ww_icl_archshared_vars_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="c064594ac3d73ee104582ff20b0c31804b811be6d042fb29c78eb1ce382d40a8" size="303104">cmp_and_libs/203/ww_icl_archshared_vars_p_19.0.3.203/ww_icl_archshared_vars_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="91380430b8809ed67d5c367196cdd639af78a6087b1582712d4f59f0165aa9d5" size="11180">cmp_and_libs/203/ww_icl_archshared_vars_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="3c7548d687e16ef7efede2cf64ea17db7add1d98a9a0b0ef3243d35e882ef3c3" size="20480">cmp_and_libs/203/ww_icl_archshared_vars_p_19.0.3.203/ww_icl_archshared_vars_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

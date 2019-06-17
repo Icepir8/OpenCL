@@ -1,0 +1,24 @@
+<component type="msi" alias="SYS_DBG_ECLIPSE_IDE">
+  <property name="ProductCode">{949CDF26-BA91-4971-9CC9-450A019D2A19}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_sys_dbg_eclipse_ide_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+  <eclipse_integartion>
+    <plugins_location>jar:file:/"[installdir]/eclipse-repos/com.intel.iss.ide.integration.main.repo-1.1.1-SNAPSHOT.zip"!/,jar:file:/"[installdir]/eclipse-repos/com.intel.iss.ide.integration.system_debugger.repo-1.1.1-SNAPSHOT.zip"!/</plugins_location>
+
+<repositories><repository>http://download.eclipse.org/releases/kepler</repository><repository>http://download.eclipse.org/jetty/updates/jetty-bundles-9.x</repository><repository>http://download.eclipse.org/tools/orbit/downloads/drops/R20140525021250/repository</repository></repositories>
+<plugins_patterns>com.intel.iss.ide.integration.system_debugger.feature.feature.group;com.intel.iss.ide.integration.main.feature.feature.group</plugins_patterns>
+<plugins_prefs>"[installdir]/ide_support_2019/eclipse/com.intel.iss.ide.integration.main.prefs"</plugins_prefs>
+<plugins_installdir_var>\$ISS_2019_INSTALL_DIR</plugins_installdir_var>
+  </eclipse_integartion>
+
+  <files>
+    <key chksum="" sha256="af4e2d1ea2098f0c21bca86f3d3f7bfa41465f15b2102d76b695a0274a1ae038" size="151552">issw/063/sys_dbg_eclipse_ide_p_19.0.3.063/sys_dbg_eclipse_ide_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="ea20203690f07dbfb52b7020f3de105a2f1d103e0a454f3320bbce4e70d7f107" size="9507">issw/063/sys_dbg_eclipse_ide_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

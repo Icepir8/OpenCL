@@ -1,0 +1,14 @@
+<component type="msi" alias="vpp_server">
+  <property name="UpgradeCode">{38B43488-9EFD-47E4-8265-45F4C8030B12}</property>
+  <property name="ProductCode">{791A8DAE-BEA6-42F1-92B1-EBFF3B0B4496}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel VTune Amplifier 2019 Update 3 Platform Profiler</property>
+  <property name="ProductVersion">19.3.0.590814</property>
+  <property name="size">377173387</property>
+  <files>
+    <key size="974848" chksum="" sha256="9cb28c74ff0ab3dfbb8b206f622f8a673b144d95c08ed40e5651db77e80028c2">amplxe/vpp_server/vpp_server.msi</key>
+    <file size="132494196" chksum="" sha256="109089fc785188254b7b2a536df683c190942143d2430825548eb74901020921">amplxe/vpp_server/data1.cab</file>
+  </files>
+  <vs_integration>
+  </vs_integration>
+</component>

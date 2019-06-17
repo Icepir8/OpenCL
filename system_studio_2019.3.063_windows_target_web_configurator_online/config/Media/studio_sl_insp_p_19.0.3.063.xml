@@ -1,0 +1,16 @@
+<component type="msi" alias="STUDIO_SL_INSP">
+  <property name="ProductCode">{B0949B18-FACB-409D-8AA7-C4B8AA7CE24F}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_studio_sl_insp_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="9edc6a689b27663b935ad72b34908c94d17a611f21c5053513151ea3ef3a1c7c" size="249856">issw/063/studio_sl_insp_p_19.0.3.063/studio_sl_insp_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="b12518de3a97b25fc69ddad0c57923daaad35e93fd98191f616ff08e103a29ef" size="9508">issw/063/studio_sl_insp_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='PreRequisites' locale="1033">
+
+    <msg name='no_vs_cpp_compiler_title'>[%s] does not have "Common Tools for Visual C++ [%s]" components installed.</msg>
+    <msg name='no_vs2015_cpp_compiler_description'>Installation can continue; however, [%s] will not build using [%s]. \par\pard Please see ({\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/articles/intel-c-fortran-compilers-for-windows-integration-into-microsoft-visual-studio-2015"}{\fldrslt https://software.intel.com/en-us/articles/intel-c-fortran-compilers-for-windows-integration-into-microsoft-visual-studio-2015}}) online article for information on configuring [%s] for Visual C++ development.</msg>
+    <msg name='no_vs2015_cpp_compiler_description_silent'>Installation can continue; however, [%s] will not build using [%s]. Please see (https://software.intel.com/en-us/articles/intel-c-fortran-compilers-for-windows-integration-into-microsoft-visual-studio-2015) online article for information on configuring [%s] for Visual C++ development.</msg>
+    <msg name='no_vs2017_cpp_compiler_description'>Installation can continue; however, [%s] will not build using [%s]. \par\pard Please see ({\field{*\fldinst HYPERLINK \o "https://software.intel.com/en-us/articles/intel-c-fortran-compilers-for-windows-integration-into-microsoft-visual-studio-2017"}{\fldrslt https://software.intel.com/en-us/articles/intel-c-fortran-compilers-for-windows-integration-into-microsoft-visual-studio-2017}}) online article for information on configuring [%s] for Visual C++ development.</msg>
+    <msg name='no_vs2017_cpp_compiler_description_silent'>Installation can continue; however, [%s] will not build using [%s]. Please see (https://software.intel.com/en-us/articles/intel-c-fortran-compilers-for-windows-integration-into-microsoft-visual-studio-2017) online article for information on configuring [%s] for Visual C++ development.</msg>
+
+    <msg name='component_name_c'>Intel® C++ Compiler</msg>
+    <msg name='component_name_f'>Intel® Visual Fortran Compiler</msg>
+    <msg name='component_name_c_f'>Intel® C++ Compiler and Intel® Visual Fortran Compiler</msg>
+    
+  </catalog>
+</xmc>

@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_TBB_CORE_COMMON">
+  <property name="ProductCode">{D7BC1606-1BF2-42DB-B997-5110725F14DE}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_tbb_core_common_name]</property>
+  <property name="ProductVersion">19.0.4.203</property>
+  <property name="size">1845011</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_tbb_core_common_p_19.0.4.203/ww_tbb_core_common_p_19.0.4.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="dceea5c71bfad133c083a072e76801bcb5e40d2d61246f7963c7bc89afdf3634" size="339968">cmp_and_libs/203/ww_tbb_core_common_p_19.0.4.203/ww_tbb_core_common_p_19.0.4.203.msi</key>
+    <file chksum="" sha256="a7fab89aa42b2828af6519eac77b60618d557b5774eff9f135f2c9d07383b1a2" size="437349">cmp_and_libs/203/ww_tbb_core_common_p_19.0.4.203/data1.cab</file>
+    <file chksum="" sha256="5b0694b648f01cd5fcc44e857948bbc4fd3e57ae8da3a82a11e13f3c10896f0a" size="20480">cmp_and_libs/203/ww_tbb_core_common_p_19.0.4.203/ww_tbb_core_common_p_19.0.4.203_1041.mst</file>
+
+
+  </files>
+</component>

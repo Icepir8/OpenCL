@@ -1,0 +1,16 @@
+<component type="msi" alias="amplxe_vs2013-integration">
+  <!-- <property name="UpgradeCode">{91CC7B71-B188-4700-AFA5-F29173C4A161}</property> -->
+  <property name="ProductCode">{EE9643AA-22D8-4D78-9431-E103D9101108}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Microsoft Visual Studio* 2013 software integration</property>
+  <property name="ProductVersion">19.3.0.590814</property>
+  <property name="size">35802</property>
+  <property name="Reinstall">1</property>
+  <property name="TCARVSProcessing">1</property>
+  <files>
+    <key size="1130496" chksum="" sha256="115293228b6044e310f2e936ece54d5e5469b0e8fb18babcb06b73a39b5123aa">amplxe/amplxe_vs2013-integration/amplxe_vs2013-integration.msi</key>
+  </files>
+  <vs_integration>
+    <vs_2013 selected="1">NEED_VS2013_INTEGRATION</vs_2013>
+  </vs_integration>
+</component>

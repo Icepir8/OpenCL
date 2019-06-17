@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_IPP_EXAMP_SYML_PS_ISS">
+  <property name="ProductCode">{7A60EAC1-3040-4A3F-97E7-15035052FEC9}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ipp_feature_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">0</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_ipp_examp_syml_ps_iss_p_19.0.3.203/ww_ipp_examp_syml_ps_iss_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="d155d11a5c92e3c3724ec7864c8841d6bdeb63f8b134b3f854aadaa60e744067" size="307200">cmp_and_libs/203/ww_ipp_examp_syml_ps_iss_p_19.0.3.203/ww_ipp_examp_syml_ps_iss_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="dde95a017ec0e464de31754af45da56aca0fbf7cbbc20c161a2fdbc3301f0141" size="9507">cmp_and_libs/203/ww_ipp_examp_syml_ps_iss_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="0d16aa68408912ac031af88d810c90e01a56cd64234ee0f26b90a89cb283c445" size="20480">cmp_and_libs/203/ww_ipp_examp_syml_ps_iss_p_19.0.3.203/ww_ipp_examp_syml_ps_iss_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

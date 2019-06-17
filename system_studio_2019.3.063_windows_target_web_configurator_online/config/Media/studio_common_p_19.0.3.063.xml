@@ -1,0 +1,16 @@
+<component type="msi" alias="STUDIO_COMMON">
+  <property name="ProductCode">{C7E186E9-2A13-4D77-9FE1-E10E365A9EC2}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_cembdw_19_0_3_063_studio_common_name]</property>
+  <property name="ProductVersion">19.0.3.063</property>
+  <property name="size">0</property>
+
+
+
+  <files>
+    <key chksum="" sha256="a3fc9acdba0262bd2c5a6ec0c05ec50c88c75a55d3644e87509e8f0e6bbb5d9b" size="684032">issw/063/studio_common_p_19.0.3.063/studio_common_p_19.0.3.063.msi</key>
+    <file chksum="" sha256="e89b256c7280d5f59f8577379ca06d86185225f72ce8e9e2882c416d3b77a863" size="9507">issw/063/studio_common_p_19.0.3.063/data1.cab</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,18 @@
+<component type="msi" alias="WW_DAAL_DOC_COMMON">
+  <property name="ProductCode">{8D99228B-40D0-47AE-BAAC-99DC99996D87}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ww_daal_doc_common_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">1194</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ww_daal_doc_common_p_19.0.3.203/ww_daal_doc_common_p_19.0.3.203_1041.mst</property>
+
+
+
+  <files>
+    <key chksum="" sha256="963e2a14fa9bf68d721ddde5e9485a6f29ea5e98c7c8043cbe3f76cc36a1a039" size="311296">cmp_and_libs/203/ww_daal_doc_common_p_19.0.3.203/ww_daal_doc_common_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="843ae5e325dc82387967265d173b3a3e8573a34f29f11d9233c22b108e0d956c" size="10015">cmp_and_libs/203/ww_daal_doc_common_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="2724b34c22b0fb90239fcdf72f03831ad4d78caea8e10fd013e6a730e275cb2c" size="20480">cmp_and_libs/203/ww_daal_doc_common_p_19.0.3.203/ww_daal_doc_common_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

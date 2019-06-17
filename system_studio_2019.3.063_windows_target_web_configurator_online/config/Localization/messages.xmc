@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<xmc version="1.1">
+  <catalog name='ISS' locale="1033">
+    <msg name='no_admin_privilege'>The account under which the Setup is running does not have administator privileges.</msg>
+
+    <msg name='non_intel_cpu_title'>The system does not have an Intel® Architecture processor.</msg>
+    <msg name='non_intel_cpu_description'>Installation can continue; however, product functionality may not meet expectations because this product is untested on this CPU.</msg>
+
+    <msg name='intel_not_tested_cpu_title'>The product version does not support hardware event-based sampling for this system processor.</msg>
+    <msg name='intel_not_tested_cpu_description'>Installation can continue, however performance analysis types that use hardware event-based sampling (EBS) will not be enabled.  All other performance analysis types will be available.  Refer to the product Release Notes document for the most recent list of supported processors and instructions on how to enable EBS, if appropriate for the processor in this system.</msg>
+
+    <msg name='cpu_not_supported_title'>Machine CPU architecture is not supported.</msg>
+    <msg name='cpu_not_supported_description'>Intel® Pentium® 4 processor or later, or a compatible non-Intel processor is required. Please see release notes for full details.</msg>
+
+    <msg name='os_not_tested_title'>This machine uses operating system "[%s]". Compatibility problems are possible.</msg>
+    <msg name='os_not_tested_description'>Installation can continue; however, product functionality may not meet expectations because this product is untested on this operating system. Suggestion: Check Release Notes for a list of supported operating systems and install this product on a compliant system.</msg>
+
+    <msg name='os_not_supported_title'>Operating system "[%s]" is not supported.</msg>
+    <msg name='os_not_supported_description'>Installation will end because this operating system is not supported. Suggestion: Check Release Notes for a list of supported operating systems and install this product on a compliant system.</msg>
+
+    <msg name='app_running_title'>[ProductLineNameR] application is currently running.</msg>
+    <msg name='app_running_description'>Installation cannot continue while the following applications are running: \par [%s] \par Suggestion: Please stop the applications above and click Next below to continue this installation.</msg>
+
+    <msg name='newer_installed_title'>A newer version of [ProductLineName] is already installed.</msg>
+    <msg name='newer_installed_description'>If you continue with the installation, [ProductLineName] will be replaced with [ProductName].</msg>
+    
+    <msg name='older_installed_title'>An older version of [ProductLineName] is already installed.</msg>
+    <msg name='older_installed_description'>The currently installed [ProductLineName] will be automatically removed prior to installing [ProductName].</msg>
+
+    <msg name='ISS_2019_beta_installed_title'>Intel System Studio 2019 Beta for Windows* is already installed.</msg>
+    <msg name='ISS_2019_beta_installed_description'>Currently installed Intel System Studio 2019 Beta for Windows* will be automatically removed prior to installing [%s].</msg>
+
+    <msg name='ISS_2019_beta_u1_installed_title'>Intel System Studio 2019 Beta Update 1 for Windows* is already installed.</msg>
+    <msg name='ISS_2019_beta_u1_installed_description'>Currently installed Intel System Studio 2019 Beta Update 1 for Windows* will be automatically removed prior to installing [%s].</msg>
+
+    <msg name='prerequisite_doc'>https://software.intel.com/en-us/articles/system-studio-install-prerequisites</msg>
+    <msg name='getting_started_guide_and_help_link_media'>https://software.intel.com/en-us/articles/system-studio-install-prerequisites</msg>
+    <file name='cs_installed_template_custom'>..\templates\cs_installed.rtf</file>
+    <msg name='config_file_subtitle'>Locate Install Scripting File</msg>
+    <msg name='invalid_internal_license_title'>Failed to activate</msg>
+    <msg name='invalid_internal_license_message'>This product cannot be activated with the license inside this package</msg>
+    <msg name='invalid_config_file_message'>Specified configuration file cannot be applied to this product</msg>
+    <file name='config_file_footer'>..\templates\config_file_footer.rtf</file>
+    <file name='config_file_description'>..\templates\config_file_description.rtf</file>
+
+    <msg name='socwatch_unsupported_os_tsd'>Intel® SoC Watch does not support Windows* 7</msg>
+    <msg name='socwatch_unsupported_os_prereq_title'>Intel® SoC Watch cannot be installed</msg>
+    <msg name='socwatch_unsupported_os_prereq_desc'>Intel® SoC Watch does not support Windows* 7. For system requirements, see the {\field{\*\fldinst HYPERLINK "https://software.intel.com/sites/default/files/managed/f1/cb/release_notes_socwatch_windows_2_7.pdf"}{\fldrslt Intel® SoC Watch Release Notes}}.</msg>
+
+  </catalog>
+</xmc>

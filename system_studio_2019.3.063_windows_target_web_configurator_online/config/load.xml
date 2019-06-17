@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+  <group_name>system_studio_family_2019</group_name>
+  <load_groups>parallel_studio_family_2019</load_groups>
+</config>

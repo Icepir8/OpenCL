@@ -1,0 +1,27 @@
+<component type="msi" alias="IDE_C_COMMON_ISS_VS2017">
+  <property name="ProductCode">{8451021E-6891-45E4-AD35-59394519F2A1}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">[w_comp_lib_19_0_3_203_ide_c_common_iss_vs2017_name]</property>
+  <property name="ProductVersion">19.0.3.203</property>
+  <property name="size">116059</property>
+  <property name="MsiTransform_1041">cmp_and_libs/203/ide_c_common_iss_vs2017_p_19.0.3.203/ide_c_common_iss_vs2017_p_19.0.3.203_1041.mst</property>
+
+
+  <vs_integration>
+    <vs_2017 selected="1" skip_restart="yes">NEED_VS2017_INTEGRATION</vs_2017>
+  </vs_integration>
+
+  <block_processes>
+    <custom>vs_2017</custom>
+  </block_processes>
+
+  <vs_pre_install><vsix name="ICMnuPkg.ISSPkg.vsix" guid="96484838-d82d-4c64-9575-b636efd381c7" vs_version="2017"></vsix></vs_pre_install>
+  <property name="Reinstall">1</property>
+  <files>
+    <key chksum="" sha256="b91b110ade0a27cf7c2bb458a4ec07fdd7321eda41c440f4cb82aa8761085840" size="573440">cmp_and_libs/203/ide_c_common_iss_vs2017_p_19.0.3.203/ide_c_common_iss_vs2017_p_19.0.3.203.msi</key>
+    <file chksum="" sha256="fdf341ac02350899caa0938edd2a5cb427de0f454bd1f9073e29b88336387575" size="124703">cmp_and_libs/203/ide_c_common_iss_vs2017_p_19.0.3.203/data1.cab</file>
+    <file chksum="" sha256="95df534984ee79328492b97d620ccaaae90f3fb495bfc6b82e284c29d8d78005" size="20480">cmp_and_libs/203/ide_c_common_iss_vs2017_p_19.0.3.203/ide_c_common_iss_vs2017_p_19.0.3.203_1041.mst</file>
+
+
+  </files>
+</component>

@@ -1,0 +1,23 @@
+<component type="msi" alias="sys_trc_ia32">
+  <property name="ProductCode">{1B047DE0-DD7C-44C9-B580-73B81F324355}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) System Debugger</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">205606962</property>
+
+  <eclipse_integartion>
+    <plugins_location>file://"[installdir]/system_debugger_2019/system_trace/eclipse_repository"</plugins_location>
+
+<repositories></repositories>
+<plugins_patterns>com.intel.debugger.trace.feature.group;com.intel.debugger.trace.public.feature.group;com.intel.debugger.trace.aet.ui.feature.group;com.intel.debugger.trace.connection.tca.feature.group</plugins_patterns>
+<plugins_prefs>"[installdir]/system_debugger_2019/eclipse/com.intel.iss.ide.integration.main.prefs"</plugins_prefs>
+<plugins_installdir_var>\$ISS_2019_INSTALL_DIR</plugins_installdir_var>
+  </eclipse_integartion>
+
+  <files>
+    <key chksum="" sha256="c545e05fa02b884bd84c7d0921e3738363cc4f58714ce6bc2cd1ea2b5335628e" size="815104">sys_dbg/062/w_sys_trc_ia32_2019.0.0.062/w_sys_trc_ia32_2019.0.0.062.msi</key>
+    <file chksum="" sha256="4d0847a6f8a7d73435416c40753f74d91835df6001bbe41829af7c0544e0b0cb" size="30449538">sys_dbg/062/w_sys_trc_ia32_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>

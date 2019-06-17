@@ -1,0 +1,15 @@
+<component type="msi" alias="sys_dbg_shortcuts_win">
+  <property name="ProductCode">{C64397F2-06E1-4108-9AEC-A06E083083CE}</property>
+  <property name="ProductLanguage">1033</property>
+  <property name="ProductName">Intel(R) System Debugger</property>
+  <property name="ProductVersion">19.0.0.062</property>
+  <property name="size">0</property>
+
+
+  <files>
+    <key chksum="" sha256="0951ad88760a32d1000bd32ce8c38a4a1b2be77509e43f54db3ff2d69893bc06" size="196608">sys_dbg/062/w_sys_dbg_shortcuts_win_2019.0.0.062/w_sys_dbg_shortcuts_win_2019.0.0.062.msi</key>
+    <file chksum="" sha256="85965122cf6cc57b63c50e398b368487d51e131eab9e6eaf0762d460fb9cbb41" size="8108">sys_dbg/062/w_sys_dbg_shortcuts_win_2019.0.0.062/data1.cab</file>
+
+
+  </files>
+</component>
